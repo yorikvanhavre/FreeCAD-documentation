@@ -5,6 +5,6 @@ TODO:
 
 1. Define a better structure than the user hub / power user hub / developers hub of the wiki? Are these hubs entirely necessary?
 2. Define how to cope with the command reference
-3. Link with docbook (will create the "book workflow" automatically)
+3. Link with docbook (will create the "book workflow" + pdf, ebook... automatically)
 4. Check how translation systems can handle this: crowdin (preferred), transifex?
 5. Define a strategy for migration
