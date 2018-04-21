@@ -1,3 +1,5 @@
+**To be replaced by README.md**
+
 This area is the main help area of FreeCAD. It contains the user-oriented documentation of FreeCAD. Documentation related to macros, python scripting and advanced customization can be found in the [power-user-hub](../power-user-hub/index.md).
 
 Please note that like FreeCAD itself, these pages are in continuous development. FreeCAD already features many interesting tools for the final user, and more are continuously added, which is why at the moment there is still missing or outdated documentation for the end user.
