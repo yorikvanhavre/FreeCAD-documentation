@@ -15,6 +15,6 @@ This is an experiment to reconstruct the FreeCAD documentation in a more sustain
 
 1. [ ] Define a better structure than the user hub / power user hub / developers hub of the wiki? Are these hubs entirely necessary? The wiki structure is "flat" (all pages are at the same level, and can be part of categories), the directory structure of git can allow something more structurated
 2. [ ] Define how to cope with the command reference. This is the main subject of the offline doc, it should be handled with extra importance. Also find a way to identify missing command pages, etc...
-3. [ ] Link with docbook (will create the "book workflow" + pdf, ebook... automatically). Basically need to update <SUMMARY.md>
+3. [x] Link with docbook (will create the "book workflow" + pdf, ebook... automatically). Basically need to update <SUMMARY.md> DONE - https://legacy.gitbook.com/book/yorikvanhavre/freecad-documentation
 4. [x] Check how translation systems can handle this: crowdin (preferred), transifex? Both support md files, check what would be easier to manage (ideally something automatic?) DONE - https://crowdin.com/project/freecad-documentation
 5. [ ] Define a strategy for migration. Auto conversion scripts? wiki <-> md is easy (pandoc, etc). Translations is tricky. There is also the question of images
