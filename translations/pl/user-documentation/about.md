@@ -2,6 +2,8 @@
 
 ![](images/FreeCAD_default.jpg)
 
+![](images/FreeCAD.svg)
+
 FreeCAD is a general purpose parametric 3D [CAD](http://en.wikipedia.org/wiki/CAD) modeler. The development is completely [Open Source](http://en.wikipedia.org/wiki/Open_source) (LGPL License). FreeCAD is aimed directly at [mechanical engineering](http://en.wikipedia.org/wiki/Mechanical_engineering) and [product design](http://en.wikipedia.org/wiki/Product_design) but also fits in a wider range of uses around engineering, such as architecture or other engineering specialties.
 
 FreeCAD features tools similar to [Catia](http://en.wikipedia.org/wiki/Catia), [SolidWorks](http://en.wikipedia.org/wiki/Solidworks), [[Solid Edge](http://en.wikipedia.org/wiki/Solid_Edge) or [Digital Project](https://en.wikipedia.org/wiki/Digital_Project), and therefore also falls into the category of [MCAD](http://en.wikipedia.org/wiki/CAD), [PLM](http://en.wikipedia.org/wiki/Product_Lifecycle_Management), [CAx](http://en.wikipedia.org/wiki/CAx) and [CAE](http://en.wikipedia.org/wiki/Computer-aided_engineering). It is a [feature based parametric modeler](http://en.wikipedia.org/wiki/Parametric_feature_based_modeler) with a modular software architecture which makes it easy to provide additional functionality without modifying the core system.
