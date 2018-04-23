@@ -9,6 +9,8 @@ This is an experiment to reconstruct the FreeCAD documentation in a more sustain
 * Be easier to pack in an offline documentation package to be bundled with FreeCAD
 * Offer the same level of easiness to people wanting to collaborate
 * Offer a good translation system that is easy to use for peeople wanting to translate
+* Offer documentation ‘versions’ that correspond to FreeCAD releases
+* Offer documentation in formats suitable for offline readers - ePub, pdf, etc.
 * Example files could be integrated here too
 
 ## TODO
