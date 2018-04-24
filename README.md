@@ -30,6 +30,7 @@ This is an experiment to reconstruct the FreeCAD documentation in a more sustain
   * Tutorials
 * Workbenches
   * Each workbench page
+  * Maybe links to external workbenches too?
 * Python scripting
   * All the poweruser hub pages
 * Development and deployment (python scripting is also development, so... should be some other name)
