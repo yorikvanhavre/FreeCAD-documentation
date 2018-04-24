@@ -21,6 +21,8 @@ The FreeCAD project was started as far as 2001, as described in its [history] pa
 
 FreeCAD is maintained and developed by a community of enthusiastic developers and users (see the [contributors] page). They work on FreeCAD voluntarily, in their free time. They cannot guarantee that FreeCAD contains or will contain everything you might wish, but they will usually do their best! The community gathers on the [FreeCAD forum](https://forum.freecadweb.org), where most of the ideas and decisions are discussed. Feel free to join us there! 
 
-![](images/FreeCAD.svg)
-![Alt text](images/FreeCAD.svg)
+![alt1](https://raw.github.com/yorikvanhavre/FreeCAD-documentation/master/user-documentation/images/FreeCAD.svg?sanitize=true)
+
+![alt2](images/FreeCAD.svg)
+
 <img src="images/FreeCAD.svg">
