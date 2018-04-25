@@ -22,8 +22,14 @@ This is an experiment to reconstruct the FreeCAD documentation in a more sustain
 * The git workflow allows a finer management system: Frequent, trusted contributors can be granted write access, while occasional contributors can make PRs without having to request permission
 * Git solves backup issues: Everybody who clones the repo has a full copy, so the code is duplicated in many locations
 * Automatically syncing with [gitbook](https://legacy.gitbook.com/book/yorikvanhavre/freecad-documentation), so the whole documentation is always available in pdf, epub and mobi formats, automatically. All it requires is maintaining the <SUMMARY.md> file updated
+
+![](images/gitbook.png)
+
 * Automatically syncing with [crowdin](https://crowdin.com/project/freecad-documentation). Any change done on github reflects automatically on crowdin (no manual syncing necessary). Crowdin, in turn, pushes all its changes in a separate branch on this repo, that can be merged any time, when we see fit, with the click of a button
 * Crowdin's interface for editing markdown files is a bit different than the one we use to translate FreeCAD, and is pretty similar to the wiki translation plugin
+
+![](images/crowdin.png)
+
 * Crowdin creates a full copy of the documentation for every language. This simplifies a lot the creation of full translated versions
 * With Git we can work with directories, subdirectories, etc, which makes organization of files easier, compared to the "flat" structure of mediawiki
 * With git tags we can mark a certain version of the doc, for example when releasing. We can also create branches for not-released-yet pages
