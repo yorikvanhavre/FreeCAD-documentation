@@ -66,7 +66,7 @@ This is how the crowdin interface appears when working with md files:
     </li>
     
     <li>
-      [ ] Define a strategy for migration. Auto conversion scripts? wiki <-> md is easy (pandoc, etc). Translations is tricky. There is also the question of images
+      [ ] Define a strategy for migration. Auto conversion scripts? wiki <-> md is easy (<a href="http://pandoc.org/">pandoc</a>, other <a href="https://github.com/Gozala/markdown-wiki">scripts</a> etc). Translations is tricky. There is also the question of images. There are complete <a href="https://github.com/philipashlock/mediawiki-to-markdown">migration tools</a> too
     </li>
   </ol>
   
