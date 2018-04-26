@@ -3,7 +3,7 @@
 * Menu location: **Arch → Wall**
 * Workbenches: **Arch**
 * Default shortcut: **W A**
-* See also: [Arch Structure](Arch Structure)
+* See also: [Arch Structure](Arch_Structure)
 
 ## Description
 
