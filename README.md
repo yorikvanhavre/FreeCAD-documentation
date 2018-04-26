@@ -27,7 +27,8 @@ This is how it appears on GitBook, it can be read online or downloaded as ebook:
 
 ![](images/gitbook.png)
 
-* Automatically syncing with [crowdin](https://crowdin.com/project/freecad-documentation). Any change done on github reflects automatically on crowdin (no manual syncing necessary). Crowdin, in turn, pushes all its changes in a separate branch on this repo, that can be merged any time, when we see fit, with the click of a button
+* Automatically syncing with [crowdin](https://crowdin.com/project/freecad-documentation). Any change done on github reflects automatically on crowdin (no manual syncing necessary). Crowdin, in turn, pushes all its changes in a separate branch on this repo, that can be merged any time, when we see fit, with the click of a button. 
+* Each translation is a complete copy of the english source structure, inside the "translations" directory. Each translation can be built and browsed the exact same way as the english one, and they don't clutter the english source tree
 * Crowdin's interface for editing markdown files is a bit different than the one we use to translate FreeCAD, and is pretty similar to the wiki translation plugin
 
 This is how the crowdin interface appears when working with md files:
@@ -44,20 +45,21 @@ This is how the crowdin interface appears when working with md files:
 * Translations cannot be exported automatically. It will be a long copy/paste work.
 * The Crowdin interface, although elegant to work wik markdown files, has an annoying thing with links (they appear as <a> html elements). However, we might succeed in talking about that with crowdin people and do something...
 
-## TODO
+## Offline doc in FreeCAD
 
-1. [ ] Define a better structure than the user hub / power user hub / developers hub of the wiki? Are these hubs entirely necessary? The wiki structure is "flat" (all pages are at the same level, and can be part of categories), the directory structure of git can allow something more structurated
-2. [ ] Define how to cope with the command reference. This is the main subject of the offline doc, it should be handled with extra importance. Also find a way to identify missing command pages, etc... In a first step, adapting the offline doc generation is easy, because it is anyway generated from html pages, and we will have the same pages on github. In a second step, we can explore something handier thatn the current qt assistant-based offline doc, maybe something that displays the html pages directly, being o line or offline...
-3. [x] Link with docbook (will create the "book workflow" + pdf, ebook... automatically). Basically need to update [SUMMARY.md](SUMMARY.md) DONE - https://legacy.gitbook.com/book/yorikvanhavre/freecad-documentation
-4. [x] Check how translation systems can handle this: crowdin (preferred), transifex? Both support md files, check what would be easier to manage (ideally something automatic?) DONE - https://crowdin.com/project/freecad-documentation
-5. [ ] Define a strategy for migration. Auto conversion scripts? wiki <-> md is easy ([pandoc](http://pandoc.org/), other [scripts](https://github.com/Gozala/markdown-wiki) etc). Translations is tricky. There is also the question of images. There are complete [migration tools](https://github.com/philipashlock/mediawiki-to-markdown) too. 
+* In a first step, adapting the offline doc generation is easy, because it is anyway generated from html pages, and we will have the same pages on github. 
+* In a second step, we can explore something handier thatn the current qt assistant-based offline doc, maybe something that displays the html pages directly, being o line or offline...
 
-Quick way to convert: 
+## Mediawiki -> Markdown conversion
+
+Using auto conversion scripts wiki <-> md is easy, many scripts available ([pandoc](http://pandoc.org/), or other [scripts](https://github.com/Gozala/markdown-wiki)). Translations is tricky. There is also the question of images. There are complete [migration tools](https://github.com/philipashlock/mediawiki-to-markdown) too, that I must still test
+
+**Quick way to convert:**
 
 1) Go to http://www.freecadweb.org/wiki/Special:Export/Arch_Wall 
 2) Save the xml on your computer
-2) Save all images and upload them to github (inside an images subfolder) 
-3) `pandoc --from mediawiki --to markdown --wrap=none Arch_Wall.xml` 
+2) Save all images from the wiki and upload them to github (inside an images subfolder) 
+3) `pandoc --from mediawiki --to markdown Arch_Wall.xml` optionally, add `--wrap=none`
 4) Create a new file, paste, fix links
 
 ## Structure proposal
@@ -78,3 +80,5 @@ Each of the categories below is a folder. Each of them contains an "images" subf
   * All the pages from developers hub
 * Command reference
   * All the individual command pages classified by prefix (Std, Draft, FEM, etc...)
+* Translations
+  * Copies of the whole doc tree in every language
