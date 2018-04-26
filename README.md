@@ -62,6 +62,8 @@ Quick way to convert:
 
 ## Structure proposal
 
+Each of the categories below is a folder. Each of them contains an "images" subfolder where all the images of the pages that are inside that categoriy go.
+
 * Introduction
   * Welcome & about
   * General stuff from user hub, mouse model, etc..
