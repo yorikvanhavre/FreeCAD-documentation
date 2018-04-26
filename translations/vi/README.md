@@ -66,7 +66,7 @@ This is how the crowdin interface appears when working with md files:
     </li>
     
     <li>
-      [ ] Define a strategy for migration. Auto conversion scripts? wiki <-> md is easy (<a href="http://pandoc.org/">pandoc</a>, other <a href="https://github.com/Gozala/markdown-wiki">scripts</a> etc). Translations is tricky. There is also the question of images. There are complete <a href="https://github.com/philipashlock/mediawiki-to-markdown">migration tools</a> too. Quick way: 1) Go to http://www.freecadweb.org/wiki/Special:Export/Arch_Wall 2) save and reupload images 3) <code>pandoc --from mediawiki --to markdown Arch_Wall.xml</code> 4) Create a new file, paste, fix links
+      [ ] Define a strategy for migration. Auto conversion scripts? wiki <-> md is easy (<a href="http://pandoc.org/">pandoc</a>, other <a href="https://github.com/Gozala/markdown-wiki">scripts</a> etc). Translations is tricky. There is also the question of images. There are complete <a href="https://github.com/philipashlock/mediawiki-to-markdown">migration tools</a> too. Quick way: 1) Go to http://www.freecadweb.org/wiki/Special:Export/Arch_Wall 2) save and reupload images 3) <code>pandoc --from mediawiki --to markdown --wrap=none Arch_Wall.xml</code> 4) Create a new file, paste, fix links
     </li>
   </ol>
   
