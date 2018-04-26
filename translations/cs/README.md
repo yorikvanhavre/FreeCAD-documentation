@@ -23,10 +23,14 @@ This is an experiment to reconstruct the FreeCAD documentation in a more sustain
 * Git solves backup issues: Everybody who clones the repo has a full copy, so the code is duplicated in many locations
 * Automatically syncing with [gitbook](https://legacy.gitbook.com/book/yorikvanhavre/freecad-documentation), so the whole documentation is always available in pdf, epub and mobi formats, automatically. All it requires is maintaining the <SUMMARY.md> file updated
 
+This is how it appears on GitBook, it can be read online or downloaded as ebook:
+
 ![](images/gitbook.png)
 
 * Automatically syncing with [crowdin](https://crowdin.com/project/freecad-documentation). Any change done on github reflects automatically on crowdin (no manual syncing necessary). Crowdin, in turn, pushes all its changes in a separate branch on this repo, that can be merged any time, when we see fit, with the click of a button
 * Crowdin's interface for editing markdown files is a bit different than the one we use to translate FreeCAD, and is pretty similar to the wiki translation plugin
+
+This is how the crowdin interface appears when working with md files:
 
 ![](images/crowdin.png)
 
@@ -62,7 +66,7 @@ This is an experiment to reconstruct the FreeCAD documentation in a more sustain
     </li>
     
     <li>
-      [ ] Define a strategy for migration. Auto conversion scripts? wiki <-> md is easy (pandoc, etc). Translations is tricky. There is also the question of images
+      [ ] Define a strategy for migration. Auto conversion scripts? wiki <-> md is easy (<a href="http://pandoc.org/">pandoc</a>, other <a href="https://github.com/Gozala/markdown-wiki">scripts</a> etc). Translations is tricky. There is also the question of images. There are complete <a href="https://github.com/philipashlock/mediawiki-to-markdown">migration tools</a> too. Quick way: 1) Go to http://www.freecadweb.org/wiki/Special:Export/Arch_Wall 2) save and reupload images 3) <code>pandoc --from mediawiki --to markdown Arch_Wall.xml</code> 4) Create a new file, paste, fix links
     </li>
   </ol>
   
