@@ -4,7 +4,7 @@ Dies ist ein Versuch, die FreeCAD Dokumentation auf eine nachhaltigere, Markdown
 
 ## Ziele
 
-* Have a more structured, professional-looking and easy to navigate and use documentation than we currently have on the wiki
+* Eine Dokumentation zu erhalten, welche professionell aussieht, in welcher man einfach navigieren kann und die insgesamt besser strukturiert ist als diejenige die wir derzeit im wiki haben
 * Be more easily manageable, "backupable" and portable than the current wiki
 * Be easier to pack in an offline documentation package to be bundled with FreeCAD
 * Offer the same level of easiness to people wanting to collaborate
