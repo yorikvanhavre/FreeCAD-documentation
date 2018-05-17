@@ -1,6 +1,6 @@
 # FreeCAD-Dokumentation
 
-Dies ist ein Versuch, die FreeCAD Dokumentation auf eine nachhaltigere, Markdown-basierte Weise zu erneuern. It is, at the moment, solely made to serve as a proof-of-concept, to explore what is possible to do with markdown files and a git-based system, test different functionalities and systems in order to get to the same level of efficiency and openness we have on the FreeCAD wiki, and ultimately, if all goes well, convince the community to make the switch.
+Dies ist ein Versuch, die FreeCAD Dokumentation auf eine nachhaltigere, Markdown-basierte Weise zu erneuern. Es dient im Moment ausschließlich als ein Proof-of-Concept, um zu erkunden, was mit Markdown-Dateien und einem Git-basierten System möglich ist, um die unterschiedlichen Funktionalitäten und Systeme zu testen, damit das gleiche Maß an Effizienz und Offenheit erreicht wird, das wir derzeit auf der FreeCAD Wiki haben, und letztendlich, wenn alles gut geht, die Gemeinschaft zu überzeugen den Schritt zu machen.
 
 ## Ziele
 
