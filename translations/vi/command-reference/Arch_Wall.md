@@ -9,8 +9,8 @@
 
 Công cụ này xây dựng một đối tượng Tường từ đầu hoặc trên một đối tượng [dựa trên] [hình dạng](Part_Module) hoặc trên một đối tượng [dựa trên] [lưới chia](Mesh_Module) đã có. Một Tường có thể được xây dựng trực tiếp mà không cần dựa vào đối tượng cơ sở nào. Khi đó, nó là một khối với các thuộc tính dài, rộng và cao. Khi được xây dựng từ một đối tượng đã có, một Tường có thể được dựa trên:
 
-- Một **đối tượng 2D tuyến tính**, ví dụ như các đường, các đường lưới, các đường cong, hoặc các phác thảo, mà trong các trường hợp này, bạn có thể thay đổi chiều dày, canh lề (phải, trái hoặc giữa) và chiều cao. The length property has no effect.
-- A **flat face**, in which case you can only change the height. Length and width properties have no effect. If the base face is vertical, however, the wall will use the width property instead of height, allowing you to build walls from space-like objects or mass studies.
+- Một **đối tượng 2D tuyến tính**, ví dụ như các đường, các đường lưới, các đường cong, hoặc các phác thảo, mà trong các trường hợp này, bạn có thể thay đổi chiều dày, canh lề (phải, trái hoặc giữa) và chiều cao. Không cần khai báo đặc trưng chiều dài.
+- Một **mặt phẳng**, trong trường hợp này bạn chỉ có thể thay đổi chiều cao. Không thay đổi được [không cần khai báo] các đặc trưng chiều dài và chiều rộng. Tuy nhiên, nếu mặt này theo phương đứng, Tường sẽ sử dụng đặc trưng chiều rộng thay vì chiều cao, cho phép bạn xây dựng các bức tường từ các đối tượng kiểu như 3D hoặc từ các đối tượng dạng khối.
 - A **solid**, in which case length, width and height properties have no effect. The wall simply uses the underlying solid as its shape.
 - A **mesh**, in which case the underlying mesh must be a closed, manifold solid.
 
