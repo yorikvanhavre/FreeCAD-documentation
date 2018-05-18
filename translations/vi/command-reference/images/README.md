@@ -1,1 +1,1 @@
-A place for all the images from the command-reference pages
+Khu vực dành cho tất cả các hình ảnh từ các trang về tham chiếu câu lệnh
