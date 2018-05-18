@@ -11,8 +11,8 @@ Công cụ này xây dựng một đối tượng Tường từ đầu hoặc tr
 
 - Một **đối tượng 2D tuyến tính**, ví dụ như các đường, các đường lưới, các đường cong, hoặc các phác thảo, mà trong các trường hợp này, bạn có thể thay đổi chiều dày, canh lề (phải, trái hoặc giữa) và chiều cao. Không cần khai báo đặc trưng chiều dài.
 - Một **mặt phẳng**, trong trường hợp này bạn chỉ có thể thay đổi chiều cao. Không thay đổi được [không cần khai báo] các đặc trưng chiều dài và chiều rộng. Tuy nhiên, nếu mặt này theo phương đứng, Tường sẽ sử dụng đặc trưng chiều rộng thay vì chiều cao, cho phép bạn xây dựng các bức tường từ các đối tượng kiểu như 3D hoặc từ các đối tượng dạng khối.
-- A **solid**, in which case length, width and height properties have no effect. The wall simply uses the underlying solid as its shape.
-- A **mesh**, in which case the underlying mesh must be a closed, manifold solid.
+- Một [đối tượng] **khối **, trong trường hợp này thì các đặc trưng chiều dài, chiều rộng và chiều cao đều không cần khai báo. Tường sẽ lấy luôn các đặc tính này của đối tượng khối.
+- Một **lưới**, trong trường hợp này lưới phải là một khối kín nhiều mảnh.
 
 ![](images/Arch_Wall_example.jpg)
 
