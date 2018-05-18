@@ -1,11 +1,11 @@
-# ![](images/Arch_Wall.svg) Arch Wall
+# ![](images/Arch_Wall.svg) Kiến trúc - Tường
 
-- Menu location: **Arch → Wall**
-- Workbenches: **Arch**
-- Default shortcut: **W A**
-- See also: [Arch Structure](Arch_Structure)
+- Vị trí menu: **Kiến trúc → Tường**
+- Gói công cụ: **Kiến trúc**
+- Phím tắt mặc định: **W A**
+- Xem thêm: [Kết cấu Kiến trúc](Arch_Structure)
 
-## Description
+## Mô tả
 
 This tool builds a Wall object from scratch or on top of any other [shape](Part_Module)-based or [mesh](Mesh_Module)-based object. A wall can be built without any base object, in which case it behaves as a cubic volume, using length, width and height properties. When built on top of an existing shape, a wall can be based on:
 
