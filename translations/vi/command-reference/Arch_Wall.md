@@ -82,6 +82,6 @@ The Wall tool can by used in [macros](macros "wikilink") and from the python con
 
 Ví dụ:
 
-    import FreeCAD, Draft, Arch
-    baseline = Draft.makeLine(FreeCAD.Vector(0,0,0),FreeCAD.Vector(2,0,0))
+    import FreeCAD, Draft, Arch 
+    baseline = Draft.makeLine(FreeCAD.Vector(0,0,0),FreeCAD.Vector(2,0,0)) 
     Arch.makeWall(baseline,None,0.1,2)
