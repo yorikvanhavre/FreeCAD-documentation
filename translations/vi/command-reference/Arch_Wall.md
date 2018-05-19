@@ -67,10 +67,10 @@ Các đối tượng Tường thừa hưởng các thuộc tính của đối t�
 - **Chiều dài**: Chiều dài của Tường (không được sử dụng khi Tường được xây dựng dựa trên một đối tượng nào đó)
 - **Chiều rộng**: Chiều rộng của Tường (không được sử dụng khi Tường được xây dựng dựa trên một mặt)
 - **Chiều cao**: Chiều cao của Tường (không được sử dụng khi Tường được xây dựng dựa trên một khối). Nếu chiều cao không được xác định, và Tường ở bên trong một đối tượng [tầng](Arch_Floor "wikilink") với chiều cao đã được xác định của nó, thi Tường sẽ tự động lấy giá trị chiều cao tầng.
-- **Pháp tuyến**: Phương vuông góc với Tường. If set to (0,0,0), the extrusion direction is automatic.
-- **Offset** : This specifies the distance between the wall and its baseline. Works only if the Align property is set to Right or Left.
+- **Pháp tuyến**: Hướng trồi ra của Tường. Nếu đặt bằng (0,0,0), hướng trồi ra sẽ được tự động xác định.
+- **Định cữ**: Chỉ định khoảng cách giữa Tường và đường cơ sở của nó. Có hiệu lực chỉ khi thuộc tính Canh lề được đặt bằng Phải hoặc Trái.
 
-## Scripting
+## Câu lệnh
 
 The Wall tool can by used in [macros](macros "wikilink") and from the python console by using the following function:
 
