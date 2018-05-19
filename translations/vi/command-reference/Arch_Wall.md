@@ -39,8 +39,8 @@ Khi một số Tường giao nhau, bạn cần phải đặt chúng vào một m
 ## Các tuỳ biến
 
 - Các Tường chia sẻ các đặc tính tính và hành vi chung của tất cả các [Kiến trúc - Cấu kiện](Arch_Component "wikilink")
-- The height, width and alignment of a wall can be set during drawing, via the task panel
-- When snapping a wall to an existing wall, both walls will be joined into one. The way the two walls are joined depends on their properties: If they have the same width, height and alignment, and if the option "join base sketches" is enabled in the Arch preferences, the resulting wall will be one object based on a sketch made of several segments. Otherwise, the latter wall will be added to the first one as addition.
+- Chiều cao, chiều rộng và canh lề của một Tường có thể được đặt trong khi vẽ, sử dụng Bảng nhiệm vụ
+- Khi bắt ngang một Tường vào một Tường khác đã có, thì cả hai Tường sẽ được gắn với nhau thành một đối tượng Tường. The way the two walls are joined depends on their properties: If they have the same width, height and alignment, and if the option "join base sketches" is enabled in the Arch preferences, the resulting wall will be one object based on a sketch made of several segments. Otherwise, the latter wall will be added to the first one as addition.
 - Press , or after the first point to constrain the second point on the given axis.
 - To enter coordinates manually, simply enter the numbers, then press between each X, Y and Z component.
 - Press or click the checkbox to check/uncheck the **Relative** button. If relative mode is on, the coordinates of the second point are relative to the first one. If not, they are absolute, taken from the (0,0,0) origin point.
