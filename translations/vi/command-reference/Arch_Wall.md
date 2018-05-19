@@ -61,10 +61,10 @@ Chế độ bắt dính của Tường trong gói Kiến trúc có khác đôi c
 Các đối tượng Tường thừa hưởng các thuộc tính của đối tượng [Bộ phận](Part_Module "wikilink"), và cũng có các thuộc tính khác sau đây:
 
 - **Canh lề**: Canh lề Tường trên đường cơ sở của nó: trái, phải hoặc ở giữa
-- **Bas** : The base object this wall is built on
-- **Face** : The index of the face from the base object to use. If the value is not set or 0, the whole object is used
-- **Force Wire** : If True, and the wall is based on a face, only the border wire of the face is used, resulting in a wall bordering the face
-- **Length** : The length of the wall (not used when the wall is based on an object)
+- **Cơ sở**: đối tượng cơ sở mà Tường được xây dựng trên nó
+- **Mặt**: Chỉ số của mặt từ đối tượng cơ sở để sử dụng. Nếu giá trị là không thiết lập hoặc 0, thì toàn bộ đối tượng được sử dụng
+- **Áp đặt Lưới**: nếu được chọn và Tường được dựa trên một mặt, chỉ các dây lưới trên biên giới của mặt được sử dụng, kết quả là một Tường ở biên giới hạn của mặt
+- **Chiều dài**: Chiều dài của Tường (không được sử dụng khi Tường được dựa trên một đối tượng nào đó)
 - **Width** : The width of the wall (not used when the wall is based on a face)
 - **Height** : The height of the wall (not used when the wall is based on a solid). If no height is given, and the wall is inside a [floor](Arch_Floor "wikilink") object with its height defined, the wall will automatically take the value of the floor height.
 - **Normal** : An extrusion direction for the wall. If set to (0,0,0), the extrusion direction is automatic.
