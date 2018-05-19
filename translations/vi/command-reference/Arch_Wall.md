@@ -26,19 +26,19 @@ Khi một số Tường giao nhau, bạn cần phải đặt chúng vào một m
 
 ### Vẽ một Tường từ đầu
 
-1. Press the **Arch Wall** button, or press **W** then **A** keys
-2. Click a first point on the 3D view, or type a [coordinate](Draft_Coordinates "wikilink")
-3. Click a second point on the 3D view, or type a [coordinate](Draft_Coordinates "wikilink")
+1. Bấm phím **Kiến trúc - Tường**, hoặc bấm phím **W** sau đó là phím **A**
+2. Nhấp vào một điểm đầu tiên trên khung hình 3D, hoặc gõ vào một [toạ độ](Draft_Coordinates "wikilink")
+3. Nhấp vào một điểm thứ hai vào khung hình 3D, hoặc gõ vào một [toạ độ](Draft_Coordinates "wikilink")
 
-### Drawing a wall on top of a selected object
+### Vẽ một Tường trên một đối tượng chọn trước
 
-1. Select one or more base geometry objects (Draft object, sketch, etc)
-2. Press the **Arch Wall** button, or press the **W** then **A** keys
-3. Adjust needed properties such as height or width.
+1. Chọn một hoặc nhiều đối tượng hình học cơ bản (đối tượng Nháp [Draft], phác thảo, v. v.)
+2. Bấm phím **Kiến trúc - Tường**, hoặc bấm phím **W** sau đó là phím **A**
+3. Điều chỉnh các tham số cần thiết, chẳng hạn như chiều cao hoặc chiều rộng.
 
-## Options
+## Các tuỳ biến
 
-- Walls share the common properties and behaviours of all [Arch Components](Arch_Component "wikilink")
+- Các Tường chia sẻ các đặc tính tính và hành vi chung của tất cả các [Kiến trúc - Cấu kiện](Arch_Component "wikilink")
 - The height, width and alignment of a wall can be set during drawing, via the task panel
 - When snapping a wall to an existing wall, both walls will be joined into one. The way the two walls are joined depends on their properties: If they have the same width, height and alignment, and if the option "join base sketches" is enabled in the Arch preferences, the resulting wall will be one object based on a sketch made of several segments. Otherwise, the latter wall will be added to the first one as addition.
 - Press , or after the first point to constrain the second point on the given axis.
