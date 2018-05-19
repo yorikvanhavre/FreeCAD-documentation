@@ -50,9 +50,9 @@ Khi một số Tường giao nhau, bạn cần phải đặt chúng vào một m
 - Tường nhiều lớp có thể được tạo ra bằng cách đặt các Tường với cùng một đường cơ sở. Bằng cách đặt thuộc tính canh lề của chúng về trái hoặc về phải, và chỉ ra giá trị định khoảng [giá trị offset], bạn có thể dựng được các lớp của Tường một cách hiệu quả. Việc đặt một cửa sổ trong một lớp tường sẽ dẫn đến việc mở các lớp tường khác mà có cùng một đường cơ sở.
 - Các đối tượng Tường cũng có thể sử dụng [Đa Vật liệu ](Arch_MultiMaterial "wikilink"). Khi sử dụng dạng đa vật liệu, Tường sẽ trở thành có nhiều lớp, với các chiều dày được xác định bởi khai báo đa vật liệu. Một lớp bất kỳ có chiều dày bằng không sẽ có chiều dày được xác định một cách tự động bằng khoảng không gian còn lại từ giá trị Chiều dày Tường trừ đi chiều dày các lớp khác.
 
-## Chế độ bắt ngang
+## Chế độ bắt dính
 
-Chế độ bắt ngang của Tường trong gói Kiến trúc có khác đôi chút với chế độ bắt ngang của đối tượng khác trong gói Kiến trúc và gói Bản nháp. If a wall has a baseline object, snapping will anchor to the base object, instead of the wall geometry, allowing to easily align walls by their baseline. If, however, you specifically want to snap to the wall geometry, pressing **CTRL** will switch snapping to the wall object.
+Chế độ bắt dính của Tường trong gói Kiến trúc có khác đôi chút với chế độ bắt dính của các đối tượng khác trong gói Kiến trúc và gói Bản nháp. Nếu một Tường có một đường cơ sở, việc bắt dính sẽ neo vào đối tượng cơ sở thay vì neo vào các tham số hình học của Tường, cho phép canh lề Tường một cách dễ dàng theo đường cơ sở của chúng. If, however, you specifically want to snap to the wall geometry, pressing **CTRL** will switch snapping to the wall object.
 
 ![](images/Arch_wall_snap.jpg)
 
