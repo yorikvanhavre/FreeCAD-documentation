@@ -64,10 +64,10 @@ Các đối tượng Tường thừa hưởng các thuộc tính của đối t�
 - **Cơ sở**: đối tượng cơ sở mà Tường được xây dựng trên nó
 - **Mặt**: Chỉ số của mặt từ đối tượng cơ sở để sử dụng. Nếu giá trị là không thiết lập hoặc 0, thì toàn bộ đối tượng được sử dụng
 - **Áp đặt Lưới**: nếu được chọn và Tường được dựa trên một mặt, chỉ các dây lưới trên biên giới của mặt được sử dụng, kết quả là một Tường ở biên giới hạn của mặt
-- **Chiều dài**: Chiều dài của Tường (không được sử dụng khi Tường được dựa trên một đối tượng nào đó)
-- **Width** : The width of the wall (not used when the wall is based on a face)
-- **Height** : The height of the wall (not used when the wall is based on a solid). If no height is given, and the wall is inside a [floor](Arch_Floor "wikilink") object with its height defined, the wall will automatically take the value of the floor height.
-- **Normal** : An extrusion direction for the wall. If set to (0,0,0), the extrusion direction is automatic.
+- **Chiều dài**: Chiều dài của Tường (không được sử dụng khi Tường được xây dựng dựa trên một đối tượng nào đó)
+- **Chiều rộng**: Chiều rộng của Tường (không được sử dụng khi Tường được xây dựng dựa trên một mặt)
+- **Chiều cao**: Chiều cao của Tường (không được sử dụng khi Tường được xây dựng dựa trên một khối). Nếu chiều cao không được xác định, và Tường ở bên trong một đối tượng [tầng](Arch_Floor "wikilink") với chiều cao đã được xác định của nó, thi Tường sẽ tự động lấy giá trị chiều cao tầng.
+- **Pháp tuyến**: Phương vuông góc với Tường. If set to (0,0,0), the extrusion direction is automatic.
 - **Offset** : This specifies the distance between the wall and its baseline. Works only if the Align property is set to Right or Left.
 
 ## Scripting
