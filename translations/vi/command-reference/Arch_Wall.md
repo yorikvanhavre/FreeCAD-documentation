@@ -52,15 +52,15 @@ Khi một số Tường giao nhau, bạn cần phải đặt chúng vào một m
 
 ## Chế độ bắt dính
 
-Chế độ bắt dính của Tường trong gói Kiến trúc có khác đôi chút với chế độ bắt dính của các đối tượng khác trong gói Kiến trúc và gói Bản nháp. Nếu một Tường có một đường cơ sở, việc bắt dính sẽ neo vào đối tượng cơ sở thay vì neo vào các tham số hình học của Tường, cho phép canh lề Tường một cách dễ dàng theo đường cơ sở của chúng. If, however, you specifically want to snap to the wall geometry, pressing **CTRL** will switch snapping to the wall object.
+Chế độ bắt dính của Tường trong gói Kiến trúc có khác đôi chút với chế độ bắt dính của các đối tượng khác trong gói Kiến trúc và gói Bản nháp. Nếu một Tường có một đường cơ sở, việc bắt dính sẽ neo vào đối tượng cơ sở thay vì neo vào các tham số hình học của Tường, cho phép canh lề Tường một cách dễ dàng theo đường cơ sở của chúng. Tuy nhiên, nếu bạn đặc biệt muốn bắt dính theo tham số hình học của Tường, thì việc bấm **CTRL** sẽ chuyển chế độ bắt dính vào đối tượng Tường.
 
 ![](images/Arch_wall_snap.jpg)
 
-## Các đặc tính
+## Các đặc tính [ thuộc tính]
 
-Wall objects inherit the properties of [Part](Part_Module "wikilink") objects, and also have the following extra properties:
+Các đối tượng Tường thừa hưởng các thuộc tính của đối tượng [Bộ phận](Part_Module "wikilink"), và cũng có các thuộc tính khác sau đây:
 
-- **Align** : The alignment of the wall on its baseline: Left, right or center
+- **Canh lề**: Canh lề Tường trên đường cơ sở của nó: trái, phải hoặc ở giữa
 - **Bas** : The base object this wall is built on
 - **Face** : The index of the face from the base object to use. If the value is not set or 0, the whole object is used
 - **Force Wire** : If True, and the wall is based on a face, only the border wire of the face is used, resulting in a wall bordering the face
