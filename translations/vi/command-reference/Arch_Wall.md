@@ -18,13 +18,13 @@ Công cụ này xây dựng một đối tượng Tường từ đầu hoặc tr
 
 *Ví dụ về các Tường được xây dựng từ một đường, một đường lưới, một mặt, một khối hoặc một phác thảo*
 
-Có thể thực hiện các phép toán cộng và trừ đối với các đối tượng Tường. Trong phép cộng, hình dạng của các đối tượng khác được ghép thêm với hình dạng của Tường, trong khi đó, phép trừ thì trừ đi. Phép cộng và phép trừ có thể được bổ sung bằng các công cụ [Kiến trúc - Cộng](Arch_Add) và [Kiến trúc - Trừ](Arch_Remove). Additions and subtractions have no influence over wall parameters such as height and width, which can still be changed. Walls can also have their height automatic, if they are included into a higher-level object such as [floors](Arch_Floor "wikilink"). The height must be kept at 0, then the wall will adopt the height specified in the parent object.
+Có thể thực hiện các phép toán cộng và trừ đối với các đối tượng Tường. Trong phép cộng, hình dạng của các đối tượng khác được ghép thêm với hình dạng của Tường, trong khi đó, phép trừ thì trừ đi. Phép cộng và phép trừ có thể được bổ sung bằng các công cụ [Kiến trúc - Cộng](Arch_Add) và [Kiến trúc - Trừ](Arch_Remove). Phép cộng và phép trừ không ảnh hưởng đến các tham số tổng thể của Tường như là chiều cao và chiều rộng, các tham số này vẫn có thể thay đổi. Các Tường cũng có thể có chiều cao được thay đổi tự động, nếu chúng được đặt vào trong một đối tượng cấp cao hơn, chẳng hạn như các [sàn](Arch_Floor "wikilink"). Khi chiều cao được đặt bằng 0, thì Tường sẽ lấy giá trị chiều cao theo chiều cao được xác định trong đối tượng [bố mẹ] cấp cao hơn.
 
-When several walls should intersect, you need to place them into a [floor](Arch_Floor "wikilink") to have their geometry intersected.
+Khi một số Tường giao nhau, bạn cần phải đặt chúng vào một mức [sàn](Arch_Floor "wikilink") để có dạng hình học của chúng được giao cắt nhau.
 
-## How to use
+## Cách dùng
 
-### Drawing a wall from scratch
+### Vẽ một Tường từ đầu
 
 1. Press the **Arch Wall** button, or press **W** then **A** keys
 2. Click a first point on the 3D view, or type a [coordinate](Draft_Coordinates "wikilink")
