@@ -43,7 +43,7 @@ Khi một số Tường giao nhau, bạn cần phải đặt chúng vào một m
 - Khi bắt ngang một Tường vào một Tường khác đã có, thì cả hai Tường sẽ được gắn với nhau thành một đối tượng Tường. Cách mà hai Tường nối với nhau phụ thuộc vào các đặc tính của chúng: Nếu chúng có cùng chiều dày, chiều cao và kiểu canh lề, và nếu tuỳ biến “Ghép các phác thảo cơ bản” được chọn trong các mặc định ưu tiên của Kiến trúc, thì đối tượng Tường nhận được sau khi ghép nối sẽ là đối tượng dựa trên phác thảo của các phân đoạn. Nếu không thì đối tượng Tường được chọn sau sẽ được thêm vào như là phần nối dài của đối tượng Tường được chọn trước.
 - Bấm , hoặc sau điểm đầu tiên để ràng buộc điểm thứ hai trên trục đã cho.
 - Để nhập các toạ độ kiểu thủ công, chỉ cần nhập giá trị bằng số, rồi bấm dấu cách giữa các thành phần nhập X, Y, và Z.
-- Press or click the checkbox to check/uncheck the **Relative** button. If relative mode is on, the coordinates of the second point are relative to the first one. If not, they are absolute, taken from the (0,0,0) origin point.
+- Bấm hoặc nhấp chuột vào ô kiểm để chọn hoặc bỏ chọn phím **Tương đối **. Nếu chế độ Tương đối được bật, các tọa độ của điểm thứ hai là tương đối so với điểm thứ nhất. If not, they are absolute, taken from the (0,0,0) origin point.
 - Press while drawing to [constrain](Draft_Constrain "wikilink") your second point horizontally or vertically in relation to the first one.
 - Press or the **Cancel** button to abort the current command.
 - Double-clicking on the wall in the tree view after it is created allows you to enter edit mode and access and modify its additions and subtractions
