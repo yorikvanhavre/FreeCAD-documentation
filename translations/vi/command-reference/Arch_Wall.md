@@ -56,7 +56,7 @@ Chế độ bắt dính của Tường trong gói Kiến trúc có khác đôi c
 
 ![](images/Arch_wall_snap.jpg)
 
-## Các đặc tính [ thuộc tính]
+## Các đặc tính [thuộc tính]
 
 Các đối tượng Tường thừa hưởng các thuộc tính của đối tượng [Bộ phận](Part_Module "wikilink"), và cũng có các thuộc tính khác sau đây:
 
