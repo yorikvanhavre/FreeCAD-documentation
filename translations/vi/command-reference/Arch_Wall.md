@@ -18,7 +18,7 @@ Công cụ này xây dựng một đối tượng Tường từ đầu hoặc tr
 
 *Ví dụ về các Tường được xây dựng từ một đường, một đường lưới, một mặt, một khối hoặc một phác thảo*
 
-Có thể thực hiện các phép toán cộng và trừ đối với các đối tượng Tường. Trong phép cộng, hình dạng của các đối tượng khác được ghép thêm với hình dạng của Tường, trong khi đó, phép trừ thì trừ đi. Phép cộng và phép trừ có thể được bổ sung bằng các công cụ [Kiến trúc - Cộng](Arch_Add) và [Kiến trúc - Trừ](Arch_Remove). Phép cộng và phép trừ không ảnh hưởng đến các tham số tổng thể của Tường như là chiều cao và chiều rộng, các tham số này vẫn có thể thay đổi. Các Tường cũng có thể có chiều cao được thay đổi tự động, nếu chúng được đặt vào trong một đối tượng cấp cao hơn, chẳng hạn như các [sàn](Arch_Floor "wikilink"). Khi chiều cao được đặt bằng 0, thì Tường sẽ lấy giá trị chiều cao theo chiều cao được xác định trong đối tượng [bố mẹ] cấp cao hơn.
+Có thể thực hiện các phép toán cộng và trừ đối với các đối tượng Tường. Trong phép cộng, hình dạng của các đối tượng khác được ghép thêm với hình dạng của Tường, trong khi đó, phép trừ thì trừ đi. Phép cộng và phép trừ có thể được bổ sung bằng các công cụ [Kiến trúc - Cộng](Arch_Add) và [Kiến trúc - Trừ](Arch_Remove). Phép cộng và phép trừ không ảnh hưởng đến các tham số tổng thể của Tường như là chiều cao và chiều rộng, các tham số này vẫn có thể thay đổi. Các Tường cũng có thể có chiều cao được thay đổi tự động, nếu chúng được đặt vào trong một đối tượng cấp cao hơn, chẳng hạn như các [tầng](Arch_Floor "wikilink"). Khi chiều cao được đặt bằng 0, thì Tường sẽ lấy giá trị chiều cao theo chiều cao được xác định trong đối tượng [bố mẹ] cấp cao hơn.
 
 Khi một số Tường giao nhau, bạn cần phải đặt chúng vào một mức [sàn](Arch_Floor "wikilink") để có dạng hình học của chúng được giao cắt nhau.
 
@@ -77,8 +77,8 @@ Công cụ Tường có thể được sử dụng trong [vĩ lệnh](macros "wi
     makeWall ( [obj],[length],[width],[height],[align],[face],[name]) 
     
 
-- Tạo ra một Tường dựa trên đối tượng obj cho trước, có thể là một Phác thảo, một đối tượng Nháp, một Mặt hoặc một Khối. align có thể là "giữa", "trái" hoặc "phải". Nếu không cho biết đối tượng cơ sở, thì có thể sử dụng các giá trị bằng số cho chiều dài, chiều rộng và chiều cao. Face can be used to give the index of a face from the underlying object, to build this wall on, instead of using the whole object.
-- Returns the created wall, or None if the operation failed.
+- Tạo ra một Tường dựa trên đối tượng obj cho trước, có thể là một Phác thảo, một đối tượng Nháp, một Mặt hoặc một Khối. align có thể là "giữa", "trái" hoặc "phải". Nếu không cho biết đối tượng cơ sở, thì có thể sử dụng các giá trị bằng số cho chiều dài, chiều rộng và chiều cao. Face có thể được sử dụng để đưa ra chỉ số của một mặt từ đối tượng cơ sở, dựa vào đó để xác định Tường, thay vì việc sử dụng toàn bộ đối tượng.
+- Câu lệnh sẽ tạo ra Tường hoặc không tạo ra gì cả nếu khi thực thi gặp lỗi.
 
 Ví dụ:
 
