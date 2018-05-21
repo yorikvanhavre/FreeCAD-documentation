@@ -46,7 +46,7 @@ Khi một số Tường giao nhau, bạn cần phải đặt chúng vào một m
 - Bấm hoặc nhấp chuột vào ô kiểm để chọn hoặc bỏ chọn phím **Tương đối **. Nếu chế độ Tương đối được bật, các tọa độ của điểm thứ hai là tương đối so với điểm thứ nhất. Nếu không, thì các giá trị này là các giá trị tuyệt đối, tính từ điểm gốc tọa độ (0,0,0).
 - Bấm trong khi vẽ để [ràng buộc ](Draft_Constrain "wikilink") điểm thứ hai theo phương ngang và theo phương đứng tương đối so với điểm đầu tiên.
 - Bấm phím **Hủy bỏ** để hủy bỏ câu lệnh hiện thời.
-- Double-clicking on the wall in the tree view after it is created allows you to enter edit mode and access and modify its additions and subtractions
+- Nhấp kép vào Tường trong cây hiển thị sau khi nó được tạo ra sẽ cho phép bạn vào chế độ soạn thảo và truy cập và sửa đổi thêm bớt chúng
 - Tường nhiều lớp có thể được tạo ra bằng cách đặt các Tường với cùng một đường cơ sở. Bằng cách đặt thuộc tính canh lề của chúng về trái hoặc về phải, và chỉ ra giá trị định khoảng [giá trị offset], bạn có thể dựng được các lớp của Tường một cách hiệu quả. Việc đặt một cửa sổ trong một lớp tường sẽ dẫn đến việc mở các lớp tường khác mà có cùng một đường cơ sở.
 - Các đối tượng Tường cũng có thể sử dụng [Đa Vật liệu ](Arch_MultiMaterial "wikilink"). Khi sử dụng dạng đa vật liệu, Tường sẽ trở thành có nhiều lớp, với các chiều dày được xác định bởi khai báo đa vật liệu. Một lớp bất kỳ có chiều dày bằng không sẽ có chiều dày được xác định một cách tự động bằng khoảng không gian còn lại từ giá trị Chiều dày Tường trừ đi chiều dày các lớp khác.
 
