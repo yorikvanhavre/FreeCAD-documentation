@@ -10,10 +10,10 @@ Vous trouverez ici:
     * Tutoriels
     * Informations supplémentaires sur les établis externes</ul> 
     
-    Please note that like FreeCAD itself, these pages are in continuous development. FreeCAD already features many interesting tools for the final user, and more are continuously added, which is why you might still find missing or outdated documentation here.
+    S'il vous plaît noter que, comme FreeCAD lui-même, ces pages sont en développement continu. FreeCAD comporte déjà de nombreux outils intéressants pour l'utilisateur final, et d'autres sont ajoutés en permanence, ce qui explique pourquoi vous trouverez peut-être encore de la documentation manquante ou périmée ici.
     
-    But don't feel discouraged, browse the contents of this section, and, if you cannot find the information you need, don't hesitate to ask! Among the developers or in the small but growing FreeCAD users community, there will certainly be someone who can help you. You can leave comments related to this wiki documentation site on the FreeCAD help forum and ask your questions there.
+    Mais ne vous découragez pas, parcourez le contenu de cette section, et, si vous ne trouvez pas l'information dont vous avez besoin, n'hésitez pas à demander! Parmi les développeurs ou dans la communauté d'utilisateurs de FreeCAD, petite mais croissante, il y aura certainement quelqu'un qui pourra vous aider. Vous pouvez laisser des commentaires sur ce site de documentation wiki sur le forum d'aide de FreeCAD et y poser vos questions.
     
-    And if you have some information you would like to appear here, why not contribute and help us make this manual grow. Head to the Help FreeCAD page, that will help you to get started.
+    Et si vous avez des informations que vous aimeriez voir apparaître ici, pourquoi ne pas contribuer et nous aider à faire évoluer ce manuel. Dirigez-vous vers la page Aide FreeCAD, qui vous aidera à démarrer.
     
-    If you would like to know how the development of FreeCAD has started years ago visit the History page.
+    Si vous souhaitez savoir comment le développement de FreeCAD a commencé il y a des années, visitez la page Historique.
