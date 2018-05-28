@@ -36,7 +36,7 @@ When several walls should intersect, you need to place them into a [floor](Arch_
 2. Press the **Arch Wall** button, or press the **W** then **A** keys
 3. Adjust needed properties such as height or width.
 
-## Options
+## Optionen
 
 - Walls share the common properties and behaviours of all [Arch Components](Arch_Component "wikilink")
 - The height, width and alignment of a wall can be set during drawing, via the task panel
@@ -50,13 +50,13 @@ When several walls should intersect, you need to place them into a [floor](Arch_
 - Multi-layer walls can be easily created by building several walls from the same baseline. By setting their Align property to either left or right, and specifying an Offset value, you can effectively construct several wall layers. Placing a window in such a wall layer will propagate the opening to the other wall layers based on the same baseline.
 - Walls can also make use of [Multi-Materials](Arch_MultiMaterial "wikilink"). When using a multi-material, the wall will become multi-layer, using the thicknesses specified by the multi-material. Any layer with a thickness of zero will have its thickness defined automatically by the remaining space defined by the Wall's Width value, after subtracting the other layers.
 
-## Snapping
+## Einrasten
 
 Snapping works a bit differently with Arch walls than other Arch and Draft objects. If a wall has a baseline object, snapping will anchor to the base object, instead of the wall geometry, allowing to easily align walls by their baseline. If, however, you specifically want to snap to the wall geometry, pressing **CTRL** will switch snapping to the wall object.
 
 ![](images/Arch_wall_snap.jpg)
 
-## Properties
+## Eigenschaften
 
 Wall objects inherit the properties of [Part](Part_Module "wikilink") objects, and also have the following extra properties:
 
