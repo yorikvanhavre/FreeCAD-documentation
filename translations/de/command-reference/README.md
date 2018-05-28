@@ -1,1 +1,1 @@
-This sectin contains all the individual command help pages
+Diese Abschnitt enthält die einzelnen Befehle die Hilfe-Seiten
