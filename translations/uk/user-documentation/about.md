@@ -1,4 +1,4 @@
-# About FreeCAD
+# Про FreeCAD
 
 ![](images/FreeCAD_default.jpg)
 
