@@ -6,16 +6,16 @@
 
 * Мати більш структуровану, професійну і зручну навігацію для використання документацію, ніж є на вікі
 * Бути більш керованими, "резервними" і портативними, ніж поточна вікі
-* Be easier to pack in an offline documentation package to be bundled with FreeCAD
+* Бути легшим для пакування в локальну документацію та звязаним з FreeCad
 * Offer the same level of easiness to people wanting to collaborate
-* Offer a good translation system that is easy to use for peeople wanting to translate
+* Запропонувати найкращий переклад системи, яка проста у використанні, для людей, що бажають перекласти
 * Offer documentation ‘versions’ that correspond to FreeCAD releases
-* Offer documentation in formats suitable for offline readers - ePub, pdf, etc.
-* Example files could be integrated here too
+* Запропонувати документацію у форматах що підходить для офлайнового читача - ePub, pdf, тощо.
+* Файли прикладів теж можуть бути інтегровані тут
 
-## Advantages
+## Переваги
 
-* Markdown is [easy, very similar](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to the wiki syntax, plus it is more widespread and easier to convert to other formats (more convertors available) and integrate into other platforms that can do some other tasks automatically. There are many scripts like pandoc that can convert to/from wiki syntax automatically, but converting by hand is also pretty easy
+* Markdown is [easy, very similar](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to the wiki syntax, plus it is more widespread and easier to convert to other formats (more convertors available) and integrate into other platforms that can do some other tasks automatically. Є багато сценаріїв, як pandoc, які можуть конвертувати з вікі синтаксису автоматично, але перетворення вручну, також досить легке
 * Many fancy things we have to do with plugins on the wiki are builtin in markdown, such as SVG images or code syntax highlighting
 * The github interface is as comfortable or even more comfortable than mediawiki to work with. You can work fully from inside the github interface (including image upload, etc) and don't need to careabout git stuff
 * You can also work offline and pull/push like normal git, then you have additional, gorgeous WYSIWYG editors like [typora](https://typora.io) (no more edit/preview windows)
