@@ -27,16 +27,16 @@ When several walls should intersect, you need to place them into a [floor](Arch_
 ### Малюнок на стіні з ескізу
 
 1. Натиснути кнопку **Arch Wall**, або натисніть клавіші **W** потім клавіші **A**
-2. Клацніть перший пункт, на 3D-вигляду, або введіть [координати](Draft_Coordinates "wikilink")
-3. Click a second point on the 3D view, or type a [coordinate](Draft_Coordinates "wikilink")
+2. Клацніть першу точку, на 3D-вигляді, або введіть [координати](Draft_Coordinates "wikilink")
+3. Клацніть другу точку, на 3D-вигляді, або введіть [координати](Draft_Coordinates "wikilink")
 
-### Drawing a wall on top of a selected object
+### Малювання стіни на вершині виділеного об'єкта
 
-1. Select one or more base geometry objects (Draft object, sketch, etc)
-2. Press the **Arch Wall** button, or press the **W** then **A** keys
-3. Adjust needed properties such as height or width.
+1. Виберіть один або кілька об'єктів бази геометрії (проект об'єкта, ескіз, тощо)
+2. Натиснути кнопку **Arch Wall**, або натисніть клавіші **W** потім клавіші **A**
+3. Налаштування необхідні властивості, такі як висота або ширина.
 
-## Options
+## Опції
 
 - Walls share the common properties and behaviours of all [Arch Components](Arch_Component "wikilink")
 - The height, width and alignment of a wall can be set during drawing, via the task panel
@@ -56,7 +56,7 @@ Snapping works a bit differently with Arch walls than other Arch and Draft objec
 
 ![](images/Arch_wall_snap.jpg)
 
-## Properties
+## Властивості
 
 Wall objects inherit the properties of [Part](Part_Module "wikilink") objects, and also have the following extra properties:
 
