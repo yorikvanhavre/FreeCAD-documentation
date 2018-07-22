@@ -24,10 +24,10 @@ When several walls should intersect, you need to place them into a [floor](Arch_
 
 ## How to use
 
-### Drawing a wall from scratch
+### Малюнок на стіні з ескізу
 
-1. Press the **Arch Wall** button, or press **W** then **A** keys
-2. Click a first point on the 3D view, or type a [coordinate](Draft_Coordinates "wikilink")
+1. Натиснути кнопку **Arch Wall**, або натисніть клавіші **W** потім клавіші **A**
+2. Клацніть перший пункт, на 3D-вигляду, або введіть [координати](Draft_Coordinates "wikilink")
 3. Click a second point on the 3D view, or type a [coordinate](Draft_Coordinates "wikilink")
 
 ### Drawing a wall on top of a selected object
