@@ -96,7 +96,7 @@ This is how the crowdin interface appears when working with md files:
           Getting started
         </li>
         <li>
-          Tutorials
+          Tutoriels
         </li>
       </ul>
     </li>
