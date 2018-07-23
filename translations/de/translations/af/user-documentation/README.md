@@ -1,4 +1,4 @@
-# FreeCAD user documentation
+# FreeCAD Benutzerdokumentation
 
 This area is the main help area for normal FreeCAD usage. It doesn't contain documentation relative to python scripting or application development, which are located in other sections.
 
