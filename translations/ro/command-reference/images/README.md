@@ -1,1 +1,1 @@
-A place for all the images from the command-reference pages
+Un loc pentru toate imaginile din paginile de referinţă pentru comenzi
