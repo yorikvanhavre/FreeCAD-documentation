@@ -1,4 +1,4 @@
-# ![](images/Arch_Wall.svg) Arch Wall
+# ![](images/Arch_Wall.svg) Arch Mur
 
 - Menu location: **Arch → Wall**
 - Workbenches: **Arch**
