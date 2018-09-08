@@ -1,0 +1,1 @@
+Un lloc per a totes les imatges de les pàgines de referència de comandaments
