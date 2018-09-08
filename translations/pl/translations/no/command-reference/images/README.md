@@ -1,0 +1,1 @@
+To miejsce dla wszystkich zdjęć ze stron dokumentacji poleceń
