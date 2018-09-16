@@ -1,7 +1,7 @@
-# ![](images/Arch_Wall.svg) Arch Wall
+# ![](images/Arch_Wall.svg) Arch Wand
 
-- Menu location: **Arch → Wall**
-- Workbenches: **Arch**
+- Menüposition: **Arch → Wand**
+- Arbeitsbereich: **Arch**
 - Default shortcut: **W A**
 - See also: [Arch Structure](Arch_Structure)
 
