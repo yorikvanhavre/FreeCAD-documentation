@@ -1,6 +1,6 @@
-# ![](images/Arch_Wall.svg) Arch Wall
+# ![](images/Arch_Wall.svg) Arco na Parede
 
-- Menu location: **Arch → Wall**
+- Localização de menu: **Arco→ Parede**
 - Workbenches: **Arch**
 - Default shortcut: **W A**
 - See also: [Arch Structure](Arch_Structure)
