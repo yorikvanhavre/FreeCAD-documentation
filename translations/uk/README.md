@@ -11,13 +11,13 @@
 * Запропонувати гарну систему перекладу, яка була б простою у використанні людьми, які бажають перекладати
 * Запропонувати "версії" документацій, які відносяться до релізів FreeCAD
 * Запропонувати документацію у форматах які підходять для офлайн читача - ePub, pdf, тощо.
-* Файли прикладів теж можуть бути інтегровані тут
+* Також сюди можуть бути інтегровані файли прикладів
 
 ## Переваги
 
-* Markdown is [easy, very similar](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to the wiki syntax, plus it is more widespread and easier to convert to other formats (more convertors available) and integrate into other platforms that can do some other tasks automatically. Є багато сценаріїв, як pandoc, які можуть конвертувати з вікі синтаксису автоматично, але перетворення вручну, також досить легке
-* Many fancy things we have to do with plugins on the wiki are builtin in markdown, such as SVG images or code syntax highlighting
-* The github interface is as comfortable or even more comfortable than mediawiki to work with. You can work fully from inside the github interface (including image upload, etc) and don't need to careabout git stuff
+* Markdown is [easy, very similar](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to the wiki syntax, plus it is more widespread and easier to convert to other formats (more convertors available) and integrate into other platforms that can do some other tasks automatically. Є багато скриптів, таких як pandoc, які можуть автоматично двонаправлено конвертувати вікі синтаксис, але ручне перетворення є також досить легким
+* Багато фантастичних речей, які ми робимо за допомоою плагінів у вікі є вбудовані в markdown, такі як SVG-зображення або підсвічування синтаксису коду
+* Інтерфейс Github є таким же або навіть більш зручним для роботи, ніж mediawiki. You can work fully from inside the github interface (including image upload, etc) and don't need to careabout git stuff
 * You can also work offline and pull/push like normal git, then you have additional, gorgeous WYSIWYG editors like [typora](https://typora.io) (no more edit/preview windows)
 * The git workflow allows a finer management system: Frequent, trusted contributors can be granted write access, while occasional contributors can make PRs without having to request permission
 * Git solves backup issues: Everybody who clones the repo has a full copy, so the code is duplicated in many locations
