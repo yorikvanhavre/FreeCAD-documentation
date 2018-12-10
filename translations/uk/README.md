@@ -17,8 +17,8 @@
 
 * Markdown is [easy, very similar](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to the wiki syntax, plus it is more widespread and easier to convert to other formats (more convertors available) and integrate into other platforms that can do some other tasks automatically. Є багато скриптів, таких як pandoc, які можуть автоматично двонаправлено конвертувати вікі синтаксис, але ручне перетворення є також досить легким
 * Багато фантастичних речей, які ми робимо за допомоою плагінів у вікі є вбудовані в markdown, такі як SVG-зображення або підсвічування синтаксису коду
-* Інтерфейс Github є таким же або навіть більш зручним для роботи, ніж mediawiki. You can work fully from inside the github interface (including image upload, etc) and don't need to careabout git stuff
-* You can also work offline and pull/push like normal git, then you have additional, gorgeous WYSIWYG editors like [typora](https://typora.io) (no more edit/preview windows)
+* Інтерфейс Github є таким же або навіть більш зручним для роботи, ніж mediawiki. Ви можете працювати повністю зсередини github інтерфейсу (включаючи завантаження зображення і т. д.) і не потрібно піклуватися про git stuff
+* Ви можете також працювати офлайні та pull/push як нормальний git, то у вас є додаткові, чудові WYSIWYG редактори на кшталт [typora](https://typora.io) (більше не потрібно вікон редагування/попереднього перегляду)
 * The git workflow allows a finer management system: Frequent, trusted contributors can be granted write access, while occasional contributors can make PRs without having to request permission
 * Git solves backup issues: Everybody who clones the repo has a full copy, so the code is duplicated in many locations
 * Since it is all file-based, it is very easy to move and reorganize things
@@ -93,7 +93,7 @@ This is how the crowdin interface appears when working with md files:
           General stuff from user hub, mouse model, etc..
         </li>
         <li>
-          Getting started
+          З чого почати
         </li>
         <li>
           Tutorials
@@ -101,17 +101,17 @@ This is how the crowdin interface appears when working with md files:
       </ul>
     </li>
     <li>
-      Workbenches <ul>
+      Робочі простори <ul>
         <li>
-          Each workbench page
+          Сторінка кожного робочого простору
         </li>
         <li>
-          Maybe links to external workbenches too?
+          Можливо, також посилання на сторонні робочі простори?
         </li>
       </ul>
     </li>
     <li>
-      Python scripting <ul>
+      Cтворення скриптів на Python <ul>
         <li>
           All the poweruser hub pages
         </li>
@@ -132,9 +132,9 @@ This is how the crowdin interface appears when working with md files:
       </ul>
     </li>
     <li>
-      Translations <ul>
+      Переклади <ul>
         <li>
-          Copies of the whole doc tree in every language
+          Копії всього дерева документів кожною мовою
         </li>
       </ul>
     </li>
