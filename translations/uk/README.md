@@ -68,15 +68,15 @@ This is how the crowdin interface appears when working with md files:
   </p>
   
   <p>
-    <strong>Quick way to convert:</strong>
+    <strong>Швидкий спосіб конвертації:</strong>
   </p>
   
   <p>
-    1) Go to http://www.freecadweb.org/wiki/Special:Export/Arch_Wall 2) Save the xml on your computer 2) Save all images from the wiki and upload them to github (inside an images subfolder) 3) <code>pandoc --from mediawiki --to markdown Arch_Wall.xml</code> optionally, add <code>--wrap=none</code> 4) Create a new file, paste, fix links
+    1) Перейти за посиланням http://www.freecadweb.org/wiki/Special:Export/Arch_Wall 2) Зберегти файл xml на комп'ютер 2) Зберегти усі зображення з wiki та завантажити їх на github (в підпапці images) 3) <code>pandoc --from mediawiki --to markdown Arch_Wall.xml</code> опціонально, додати <code>--wrap=none</code> 4) Створити новий файл, вставити та виправити посилання
   </p>
   
   <h2>
-    Structure proposal
+    Структурна пропозіція
   </h2>
   
   <p>
@@ -113,21 +113,21 @@ This is how the crowdin interface appears when working with md files:
     <li>
       Cтворення скриптів на Python <ul>
         <li>
-          All the poweruser hub pages
+          Усі сторінки хабу poweruser
         </li>
       </ul>
     </li>
     <li>
-      Development and deployment (python scripting is also development, so... should be some other name) <ul>
+      Розробка та розгортання (написання скриптів на Python також розробка, то ж... має бути якась інша назва) <ul>
         <li>
-          All the pages from developers hub
+          Усі сторінки з хабу розробників
         </li>
       </ul>
     </li>
     <li>
-      Command reference <ul>
+      Командний довідник <ul>
         <li>
-          All the individual command pages classified by prefix (Std, Draft, FEM, etc...)
+          Усі індивідуальні сторінки команд, розсортовані за префіксами (Std, Draft, FEM, та ін.)
         </li>
       </ul>
     </li>
