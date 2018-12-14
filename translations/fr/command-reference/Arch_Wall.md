@@ -20,11 +20,11 @@ Cet outil génère un objet mur à partir de zéro ou de tout autre objet ayant 
 
 Un mur peut subir des additions ou des soustractions. Les additions sont des objets dont les formes sont jointes à la forme du mur; les soustractions suivent le même principe. Les additions et les soustractions peuvent être effectuées avec les outils [Arch Addition](Arch_Add) et [Arch Soustraction](Arch_Remove). Les additions et les soustractions n'ont pas d'influence sur les paramètres du mur tels que la hauteur et l'épaisseur, lesquels peuvent toujours être changés. Un mur peut également avoir une hauteur automatique, si il est inclus dans un objet de niveau supérieur tel qu'un [étage](Arch_Floor "wikilink"). Si la hauteur du mur est fixée à 0, alors le mur héritera de la hauteur spécifiée pour l'objet parent.
 
-When several walls should intersect, you need to place them into a [floor](Arch_Floor "wikilink") to have their geometry intersected.
+Quand plusieurs murs doivent se joindre, il faut les inclure dans un [étage](Arch_Floor "wikilink") pour que leurs géométries fusionnent.
 
-## How to use
+## Comment faire
 
-### Drawing a wall from scratch
+### Généré un mur à partir de zéro
 
 1. Press the **Arch Wall** button, or press **W** then **A** keys
 2. Click a first point on the 3D view, or type a [coordinate](Draft_Coordinates "wikilink")
