@@ -26,7 +26,7 @@ Quand plusieurs murs doivent se joindre, il faut les inclure dans un [étage](Ar
 
 ### Généré un mur à partir de zéro
 
-1. Press the **Arch Wall** button, or press **W** then **A** keys
+1. Cliquez sur l'icône **Mur**, ou tapez successivement les touches **w** puis **a**
 2. Click a first point on the 3D view, or type a [coordinate](Draft_Coordinates "wikilink")
 3. Click a second point on the 3D view, or type a [coordinate](Draft_Coordinates "wikilink")
 
