@@ -1,7 +1,7 @@
-# ![](images/Arch_Wall.svg) Arch Wall
+# ![](images/Arch_Wall.svg) Mur (atelier Architecture)
 
-- Menu location: **Arch → Wall**
-- Workbenches: **Arch**
+- Accès via le menu : **Arch → Mur**
+- Atelier : **Arch**
 - Default shortcut: **W A**
 - See also: [Arch Structure](Arch_Structure)
 
