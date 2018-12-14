@@ -9,7 +9,7 @@
 
 Cet outil génère un objet mur à partir de zéro ou de tout autre objet ayant pour base une [forme](Part_Module) ou [maillage](Mesh_Module). Un mur peut-être généré sans objet de base; dans ce cas il se comporte comme un volume cubique, ayant pour propriétés : longueur, largeur et hauteur. Quand il est généré au-dessus d'un objet existant, un mur peut-être basé sur :
 
-- A **linear 2D object**, such as lines, wires, arcs or sketches, in which case you can change thickness, alignment(right, left or centered) and height. The length property has no effect.
+- Un **objet linéaire 2D** (à 2 dimensions) tel qu'une ligne, un fil, un arc ou une esquisse; auquel cas vous pouvez fixer l'épaisseur, l'alignement (droite, gauche ou centré) et la hauteur. La propriété "longueur" est sans effet.
 - A **flat face**, in which case you can only change the height. Length and width properties have no effect. If the base face is vertical, however, the wall will use the width property instead of height, allowing you to build walls from space-like objects or mass studies.
 - A **solid**, in which case length, width and height properties have no effect. The wall simply uses the underlying solid as its shape.
 - A **mesh**, in which case the underlying mesh must be a closed, manifold solid.
