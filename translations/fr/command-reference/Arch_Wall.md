@@ -12,11 +12,11 @@ Cet outil génère un objet mur à partir de zéro ou de tout autre objet ayant 
 - Un **objet linéaire 2D** (à 2 dimensions) tel qu'une ligne, un fil, un arc ou une esquisse; auquel cas vous pouvez fixer l'épaisseur, l'alignement (droite, gauche ou centré) et la hauteur. La propriété "longueur" est sans effet.
 - Une ** face plane**, au quel cas seule la hauteur est modifiable. Les propriétés "longueur" et "largeur" sont sans effet. Cependant, si la face de base est verticale, la propriété valide est la largeur au lieu de la hauteur. Cela permet la génération de mur à partir d'objet "espace" ou d'étude de masse.
 - Un **solide**, au quel cas aucune dimension n'est réglable. Le mur se base sur le solide sous-jacent comme il se baserait sur une forme.
-- A **mesh**, in which case the underlying mesh must be a closed, manifold solid.
+- Un **maillage**, au quel cas le maillage en question doit être fermé, ou un quelconque solide.
 
 ![](images/Arch_Wall_example.jpg)
 
-*Example of walls built from a line, a wire, a face, a solid and a sketch*
+*Exemple de murs générés à partir d'une ligne, d'un fil, d'une face, d'un solide et d'un croquis*
 
 Walls can also have additions or subtractions. Additions are other objects whose shapes are joined in this Wall's shape, while subtractions are subtracted. Additions and subtractions can be added with the [Arch Add](Arch_Add) and [Arch Remove](Arch_Remove) tools. Additions and subtractions have no influence over wall parameters such as height and width, which can still be changed. Walls can also have their height automatic, if they are included into a higher-level object such as [floors](Arch_Floor "wikilink"). The height must be kept at 0, then the wall will adopt the height specified in the parent object.
 
