@@ -11,7 +11,7 @@ Cet outil génère un objet mur à partir de zéro ou de tout autre objet ayant 
 
 - Un **objet linéaire 2D** (à 2 dimensions) tel qu'une ligne, un fil, un arc ou une esquisse; auquel cas vous pouvez fixer l'épaisseur, l'alignement (droite, gauche ou centré) et la hauteur. La propriété "longueur" est sans effet.
 - Une ** face plane**, au quel cas seule la hauteur est modifiable. Les propriétés "longueur" et "largeur" sont sans effet. Cependant, si la face de base est verticale, la propriété valide est la largeur au lieu de la hauteur. Cela permet la génération de mur à partir d'objet "espace" ou d'étude de masse.
-- A **solid**, in which case length, width and height properties have no effect. The wall simply uses the underlying solid as its shape.
+- Un **solide**, au quel cas aucune dimension n'est réglable. Le mur se base sur le solide sous-jacent comme il se baserait sur une forme.
 - A **mesh**, in which case the underlying mesh must be a closed, manifold solid.
 
 ![](images/Arch_Wall_example.jpg)
