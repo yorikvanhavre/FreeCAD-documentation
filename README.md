@@ -35,7 +35,7 @@ The FreeCAD manual is another, more linear way to present the information contai
 
 
 
-The whole documentation is continuously being translated by users, and is available in several languages. See the contents of the [translations](translations/) folder for available languages.
+The whole documentation is continuously being translated by users on the [crowdin](https://crowdin.com/project/freecad-documentation) platform, and is available in several languages. See the contents of the [translations](translations/) folder for available languages.
 
 
 
