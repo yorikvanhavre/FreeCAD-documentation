@@ -1,0 +1,1 @@
+Dieser Abschnitt enthält die einzelnen Befehle der Hilfe-Seiten
