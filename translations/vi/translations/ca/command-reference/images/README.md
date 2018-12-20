@@ -1,1 +1,1 @@
-Khu vực dành cho tất cả các hình ảnh từ các trang về tham chiếu câu lệnh
+Un lloc per a totes les imatges de les pàgines de referència de comandaments
