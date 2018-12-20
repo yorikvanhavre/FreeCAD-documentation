@@ -1,1 +1,1 @@
-To miejsce dla wszystkich zdjęć ze stron dokumentacji poleceń
+Platz für alle Bilder von den Befehlsreferenzseiten
