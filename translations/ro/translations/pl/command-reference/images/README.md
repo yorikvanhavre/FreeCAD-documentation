@@ -1,1 +1,1 @@
-Un loc pentru toate imaginile din paginile de referinţă pentru comenzi
+To miejsce dla wszystkich zdjęć ze stron dokumentacji poleceń
