@@ -12,13 +12,13 @@ FreeCAD utilise massivement les principales bibliothèques open source existant 
 
 FreeCAD est [aussi multi-plateforme](http://en.wikipedia.org/wiki/Cross-platform) et fonctionne sans problème sur Windows, linux/Unix et Mac OSX avec exactement la même interface et les même fonctionnalités.
 
-For more information about FreeCAD's capabilities, take a look at the [Feature list], the [latest release notes] or the [Getting started] pages, or see more [screenshots].
+Pour plus d'informations sur les fonctionnalités de FreeCAD, vous pouvez regarder la [Feature list], les [last release notes] ou le [Getting started]. Des [screenshots] sont aussi disponibles.
 
-## About the FreeCAD project
+## À propos du projet FreeCAD
 
-The FreeCAD project was started as far as 2001, as described in its [history] page.
+Le projet FreeCAD à commencé en 2001, comme expliqué sur la page [history].
 
-FreeCAD is maintained and developed by a community of enthusiastic developers and users (see the [contributors] page). They work on FreeCAD voluntarily, in their free time. They cannot guarantee that FreeCAD contains or will contain everything you might wish, but they will usually do their best! The community gathers on the [FreeCAD forum](https://forum.freecadweb.org), where most of the ideas and decisions are discussed. Feel free to join us there!
+FreeCAD est developpé et maintenu par une communauté de développeurs et d'utilisateurs enthousiastes ( voir la page [contributors]). Ils contribuent à FreeCAD bénévolement, sur leur temps libre. Ils ne peuvent garantir que FreeCAD contient ou contiendratous ce que vous pouvez vouloir, mais ils font de leur mieux ! La communauté se trouve sur le [forum FreeCAD](https://forum.freecadweb.org), ou la majorité des idées et décisions sont prises. Tu es bienvenue !
 
 ![alt1](https://raw.github.com/yorikvanhavre/FreeCAD-documentation/master/user-documentation/images/FreeCAD.svg?sanitize=true)
 
