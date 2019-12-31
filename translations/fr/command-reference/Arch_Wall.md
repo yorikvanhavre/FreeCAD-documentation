@@ -27,14 +27,14 @@ Quand plusieurs murs doivent se joindre, il faut les inclure dans un [étage](Ar
 ### Généré un mur à partir de zéro
 
 1. Cliquez sur l'icône **Mur**, ou tapez successivement les touches **w** puis **a**
-2. Click a first point on the 3D view, or type a [coordinate](Draft_Coordinates "wikilink")
-3. Click a second point on the 3D view, or type a [coordinate](Draft_Coordinates "wikilink")
+2. Cliquez sur un premier point de la vue 3D ou saisissez une [coordonnée](Draft_Coordinates "wikilink")
+3. Cliquez sur un deuxième point de la vue 3D ou saisissez une [coordonnée](Draft_Coordinates "wikilink")
 
-### Drawing a wall on top of a selected object
+### Dessiner un mur au-dessus d'un objet sélectionné
 
-1. Select one or more base geometry objects (Draft object, sketch, etc)
-2. Press the **Arch Wall** button, or press the **W** then **A** keys
-3. Adjust needed properties such as height or width.
+1. Sélectionnez un ou plusieurs objets de géométrie de base (objet brouillon, esquisse, etc.)
+2. Appuyez sur la touche ** Arch Wall **, ou appuyez sur les touches ** W ** puis ** A **
+3. Ajustez les propriétés nécessaires telles que la hauteur ou la largeur.
 
 ## Options
 
