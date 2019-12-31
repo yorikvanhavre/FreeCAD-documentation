@@ -1,11 +1,11 @@
-# ![](images/Arch_Wall.svg) Arco na Parede
+# ![](images/Arch_Wall.svg) Arch Wall
 
-- Localização de menu: **Arco→ Parede**
-- Bancadas: **Arch**
-- Atalho padrão: **W A**
-- Veja também: [Estrutura de arco](Arch_Structure)
+- Menu location: **Arch → Wall**
+- Workbenches: **Arch**
+- Default shortcut: **W A**
+- See also: [Arch Structure](Arch_Structure)
 
-## Descrição
+## Description
 
 This tool builds a Wall object from scratch or on top of any other [shape](Part_Module)-based or [mesh](Mesh_Module)-based object. A wall can be built without any base object, in which case it behaves as a cubic volume, using length, width and height properties. When built on top of an existing shape, a wall can be based on:
 
