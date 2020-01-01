@@ -66,19 +66,19 @@ Les objets de mur héritent des propriétés des objets [ Part ](Part_Module "wi
 - ** Forcer le fil **: si la valeur est Vraie et que le mur est basé sur une face, seul le fil de bordure de la face est utilisé, ce qui donne un mur bordant la face
 - ** Longueur **: La longueur du mur (non utilisé lorsque le mur est basé sur un objet)
 - ** Largeur **: La largeur du mur (non utilisée lorsque le mur est basé sur une face)
-- ** Hauteur **: La hauteur du mur (non utilisée lorsque le mur est basé sur un solide). If no height is given, and the wall is inside a [floor](Arch_Floor "wikilink") object with its height defined, the wall will automatically take the value of the floor height.
-- **Normal** : An extrusion direction for the wall. If set to (0,0,0), the extrusion direction is automatic.
-- **Offset** : This specifies the distance between the wall and its baseline. Works only if the Align property is set to Right or Left.
+- ** Hauteur **: La hauteur du mur (non utilisée lorsque le mur est basé sur un solide). Si aucune hauteur n'est indiquée et que le mur se trouve à l'intérieur d'un objet [ étage ](Arch_Floor "wikilink") avec sa hauteur définie, le mur prendra automatiquement la valeur de la hauteur du sol.
+- ** Normal **: Une direction d'extrusion pour le mur. Si elle est définie sur (0,0,0), la direction d'extrusion est automatique.
+- ** Décalage **: Ceci spécifie la distance entre le mur et sa ligne de base. Fonctionne uniquement si la propriété Align est définie sur Droite ou Gauche.
 
 ## Scripting
 
-The Wall tool can by used in [macros](macros "wikilink") and from the python console by using the following function:
+L'outil Mur peut être utilisé dans les [macros](macros "wikilink") et à partir de la console python en utilisant la fonction suivante:
 
     makeWall ( [obj],[length],[width],[height],[align],[face],[name] ) 
     
 
-- Creates a wall based on the given object, which can be a sketch, a draft object, a face or a solid. align can be "Center","Left" or "Right". If you provide no base object, then you can use numeric values for length, width and height. Face can be used to give the index of a face from the underlying object, to build this wall on, instead of using the whole object.
-- Returns the created wall, or None if the operation failed.
+- Crée un mur basé sur l'objet donné, qui peut être une esquisse, un objet dépouillé, une face ou un solide. align peut être "Center", "Left" ou "Right". Si vous ne fournissez aucun objet de base, vous pouvez utiliser des valeurs numériques pour la longueur, la largeur et la hauteur. La face peut être utilisée pour donner l'index d'une face à partir de l'objet sous-jacent, pour construire ce mur, au lieu d'utiliser l'objet entier.
+- Renvoie le mur créé ou Aucun si l'opération a échoué.
 
 Example:
 
