@@ -52,21 +52,21 @@ Quand plusieurs murs doivent se joindre, il faut les inclure dans un [étage](Ar
 
 ## Accrochage
 
-L'accrochage fonctionne un peu différemment avec les murs d'Arch que les autres objets d'Arch et Draft. If a wall has a baseline object, snapping will anchor to the base object, instead of the wall geometry, allowing to easily align walls by their baseline. If, however, you specifically want to snap to the wall geometry, pressing **CTRL** will switch snapping to the wall object.
+L'accrochage fonctionne un peu différemment avec les murs d'Arch que les autres objets d'Arch et Draft. Si un mur a un objet de ligne de base, l'accrochage sera ancré à l'objet de base, au lieu de la géométrie du mur, permettant d'aligner facilement les murs par leur ligne de base. Si, toutefois, vous souhaitez spécifiquement vous accrocher à la géométrie du mur, appuyez sur ** CTRL ** pour basculer l'accrochage sur l'objet mur.
 
 ![](images/Arch_wall_snap.jpg)
 
-## Properties
+## Propriétés
 
-Wall objects inherit the properties of [Part](Part_Module "wikilink") objects, and also have the following extra properties:
+Les objets de mur héritent des propriétés des objets [ Part ](Part_Module "wikilink") et ont également les propriétés suivantes et supplémentaires:
 
-- **Align** : The alignment of the wall on its baseline: Left, right or center
-- **Bas** : The base object this wall is built on
-- **Face** : The index of the face from the base object to use. If the value is not set or 0, the whole object is used
-- **Force Wire** : If True, and the wall is based on a face, only the border wire of the face is used, resulting in a wall bordering the face
-- **Length** : The length of the wall (not used when the wall is based on an object)
-- **Width** : The width of the wall (not used when the wall is based on a face)
-- **Height** : The height of the wall (not used when the wall is based on a solid). If no height is given, and the wall is inside a [floor](Arch_Floor "wikilink") object with its height defined, the wall will automatically take the value of the floor height.
+- ** Aligner **: l'alignement du mur sur sa ligne de base: gauche, droite ou centre
+- ** Bas **: l'objet de base sur lequel ce mur est construit
+- ** Face **: L'index de la face de l'objet de base à utiliser. Si la valeur n'est pas définie ou 0, l'objet entier est utilisé
+- ** Forcer le fil **: si la valeur est Vraie et que le mur est basé sur une face, seul le fil de bordure de la face est utilisé, ce qui donne un mur bordant la face
+- ** Longueur **: La longueur du mur (non utilisé lorsque le mur est basé sur un objet)
+- ** Largeur **: La largeur du mur (non utilisée lorsque le mur est basé sur une face)
+- ** Hauteur **: La hauteur du mur (non utilisée lorsque le mur est basé sur un solide). If no height is given, and the wall is inside a [floor](Arch_Floor "wikilink") object with its height defined, the wall will automatically take the value of the floor height.
 - **Normal** : An extrusion direction for the wall. If set to (0,0,0), the extrusion direction is automatic.
 - **Offset** : This specifies the distance between the wall and its baseline. Works only if the Align property is set to Right or Left.
 
