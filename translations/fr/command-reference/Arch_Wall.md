@@ -38,7 +38,7 @@ Quand plusieurs murs doivent se joindre, il faut les inclure dans un [étage](Ar
 
 ## Options
 
-- Walls share the common properties and behaviours of all [Arch Components](Arch_Component "wikilink")
+- Les murs partagent les propriétés et comportements communs aux [ composants d'Arch ](Arch_Component "wikilink")
 - The height, width and alignment of a wall can be set during drawing, via the task panel
 - When snapping a wall to an existing wall, both walls will be joined into one. The way the two walls are joined depends on their properties: If they have the same width, height and alignment, and if the option "join base sketches" is enabled in the Arch preferences, the resulting wall will be one object based on a sketch made of several segments. Otherwise, the latter wall will be added to the first one as addition.
 - Press , or after the first point to constrain the second point on the given axis.
