@@ -39,11 +39,11 @@ Quand plusieurs murs doivent se joindre, il faut les inclure dans un [étage](Ar
 ## Options
 
 - Les murs partagent les propriétés et comportements communs aux [ composants d'Arch ](Arch_Component "wikilink")
-- The height, width and alignment of a wall can be set during drawing, via the task panel
-- When snapping a wall to an existing wall, both walls will be joined into one. The way the two walls are joined depends on their properties: If they have the same width, height and alignment, and if the option "join base sketches" is enabled in the Arch preferences, the resulting wall will be one object based on a sketch made of several segments. Otherwise, the latter wall will be added to the first one as addition.
-- Press , or after the first point to constrain the second point on the given axis.
-- To enter coordinates manually, simply enter the numbers, then press between each X, Y and Z component.
-- Press or click the checkbox to check/uncheck the **Relative** button. If relative mode is on, the coordinates of the second point are relative to the first one. If not, they are absolute, taken from the (0,0,0) origin point.
+- La hauteur, la largeur et l'alignement d'un mur peuvent être définis lors du dessin, via le panneau des tâches
+- Lorsque vous accrochez un mur à un mur existant, les deux murs seront joints en un seul. La façon dont les deux murs sont joints dépend de leurs propriétés: s'ils ont la même largeur, la même hauteur et le même alignement, et si l'option "joindre les esquisses de base" est activée dans les préférences d'Arch, le mur résultant sera un objet basé sur une esquisse composé de plusieurs segments. Sinon, ce dernier mur sera ajouté au premier comme ajout.
+- Appuyez sur ou après le premier point pour contraindre le deuxième point sur l'axe donné.
+- Pour entrer les coordonnées manuellement, entrez simplement les chiffres, puis appuyez sur entre chaque composante X, Y et Z.
+- Appuyez ou cliquez sur la case à cocher pour cocher / décocher le bouton ** Relatif **. Si le mode relatif est activé, les coordonnées du deuxième point sont relatives au premier. Sinon, ils sont absolus, tirés du point d'origine (0,0,0).
 - Press while drawing to [constrain](Draft_Constrain "wikilink") your second point horizontally or vertically in relation to the first one.
 - Press or the **Cancel** button to abort the current command.
 - Double-clicking on the wall in the tree view after it is created allows you to enter edit mode and access and modify its additions and subtractions
