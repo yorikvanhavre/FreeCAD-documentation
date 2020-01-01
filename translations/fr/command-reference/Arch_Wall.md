@@ -44,15 +44,15 @@ Quand plusieurs murs doivent se joindre, il faut les inclure dans un [étage](Ar
 - Appuyez sur ou après le premier point pour contraindre le deuxième point sur l'axe donné.
 - Pour entrer les coordonnées manuellement, entrez simplement les chiffres, puis appuyez sur entre chaque composante X, Y et Z.
 - Appuyez ou cliquez sur la case à cocher pour cocher / décocher le bouton ** Relatif **. Si le mode relatif est activé, les coordonnées du deuxième point sont relatives au premier. Sinon, ils sont absolus, tirés du point d'origine (0,0,0).
-- Press while drawing to [constrain](Draft_Constrain "wikilink") your second point horizontally or vertically in relation to the first one.
-- Press or the **Cancel** button to abort the current command.
-- Double-clicking on the wall in the tree view after it is created allows you to enter edit mode and access and modify its additions and subtractions
-- Multi-layer walls can be easily created by building several walls from the same baseline. By setting their Align property to either left or right, and specifying an Offset value, you can effectively construct several wall layers. Placing a window in such a wall layer will propagate the opening to the other wall layers based on the same baseline.
-- Walls can also make use of [Multi-Materials](Arch_MultiMaterial "wikilink"). When using a multi-material, the wall will become multi-layer, using the thicknesses specified by the multi-material. Any layer with a thickness of zero will have its thickness defined automatically by the remaining space defined by the Wall's Width value, after subtracting the other layers.
+- Appuyez tout en dessinant sur [ contrainte ](Draft_Constrain "wikilink") votre deuxième point horizontalement ou verticalement par rapport au premier.
+- Appuyez sur ou sur le bouton ** Annuler ** pour annuler la commande en cours.
+- Un double-clic sur le mur dans l'arborescence après sa création vous permet de passer en mode édition et d'accéder et de modifier ses ajouts et soustractions
+- Les murs multicouches peuvent être facilement créés en construisant plusieurs murs à partir de la même ligne de base. En définissant leur propriété Alignée à gauche ou à droite et en spécifiant une valeur de décalage, vous pouvez efficacement construire plusieurs couches de murs. Placer une fenêtre dans une telle couche de mur propage l'ouverture aux autres couches de mur en fonction de la même ligne de base.
+- Les murs peuvent également utiliser [ Multi-matériaux ](Arch_MultiMaterial "wikilink"). Lors de l'utilisation d'un multi-matériau, le mur deviendra multi-couche, en utilisant les épaisseurs spécifiées par le multi-matériau. Tout calque d'épaisseur nulle aura son épaisseur définie automatiquement par l'espace restant défini par la valeur de largeur du mur, après soustraction des autres calques.
 
-## Snapping
+## Accrochage
 
-Snapping works a bit differently with Arch walls than other Arch and Draft objects. If a wall has a baseline object, snapping will anchor to the base object, instead of the wall geometry, allowing to easily align walls by their baseline. If, however, you specifically want to snap to the wall geometry, pressing **CTRL** will switch snapping to the wall object.
+L'accrochage fonctionne un peu différemment avec les murs d'Arch que les autres objets d'Arch et Draft. If a wall has a baseline object, snapping will anchor to the base object, instead of the wall geometry, allowing to easily align walls by their baseline. If, however, you specifically want to snap to the wall geometry, pressing **CTRL** will switch snapping to the wall object.
 
 ![](images/Arch_wall_snap.jpg)
 
