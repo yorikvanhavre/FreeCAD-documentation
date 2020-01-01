@@ -1,1 +1,1 @@
-This section contains all the individual command help pages
+Cette section contient toutes les pages d'aide des commandes individuelles
