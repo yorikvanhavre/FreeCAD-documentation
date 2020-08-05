@@ -9,8 +9,8 @@
 
 Этот инструмент создает объект "Стена" с нуля или поверх любого другого объекта на основе формы [shape](Part_Module) или сетки [mesh](Mesh_Module). Стена может быть построена без базового объекта, в этом случае она ведет себя как объем, заданный через длину, ширину и высоту. При построении поверх существующей фигуры стена может базироваться на:
 
-- A **linear 2D object**, such as lines, wires, arcs or sketches, in which case you can change thickness, alignment(right, left or centered) and height. The length property has no effect.
-- A **flat face**, in which case you can only change the height. Length and width properties have no effect. If the base face is vertical, however, the wall will use the width property instead of height, allowing you to build walls from space-like objects or mass studies.
+- Линейном 2D объекте **linear 2D object**, таком как линии, ломаные линии, дуги или эскизы, в этом случае вы можете изменить толщину, выравнивание (справа, слева или по центру) и высоту. Длина не имеет значения.
+- Плоской грани **flat face**, в этом случае можно изменить только высоту. Длина и ширина не имеют значения. If the base face is vertical, however, the wall will use the width property instead of height, allowing you to build walls from space-like objects or mass studies.
 - A **solid**, in which case length, width and height properties have no effect. The wall simply uses the underlying solid as its shape.
 - A **mesh**, in which case the underlying mesh must be a closed, manifold solid.
 
