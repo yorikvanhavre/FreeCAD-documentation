@@ -5,7 +5,7 @@
 - Default shortcut: **W A**
 - See also: [Arch Structure](Arch_Structure)
 
-## Description
+## Описание
 
 This tool builds a Wall object from scratch or on top of any other [shape](Part_Module)-based or [mesh](Mesh_Module)-based object. A wall can be built without any base object, in which case it behaves as a cubic volume, using length, width and height properties. When built on top of an existing shape, a wall can be based on:
 
@@ -16,13 +16,13 @@ This tool builds a Wall object from scratch or on top of any other [shape](Part_
 
 ![](images/Arch_Wall_example.jpg)
 
-*Example of walls built from a line, a wire, a face, a solid and a sketch*
+*Пример стен, построенных из линии, арматуры, грани, тела и эскиза*
 
 Walls can also have additions or subtractions. Additions are other objects whose shapes are joined in this Wall's shape, while subtractions are subtracted. Additions and subtractions can be added with the [Arch Add](Arch_Add) and [Arch Remove](Arch_Remove) tools. Additions and subtractions have no influence over wall parameters such as height and width, which can still be changed. Walls can also have their height automatic, if they are included into a higher-level object such as [floors](Arch_Floor "wikilink"). The height must be kept at 0, then the wall will adopt the height specified in the parent object.
 
 When several walls should intersect, you need to place them into a [floor](Arch_Floor "wikilink") to have their geometry intersected.
 
-## How to use
+## Как использовать
 
 ### Drawing a wall from scratch
 
@@ -36,7 +36,7 @@ When several walls should intersect, you need to place them into a [floor](Arch_
 2. Press the **Arch Wall** button, or press the **W** then **A** keys
 3. Adjust needed properties such as height or width.
 
-## Options
+## Параметры
 
 - Walls share the common properties and behaviours of all [Arch Components](Arch_Component "wikilink")
 - The height, width and alignment of a wall can be set during drawing, via the task panel
@@ -50,13 +50,13 @@ When several walls should intersect, you need to place them into a [floor](Arch_
 - Multi-layer walls can be easily created by building several walls from the same baseline. By setting their Align property to either left or right, and specifying an Offset value, you can effectively construct several wall layers. Placing a window in such a wall layer will propagate the opening to the other wall layers based on the same baseline.
 - Walls can also make use of [Multi-Materials](Arch_MultiMaterial "wikilink"). When using a multi-material, the wall will become multi-layer, using the thicknesses specified by the multi-material. Any layer with a thickness of zero will have its thickness defined automatically by the remaining space defined by the Wall's Width value, after subtracting the other layers.
 
-## Snapping
+## Привязка
 
 Snapping works a bit differently with Arch walls than other Arch and Draft objects. If a wall has a baseline object, snapping will anchor to the base object, instead of the wall geometry, allowing to easily align walls by their baseline. If, however, you specifically want to snap to the wall geometry, pressing **CTRL** will switch snapping to the wall object.
 
 ![](images/Arch_wall_snap.jpg)
 
-## Properties
+## Свойства
 
 Wall objects inherit the properties of [Part](Part_Module "wikilink") objects, and also have the following extra properties:
 
@@ -70,7 +70,7 @@ Wall objects inherit the properties of [Part](Part_Module "wikilink") objects, a
 - **Normal** : An extrusion direction for the wall. If set to (0,0,0), the extrusion direction is automatic.
 - **Offset** : This specifies the distance between the wall and its baseline. Works only if the Align property is set to Right or Left.
 
-## Scripting
+## Скрипты
 
 The Wall tool can by used in [macros](macros "wikilink") and from the python console by using the following function:
 
@@ -80,7 +80,7 @@ The Wall tool can by used in [macros](macros "wikilink") and from the python con
 - Creates a wall based on the given object, which can be a sketch, a draft object, a face or a solid. align can be "Center","Left" or "Right". If you provide no base object, then you can use numeric values for length, width and height. Face can be used to give the index of a face from the underlying object, to build this wall on, instead of using the whole object.
 - Returns the created wall, or None if the operation failed.
 
-Example:
+Примеры:
 
     import FreeCAD, Draft, Arch
     baseline = Draft.makeLine(FreeCAD.Vector(0,0,0),FreeCAD.Vector(2,0,0))
