@@ -1,13 +1,13 @@
 # ![](images/Arch_Wall.svg) Arch Wall
 
-- Menu location: **Arch → Wall**
-- Workbenches: **Arch**
-- Default shortcut: **W A**
-- See also: [Arch Structure](Arch_Structure)
+- Расположение меню: **Arch → Wall**
+- Верстаки: **Arch**
+- Быстрые клавиши: **W A**
+- Смотрите также: [Arch Structure](Arch_Structure)
 
 ## Описание
 
-This tool builds a Wall object from scratch or on top of any other [shape](Part_Module)-based or [mesh](Mesh_Module)-based object. A wall can be built without any base object, in which case it behaves as a cubic volume, using length, width and height properties. When built on top of an existing shape, a wall can be based on:
+Этот инструмент создает объект "Стена" с нуля или поверх любого другого объекта на основе формы [shape](Part_Module) или сетки [mesh](Mesh_Module). Стена может быть построена без базового объекта, в этом случае она ведет себя как объем, заданный через длину, ширину и высоту. При построении поверх существующей фигуры стена может базироваться на:
 
 - A **linear 2D object**, such as lines, wires, arcs or sketches, in which case you can change thickness, alignment(right, left or centered) and height. The length property has no effect.
 - A **flat face**, in which case you can only change the height. Length and width properties have no effect. If the base face is vertical, however, the wall will use the width property instead of height, allowing you to build walls from space-like objects or mass studies.
@@ -16,7 +16,7 @@ This tool builds a Wall object from scratch or on top of any other [shape](Part_
 
 ![](images/Arch_Wall_example.jpg)
 
-*Пример стен, построенных из линии, арматуры, грани, тела и эскиза*
+*Пример стен, построенных из прямой линии, ломаной линии, грани, тела и эскиза*
 
 Walls can also have additions or subtractions. Additions are other objects whose shapes are joined in this Wall's shape, while subtractions are subtracted. Additions and subtractions can be added with the [Arch Add](Arch_Add) and [Arch Remove](Arch_Remove) tools. Additions and subtractions have no influence over wall parameters such as height and width, which can still be changed. Walls can also have their height automatic, if they are included into a higher-level object such as [floors](Arch_Floor "wikilink"). The height must be kept at 0, then the wall will adopt the height specified in the parent object.
 
