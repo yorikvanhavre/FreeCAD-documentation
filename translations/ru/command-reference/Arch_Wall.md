@@ -43,12 +43,12 @@
 - При привязке стены к существующей стене, обе стены соединяются в одну. Способ соединения двух стен зависит от их свойств: если они имеют одинаковую ширину, высоту и выравнивание, и если в настройках верстака "Arch" включена опция "Присоединить базовые эскизы (join base sketches)", то результирующая стена будет представлять собой один объект на основе эскиза, состоящего из нескольких сегментов. В противном случае последняя стена будет добавлена к первой в качестве дополнения.
 - Нажмите , после первой точки, чтобы ограничить вторую точку на данной оси.
 - Чтобы ввести координаты вручную, просто введите цифры, а затем нажмите между каждым компонентом X, Y и Z.
-- Нажмите или кликните на флажок, чтобы установить/снять отметку с кнопки Относительно **Relative**. If relative mode is on, the coordinates of the second point are relative to the first one. If not, they are absolute, taken from the (0,0,0) origin point.
-- Press while drawing to [constrain](Draft_Constrain "wikilink") your second point horizontally or vertically in relation to the first one.
-- Press or the **Cancel** button to abort the current command.
-- Double-clicking on the wall in the tree view after it is created allows you to enter edit mode and access and modify its additions and subtractions
-- Multi-layer walls can be easily created by building several walls from the same baseline. By setting their Align property to either left or right, and specifying an Offset value, you can effectively construct several wall layers. Placing a window in such a wall layer will propagate the opening to the other wall layers based on the same baseline.
-- Walls can also make use of [Multi-Materials](Arch_MultiMaterial "wikilink"). When using a multi-material, the wall will become multi-layer, using the thicknesses specified by the multi-material. Any layer with a thickness of zero will have its thickness defined automatically by the remaining space defined by the Wall's Width value, after subtracting the other layers.
+- Нажмите или кликните на флажок, чтобы установить/снять отметку с кнопки Относительно **Relative**. Если включен относительный режим, координаты второй точки отсчитываются относительно первой. В противном случае они являются абсолютными, взятыми из исходной точки (0,0,0).
+- Нажмите во время рисования [constrain](Draft_Constrain "wikilink"), чтобы ограничить вторую точку по горизонтали или вертикали относительно первой.
+- Нажмите кнопку Отмена **Cancel**, чтобы прервать выполнение текущей команды.
+- Двойной щелчок по стене в дереве проекта после ее создания позволяет войти в режим редактирования и получить доступ к ней и изменить ее добавления и вычитания
+- Многослойные стены можно легко создать, построив несколько стен из одной базовой линии. Манипулируя их свойством "Выравнивание" со значениями "Влево" или "Вправо" и задавая "Смещение" можно эффективно построить несколько слоев стен. Размещение окна в таком слое стены приведет к распространению проема на другие слои стены на основе той же базовой линии.
+- Стены также могут использовать мультиматериалы [Multi-Materials](Arch_MultiMaterial "wikilink"). При использовании мультиматериала стена становится многослойной, используя толщины, заданные мультиматериалом. Any layer with a thickness of zero will have its thickness defined automatically by the remaining space defined by the Wall's Width value, after subtracting the other layers.
 
 ## Привязка
 
