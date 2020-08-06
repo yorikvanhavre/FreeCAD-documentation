@@ -68,17 +68,17 @@
 - **Width** : Ширина стены (не используется, если стена основана на грани)
 - **Height** : Высота стены (не используется, когда стена основана на теле). Если высота не задана и стена находится внутри объекта [floor](Arch_Floor "wikilink") с определенной высотой, стена автоматически принимает значение высоты пола.
 - **Normal** : Направление выдавливания для стены. Если установлено значение (0,0,0), направление выдавливания автоматическое.
-- **Offset** : Это указывает расстояние между стеной и ее базовой линией. Works only if the Align property is set to Right or Left.
+- **Offset** : Это указывает расстояние между стеной и ее базовой линией. Срабатывает, только если для свойства "Выровнять" задано значение "Вправо" или "Влево".
 
 ## Скрипты
 
-The Wall tool can by used in [macros](macros "wikilink") and from the python console by using the following function:
+Инструмент Стена можно использовать в [макросах](macros "wikilink") и из консоли Python, используя следующую функцию:
 
     makeWall ( [obj],[length],[width],[height],[align],[face],[name] ) 
     
 
-- Creates a wall based on the given object, which can be a sketch, a draft object, a face or a solid. align can be "Center","Left" or "Right". If you provide no base object, then you can use numeric values for length, width and height. Face can be used to give the index of a face from the underlying object, to build this wall on, instead of using the whole object.
-- Returns the created wall, or None if the operation failed.
+- Создает стену на основе данного объекта, который может быть эскизом, черновиком, гранью или телом. Выравнивание может быть "Центр", "Лево" или "Право". Если нет базового объекта, то можно использовать числовые значения длины, ширины и высоты. Грань можно использовать для задания индекса грани из нижележащего объекта, для построения этой стены вместо использования всего объекта.
+- Возвращает созданную стену или значение "Нет" в случае сбоя операции.
 
 Примеры:
 
