@@ -62,13 +62,13 @@
 
 - **Align** : Выравнивание стены по ее основной линии: слева, справа или по центру
 - **Bas** : Базовый объект, на котором построена эта стена
-- **Face** : The index of the face from the base object to use. If the value is not set or 0, the whole object is used
-- **Force Wire** : If True, and the wall is based on a face, only the border wire of the face is used, resulting in a wall bordering the face
-- **Length** : The length of the wall (not used when the wall is based on an object)
-- **Width** : The width of the wall (not used when the wall is based on a face)
-- **Height** : The height of the wall (not used when the wall is based on a solid). If no height is given, and the wall is inside a [floor](Arch_Floor "wikilink") object with its height defined, the wall will automatically take the value of the floor height.
-- **Normal** : An extrusion direction for the wall. If set to (0,0,0), the extrusion direction is automatic.
-- **Offset** : This specifies the distance between the wall and its baseline. Works only if the Align property is set to Right or Left.
+- **Face** : Индекс грани из базового объекта для дальнейшего наследования. Если значение не задано или ноль, используется весь объект
+- **Force Wire** : Если значение равно True, и стена основана на грани, используется только граничная линия грани, в результате чего стена граничит с гранью
+- **Length** : Длина стены (не используется, когда стена основана на объекте)
+- **Width** : Ширина стены (не используется, если стена основана на грани)
+- **Height** : Высота стены (не используется, когда стена основана на теле). Если высота не задана и стена находится внутри объекта [floor](Arch_Floor "wikilink") с определенной высотой, стена автоматически принимает значение высоты пола.
+- **Normal** : Направление выдавливания для стены. Если установлено значение (0,0,0), направление выдавливания автоматическое.
+- **Offset** : Это указывает расстояние между стеной и ее базовой линией. Works only if the Align property is set to Right or Left.
 
 ## Скрипты
 
