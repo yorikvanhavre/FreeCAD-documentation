@@ -24,13 +24,13 @@
 
 ## Как использовать
 
-### Drawing a wall from scratch
+### Рисование стены с нуля
 
-1. Press the **Arch Wall** button, or press **W** then **A** keys
-2. Click a first point on the 3D view, or type a [coordinate](Draft_Coordinates "wikilink")
-3. Click a second point on the 3D view, or type a [coordinate](Draft_Coordinates "wikilink")
+1. Выберете **Arch Wall** или нажмите клавишу **W** затем **A**
+2. Щелкните первую точку на виде 3D или введите координату [coordinate](Draft_Coordinates "wikilink")
+3. Щелкните вторую точку на виде 3D или введите координату [coordinate](Draft_Coordinates "wikilink")
 
-### Drawing a wall on top of a selected object
+### Построение стены поверх выбранного объекта
 
 1. Select one or more base geometry objects (Draft object, sketch, etc)
 2. Press the **Arch Wall** button, or press the **W** then **A** keys
