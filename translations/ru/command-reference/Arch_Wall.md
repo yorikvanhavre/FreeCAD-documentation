@@ -18,9 +18,9 @@
 
 *Пример стен, построенных из прямой линии, ломаной линии, грани, тела и эскиза*
 
-Walls can also have additions or subtractions. Additions are other objects whose shapes are joined in this Wall's shape, while subtractions are subtracted. Additions and subtractions can be added with the [Arch Add](Arch_Add) and [Arch Remove](Arch_Remove) tools. Additions and subtractions have no influence over wall parameters such as height and width, which can still be changed. Walls can also have their height automatic, if they are included into a higher-level object such as [floors](Arch_Floor "wikilink"). The height must be kept at 0, then the wall will adopt the height specified in the parent object.
+Стены также могут иметь добавления или вычитания. Добавления - это другие объекты, формы которых объединяются с формой этой стены, а вычитания вычитаются. Добавления и вычитания можно добавлять с помощью инструментов [Arch Add](Arch_Add) и [Arch Remove](Arch_Remove). Добавления и вычитания не влияют на такие параметры стены, как высота и ширина, которые все еще могут быть изменены. Высота стен также может быть выставлена автоматически, если они включены в объект более высокого уровня, например этажи [floors](Arch_Floor "wikilink"). Высота должна быть равна 0, тогда стена примет высоту, указанную в родительском объекте.
 
-When several walls should intersect, you need to place them into a [floor](Arch_Floor "wikilink") to have their geometry intersected.
+Когда несколько стен должны пересекаться, вам нужно поместить их на пол [floor](Arch_Floor "wikilink"), чтобы их геометрия пересеклась.
 
 ## Как использовать
 
