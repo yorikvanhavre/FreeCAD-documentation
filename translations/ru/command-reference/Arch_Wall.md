@@ -1,4 +1,4 @@
-# ![](images/Arch_Wall.svg) Arch Wall
+# ![](images/Arch_Wall.svg) Arch Стена
 
 - Расположение меню: **Arch → Wall**
 - Верстаки: **Arch**
