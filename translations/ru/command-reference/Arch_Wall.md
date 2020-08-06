@@ -1,4 +1,4 @@
-# ![](images/Arch_Wall.svg) Arch Стена
+# ![](images/Arch_Wall.svg) Arch Wall
 
 - Расположение меню: **Arch → Wall**
 - Верстаки: **Arch**
@@ -32,9 +32,9 @@
 
 ### Построение стены поверх выбранного объекта
 
-1. Select one or more base geometry objects (Draft object, sketch, etc)
-2. Press the **Arch Wall** button, or press the **W** then **A** keys
-3. Adjust needed properties such as height or width.
+1. Выберите один или несколько объектов базовой геометрии (черновик, эскиз и т. д.)
+2. Выберете **Arch Wall** или нажмите клавишу **W** затем **A**
+3. Настройте необходимые свойства, такие как высота или ширина.
 
 ## Параметры
 
