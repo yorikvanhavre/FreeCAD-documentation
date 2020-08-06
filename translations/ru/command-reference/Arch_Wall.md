@@ -38,12 +38,12 @@
 
 ## Параметры
 
-- Walls share the common properties and behaviours of all [Arch Components](Arch_Component "wikilink")
-- The height, width and alignment of a wall can be set during drawing, via the task panel
-- When snapping a wall to an existing wall, both walls will be joined into one. The way the two walls are joined depends on their properties: If they have the same width, height and alignment, and if the option "join base sketches" is enabled in the Arch preferences, the resulting wall will be one object based on a sketch made of several segments. Otherwise, the latter wall will be added to the first one as addition.
-- Press , or after the first point to constrain the second point on the given axis.
-- To enter coordinates manually, simply enter the numbers, then press between each X, Y and Z component.
-- Press or click the checkbox to check/uncheck the **Relative** button. If relative mode is on, the coordinates of the second point are relative to the first one. If not, they are absolute, taken from the (0,0,0) origin point.
+- Стены имеют общие свойства и поведение всех архитектурных компонентов [Arch Components](Arch_Component "wikilink")
+- Высоту, ширину и выравнивание стены можно задать во время рисования через панели задач
+- При привязке стены к существующей стене, обе стены соединяются в одну. Способ соединения двух стен зависит от их свойств: если они имеют одинаковую ширину, высоту и выравнивание, и если в настройках верстака "Arch" включена опция "Присоединить базовые эскизы (join base sketches)", то результирующая стена будет представлять собой один объект на основе эскиза, состоящего из нескольких сегментов. В противном случае последняя стена будет добавлена к первой в качестве дополнения.
+- Нажмите , после первой точки, чтобы ограничить вторую точку на данной оси.
+- Чтобы ввести координаты вручную, просто введите цифры, а затем нажмите между каждым компонентом X, Y и Z.
+- Нажмите или кликните на флажок, чтобы установить/снять отметку с кнопки Относительно **Relative**. If relative mode is on, the coordinates of the second point are relative to the first one. If not, they are absolute, taken from the (0,0,0) origin point.
 - Press while drawing to [constrain](Draft_Constrain "wikilink") your second point horizontally or vertically in relation to the first one.
 - Press or the **Cancel** button to abort the current command.
 - Double-clicking on the wall in the tree view after it is created allows you to enter edit mode and access and modify its additions and subtractions
