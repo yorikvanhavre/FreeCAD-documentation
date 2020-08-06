@@ -48,20 +48,20 @@
 - Нажмите кнопку Отмена **Cancel**, чтобы прервать выполнение текущей команды.
 - Двойной щелчок по стене в дереве проекта после ее создания позволяет войти в режим редактирования и получить доступ к ней и изменить ее добавления и вычитания
 - Многослойные стены можно легко создать, построив несколько стен из одной базовой линии. Манипулируя их свойством "Выравнивание" со значениями "Влево" или "Вправо" и задавая "Смещение" можно эффективно построить несколько слоев стен. Размещение окна в таком слое стены приведет к распространению проема на другие слои стены на основе той же базовой линии.
-- Стены также могут использовать мультиматериалы [Multi-Materials](Arch_MultiMaterial "wikilink"). При использовании мультиматериала стена становится многослойной, используя толщины, заданные мультиматериалом. Any layer with a thickness of zero will have its thickness defined automatically by the remaining space defined by the Wall's Width value, after subtracting the other layers.
+- Стены также могут использовать мультиматериалы [Multi-Materials](Arch_MultiMaterial "wikilink"). При использовании мультиматериала стена становится многослойной, используя толщины, заданные мультиматериалом. Толщина любого слоя с нулевой толщиной будет автоматически определяться оставшимся пространством, определяемым значением "Ширина стены", после вычитания других слоев.
 
 ## Привязка
 
-Snapping works a bit differently with Arch walls than other Arch and Draft objects. If a wall has a baseline object, snapping will anchor to the base object, instead of the wall geometry, allowing to easily align walls by their baseline. If, however, you specifically want to snap to the wall geometry, pressing **CTRL** will switch snapping to the wall object.
+Привязка работает немного иначе для Arch walls, чем для других объектов. Если стена имеет базовый объект, привязка будет закреплена на базовом объекте, а не на геометрии стены, это позволит легко выровнять стены по их базовой линии. Однако если требуется выполнить привязку к геометрии стены, нажатие клавиши **CTRL** переключит привязку к объекту стены.
 
 ![](images/Arch_wall_snap.jpg)
 
 ## Свойства
 
-Wall objects inherit the properties of [Part](Part_Module "wikilink") objects, and also have the following extra properties:
+Стены как объекты наследуют свойства [Part](Part_Module "wikilink") объектов, а также имеют следующее: дополнительные свойства:
 
-- **Align** : The alignment of the wall on its baseline: Left, right or center
-- **Bas** : The base object this wall is built on
+- **Align** : Выравнивание стены по ее основной линии: слева, справа или по центру
+- **Bas** : Базовый объект, на котором построена эта стена
 - **Face** : The index of the face from the base object to use. If the value is not set or 0, the whole object is used
 - **Force Wire** : If True, and the wall is based on a face, only the border wire of the face is used, resulting in a wall bordering the face
 - **Length** : The length of the wall (not used when the wall is based on an object)
