@@ -13,11 +13,11 @@
 * Предлагать документацию в форматах, подходящих для электронных книг - ePub, pdf и т. д.
 * Здесь также можно интегрировать файлы примеров
 
-## Advantages
+## Преимущества
 
-* Markdown is [easy, very similar](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to the wiki syntax, plus it is more widespread and easier to convert to other formats (more convertors available) and integrate into other platforms that can do some other tasks automatically. There are many scripts like pandoc that can convert to/from wiki syntax automatically, but converting by hand is also pretty easy
-* Many fancy things we have to do with plugins on the wiki are builtin in markdown, such as SVG images or code syntax highlighting
-* The github interface is as comfortable or even more comfortable than mediawiki to work with. You can work fully from inside the github interface (including image upload, etc) and don't need to careabout git stuff
+* Разметка [ проста, очень похожа ](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) на синтаксис вики, плюс она более широко распространена и легче конвертируется в другие форматы (доступно больше конвертеров) и интегрируется в другие платформы, которые могут выполнять некоторые другие задачи автоматически. Существует много сценариев, таких как pandoc, которые могут преобразовать в/из Wiki синтаксиса автоматически, но преобразование вручную также довольно легко сделать
+* Многие интересные вещи, которые мы должны делать с плагинами в вики являются встроенными в разметку, например изображения SVG или подсветка синтаксиса кода
+* Интерфейс github такой же удобный или даже более удобный, чем Mediawiki. Вы можете полностью работать внутри интерфейса github (включая загрузку изображений и т. д.) и не нужно заботиться о материалах git
 * You can also work offline and pull/push like normal git, then you have additional, gorgeous WYSIWYG editors like [typora](https://typora.io) (no more edit/preview windows)
 * The git workflow allows a finer management system: Frequent, trusted contributors can be granted write access, while occasional contributors can make PRs without having to request permission
 * Git solves backup issues: Everybody who clones the repo has a full copy, so the code is duplicated in many locations
