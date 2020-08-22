@@ -1,17 +1,17 @@
 # Документация FreeCAD
 
-Это эксперимент по реконструкции документации FreeCAD более устойчивым и основанным на языке разметки способом. It is, at the moment, solely made to serve as a proof-of-concept, to explore what is possible to do with markdown files and a git-based system, test different functionalities and systems in order to get to the same level of efficiency and openness we have on the FreeCAD wiki, and ultimately, if all goes well, convince the community to make the switch.
+Это эксперимент по реконструкции документации FreeCAD более устойчивым и основанным на языке разметки способом. В настоящее время она создана исключительно для того, чтобы служить в качестве доказательства концепции, исследовать, что можно сделать с файлами разметки и системы на базе git, тестировать различные функции и системы, чтобы достичь того же уровня эффективности и открытости, что мы имеем на вики FreeCAD, в конце концов, если все пойдет хорошо, убедить сообщество перейти на этот формат.
 
-## Goals
+## Цели
 
-* Have a more structured, professional-looking and easy to navigate and use documentation than we currently have on the wiki
-* Be more easily manageable, "backupable" and portable than the current wiki
-* Be easier to pack in an offline documentation package to be bundled with FreeCAD
-* Offer the same level of easiness to people wanting to collaborate
-* Offer a good translation system that is easy to use for peeople wanting to translate
-* Offer documentation ‘versions’ that correspond to FreeCAD releases
-* Offer documentation in formats suitable for offline readers - ePub, pdf, etc.
-* Example files could be integrated here too
+* Иметь более структурированную, профессиональную и удобную для навигации и использования документацию, чем мы имеем в настоящее время на вики
+* Быть более легко управляемым, устойчивым и портативным, чем текущий вики
+* Упростить упаковку в автономный пакет документации, который будет поставляться с FreeCAD
+* Предложить такой же уровень простоты людям, желающим сотрудничать
+* Предложить хорошую систему перевода, которая проста в использовании для людей, желающих переводить
+* Предлагать «версии» документации, соответствующие выпускам FreeCAD
+* Предлагать документацию в форматах, подходящих для электронных книг - ePub, pdf и т. д.
+* Здесь также можно интегрировать файлы примеров
 
 ## Advantages
 
