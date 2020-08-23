@@ -37,8 +37,8 @@
 ![](images/crowdin.png)
 
 * Crowdin создает полную копию документации для каждого языка. Это значительно упрощает создание полных переведенных версий
-* With Git we can work with directories, subdirectories, etc, which makes organization of files easier, compared to the "flat" structure of mediawiki
-* With git tags we can mark a certain version of the doc, for example when releasing. We can also create branches for not-released-yet pages
+* С Git мы можем работать с каталогами, подкаталогами и т. д., что облегчает организацию файлов, по сравнению с "плоской" структурой mediawiki
+* С помощью тегов git мы, например, можем отметить определенную версию документации при выпуске. Мы также можем создавать ветки для еще не выпущенных страниц
 
 ## Недостатки
 
