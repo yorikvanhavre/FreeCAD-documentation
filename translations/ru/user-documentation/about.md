@@ -10,7 +10,7 @@ FreeCAD содержит инструменты, аналогичные [ Catia 
 
 FreeCAD активно использует все известные библиотеки с открытым исходным кодом, существующие в области [ научных вычислений ](http://en.wikipedia.org/wiki/Scientific_Computation). Среди них [ OpenCascade ](http://opencascade.org/), мощное ядро САПР, [ Coin3D ](http://www.coin3d.org/), воплощение [ Open Inventor ](http://en.wikipedia.org/wiki/Open_Inventor), [ Qt ](http://www.qtsoftware.com/), всемирно известный фреймворк пользовательского интерфейса и [ Python ](http://www.python.org/), один из лучших доступных скриптовых языков. Сам FreeCAD также может использоваться другими программами в качестве библиотеки.
 
-FreeCAD is also fully [multi-platform](http://en.wikipedia.org/wiki/Cross-platform), and runs flawlessly on Windows and Linux/Unix and Mac OSX systems, with the exact same look and functionality on all platforms.
+FreeCAD также полностью [ мультиплатформенный ](http://en.wikipedia.org/wiki/Cross-platform) и безупречно работает в системах Windows, Linux / Unix и Mac OSX, с одинаковым внешним видом и функциональностью.
 
 For more information about FreeCAD's capabilities, take a look at the [Feature list], the [latest release notes] or the [Getting started] pages, or see more [screenshots].
 
