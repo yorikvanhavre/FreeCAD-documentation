@@ -52,10 +52,10 @@
   
   <ul>
     <li>
-      In a first step, adapting the offline doc generation is easy, because it is anyway generated from html pages, and we will have the same pages on github.
+      На первом этапе адаптация генерации оффлайн документации проста, потому что она в любом случае генерируется из html-страниц, и у нас будут те же страницы на github.
     </li>
     <li>
-      In a second step, we can explore something handier thatn the current qt assistant-based offline doc, maybe something that displays the html pages directly, being o line or offline...
+      На втором этапе мы можем изучить что-то более удобное, чем текущая документация на основе qt assistant, может быть, что-то, что отображает html-страницы напрямую, в автономном режиме...
     </li>
   </ul>
   
