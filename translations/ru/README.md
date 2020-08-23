@@ -15,10 +15,10 @@
 
 ## Преимущества
 
-* Разметка [ проста, очень похожа ](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) на синтаксис вики, плюс она более широко распространена и легче конвертируется в другие форматы (доступно больше конвертеров) и интегрируется в другие платформы, которые могут выполнять некоторые другие задачи автоматически. Существует много сценариев, таких как pandoc, которые могут преобразовать в/из Wiki синтаксиса автоматически, но преобразование вручную также довольно легко сделать
+* Разметка [ проста и очень похожа ](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) на синтаксис вики, плюс, она более широко распространена и легче конвертируется в другие форматы (доступно больше конвертеров) и интегрируется в другие платформы, которые могут выполнять некоторые другие задачи автоматически. Существует много сценариев, таких как pandoc, которые могут преобразовать в/из Wiki синтаксиса автоматически, но преобразование вручную также довольно легко сделать
 * Многие интересные вещи, которые мы должны делать с плагинами в вики являются встроенными в разметку, например изображения SVG или подсветка синтаксиса кода
 * Интерфейс github такой же удобный или даже более удобный, чем Mediawiki. Вы можете полностью работать внутри интерфейса github (включая загрузку изображений и т. д.) и не нужно заботиться о материалах git
-* You can also work offline and pull/push like normal git, then you have additional, gorgeous WYSIWYG editors like [typora](https://typora.io) (no more edit/preview windows)
+* Вы можете работать в автономном режиме, скопировать и объединить репозитории а затем выгрузить их на сервер, как обычный git, также у вас есть дополнительные великолепные WYSIWYG редакторы, например [ typora ](https://typora.io) (больше нет окон редактирования/просмотра)
 * The git workflow allows a finer management system: Frequent, trusted contributors can be granted write access, while occasional contributors can make PRs without having to request permission
 * Git solves backup issues: Everybody who clones the repo has a full copy, so the code is duplicated in many locations
 * Since it is all file-based, it is very easy to move and reorganize things
