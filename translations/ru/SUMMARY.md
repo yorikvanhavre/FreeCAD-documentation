@@ -1,4 +1,4 @@
-* [Introduction](user-documentation/README.md) 
-  * [What is FreeCAD?](user-documentation/about.md)
-* [Command Reference](command-reference/README.md) 
-  * [Arch Стена](command-reference/Arch_Wall.md)
+* [Введение](user-documentation/README.md) 
+  * [Что такое FreeCAD?](user-documentation/about.md)
+* [Справочник по командам](command-reference/README.md) 
+  * [Arch Wall](command-reference/Arch_Wall.md)
