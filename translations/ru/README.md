@@ -60,7 +60,7 @@
   </ul>
   
   <h2>
-    Mediawiki -> Markdown conversion
+    Конвертация Mediawiki в Markdown
   </h2>
   
   <p>
@@ -76,7 +76,7 @@
   </p>
   
   <h2>
-    Structure proposal
+    Предложение по структуре
   </h2>
   
   <p>
