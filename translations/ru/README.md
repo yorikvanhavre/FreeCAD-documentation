@@ -19,10 +19,10 @@
 * Многие интересные вещи, которые мы должны делать с плагинами в вики являются встроенными в разметку, например изображения SVG или подсветка синтаксиса кода
 * Интерфейс github такой же удобный или даже более удобный, чем Mediawiki. Вы можете полностью работать внутри интерфейса github (включая загрузку изображений и т. д.) и не нужно заботиться о материалах git
 * Вы можете работать в автономном режиме, скопировать и объединить репозитории а затем выгрузить их на сервер, как обычный git, также у вас есть дополнительные великолепные WYSIWYG редакторы, например [ typora ](https://typora.io) (больше нет окон редактирования/просмотра)
-* The git workflow allows a finer management system: Frequent, trusted contributors can be granted write access, while occasional contributors can make PRs without having to request permission
-* Git solves backup issues: Everybody who clones the repo has a full copy, so the code is duplicated in many locations
-* Since it is all file-based, it is very easy to move and reorganize things
-* Automatically syncing with [gitbook](https://legacy.gitbook.com/book/yorikvanhavre/freecad-documentation), so the whole documentation is always available in pdf, epub and mobi formats, automatically. All it requires is maintaining the <SUMMARY.md> file updated. Other systems such as [ReadTheDocs](https://readthedocs.org/projects/freecad-documentation/) or [MkDocs](http://www.mkdocs.org/) are easy to configure to build automatically too.
+* Рабочий процесс git обеспечивает более тонкую систему управления: постоянным, доверенным участникам может быть предоставлен доступ на запись, в то время как случайные участники могут делать pull requests (запрос на внесение изменений) без необходимости запрашивать разрешение
+* Git решает проблемы резервного копирования: каждый, кто клонирует репозиторий, имеет полную копию, так что код дублируется во многих местах
+* Поскольку все это основано на файлах, их очень легко перемещать и реорганизовывать
+* Автоматическая синхронизация с [ gitbook ](https://legacy.gitbook.com/book/yorikvanhavre/freecad-documentation), поэтому вся документация автоматически всегда доступна в форматах pdf, epub и mobi. Все, что требуется, это обновление файла <SUMMARY.md>. Other systems such as [ReadTheDocs](https://readthedocs.org/projects/freecad-documentation/) or [MkDocs](http://www.mkdocs.org/) are easy to configure to build automatically too.
 
 This is how it appears on GitBook, it can be read online or downloaded as ebook:
 
