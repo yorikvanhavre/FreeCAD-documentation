@@ -42,12 +42,12 @@
 
 ## Недостатки
 
-* One needs to move all the wiki, page by page. Some of this can be done automatically, but in any case most of the links will need to be checked/changed, so it will need manual review of each page anyway
-* Translations cannot be exported automatically. It will be a long copy/paste work.
-* The Crowdin interface, although elegant to work wik markdown files, has an annoying thing with links (they appear as <a> html elements). However, we might succeed in talking about that with crowdin people and do something...</li> </ul> 
+* Нужно переместить всю вики, страницу за страницей. Некоторые из них могут быть обработаны автоматически, но в любом случае большую часть ссылок необходимо будет проверить/изменить, поэтому в любом случае потребуется вручную просмотреть каждую страницу
+* Переводы нельзя экспортировать автоматически. Это будет длинная работа по копированию и вставке.
+* Интерфейс Crowdin, хотя и элегантен для работы с файлами разметки wik, имеет неприятную вещь со ссылками (они отображаются как элементы <a> html). Однако нам, возможно, удастся поговорить об этом с людьми и что-то сделать...</li> </ul> 
   
   <h2>
-    Автономная документация FreeCAD
+    Оффлайн документация FreeCAD
   </h2>
   
   <ul>
