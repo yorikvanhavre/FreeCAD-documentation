@@ -85,7 +85,7 @@
   
   <ul>
     <li>
-      Introduction <ul>
+      Введение <ul>
         <li>
           Добро пожаловать
         </li>
@@ -96,7 +96,7 @@
           Приступая к работе
         </li>
         <li>
-          Tutorials
+          Учебные пособия
         </li>
       </ul>
     </li>
@@ -134,7 +134,7 @@
     <li>
       Переводы <ul>
         <li>
-          Copies of the whole doc tree in every language
+          Копии всего дерева документов на всех языках
         </li>
       </ul>
     </li>
