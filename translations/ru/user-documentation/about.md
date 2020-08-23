@@ -1,4 +1,4 @@
-# About FreeCAD
+# О FreeCAD
 
 ![](images/FreeCAD_default.jpg)
 
@@ -14,11 +14,11 @@ FreeCAD is also fully [multi-platform](http://en.wikipedia.org/wiki/Cross-platfo
 
 For more information about FreeCAD's capabilities, take a look at the [Feature list], the [latest release notes] or the [Getting started] pages, or see more [screenshots].
 
-## About the FreeCAD project
+## О проекте FreeCAD
 
 The FreeCAD project was started as far as 2001, as described in its [history] page.
 
-FreeCAD is maintained and developed by a community of enthusiastic developers and users (see the [contributors] page). They work on FreeCAD voluntarily, in their free time. They cannot guarantee that FreeCAD contains or will contain everything you might wish, but they will usually do their best! The community gathers on the [FreeCAD forum](https://forum.freecadweb.org), where most of the ideas and decisions are discussed. Feel free to join us there!
+FreeCAD is maintained and developed by a community of enthusiastic developers and users (see the [contributors] page). They work on FreeCAD voluntarily, in their free time. They cannot guarantee that FreeCAD contains or will contain everything you might wish, but they will usually do their best! The community gathers on the [FreeCAD forum](https://forum.freecadweb.org), where most of the ideas and decisions are discussed. Не стесняйтесь присоединиться к нам там!
 
 ![alt1](https://raw.github.com/yorikvanhavre/FreeCAD-documentation/master/user-documentation/images/FreeCAD.svg?sanitize=true)
 
