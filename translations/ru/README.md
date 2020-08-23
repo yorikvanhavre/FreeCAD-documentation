@@ -87,13 +87,13 @@
     <li>
       Introduction <ul>
         <li>
-          Welcome & about
+          Добро пожаловать
         </li>
         <li>
-          General stuff from user hub, mouse model, etc..
+          Общие материалы из пользовательского хаба, модель мыши и т. д..
         </li>
         <li>
-          Getting started
+          Приступая к работе
         </li>
         <li>
           Tutorials
@@ -101,38 +101,38 @@
       </ul>
     </li>
     <li>
-      Workbenches <ul>
+      Верстаки <ul>
         <li>
-          Each workbench page
+          Каждая страница верстака
         </li>
         <li>
-          Maybe links to external workbenches too?
-        </li>
-      </ul>
-    </li>
-    <li>
-      Python scripting <ul>
-        <li>
-          All the poweruser hub pages
+          Может быть, ссылки на внешние верстаки?
         </li>
       </ul>
     </li>
     <li>
-      Development and deployment (python scripting is also development, so... should be some other name) <ul>
+      Скрипты Python <ul>
         <li>
-          All the pages from developers hub
+          Все страницы с портала опытных пользователей
         </li>
       </ul>
     </li>
     <li>
-      Command reference <ul>
+      Разработка и развертывание (скрипты Python также являются разработкой, так что... должно быть другое имя) <ul>
         <li>
-          All the individual command pages classified by prefix (Std, Draft, FEM, etc...)
+          Все страницы из портала для разработчиков
         </li>
       </ul>
     </li>
     <li>
-      Translations <ul>
+      Справочник по командам <ul>
+        <li>
+          Все отдельные страницы команд классифицируются по префиксу (Std, Draft, FEM и т. д...)
+        </li>
+      </ul>
+    </li>
+    <li>
+      Переводы <ul>
         <li>
           Copies of the whole doc tree in every language
         </li>
