@@ -80,7 +80,7 @@
   </h2>
   
   <p>
-    Each of the categories below is a folder. Each of them contains an "images" subfolder where all the images of the pages that are inside that categoriy go.
+    Каждая из перечисленных ниже категорий является папкой. Каждая из них содержит вложенную папку "images", куда складываются все изображения страниц, которые находятся внутри этой категории.
   </p>
   
   <ul>
