@@ -64,15 +64,15 @@
   </h2>
   
   <p>
-    Using auto conversion scripts wiki <-> md is easy, many scripts available (<a href="http://pandoc.org/">pandoc</a>, or other <a href="https://github.com/Gozala/markdown-wiki">scripts</a>). Translations is tricky. There is also the question of images. There are complete <a href="https://github.com/philipashlock/mediawiki-to-markdown">migration tools</a> too, that I must still test
+    Использовать автоматическую конвертацию wiki <-> md просто, доступно множество скриптов (<a href="http://pandoc.org/"> pandoc </a> или другие <a href="https://github.com/Gozala/markdown-wiki"> скрипты </a>). Переводы-штука сложная. Есть вопрос об изображениях. Также имеются полные <a href="https://github.com/philipashlock/mediawiki-to-markdown"> средства миграции </a>, которые необходимо протестировать
   </p>
   
   <p>
-    <strong>Quick way to convert:</strong>
+    <strong>Быстрый способ конвертировать:</strong>
   </p>
   
   <p>
-    1) Go to http://www.freecadweb.org/wiki/Special:Export/Arch_Wall 2) Save the xml on your computer 2) Save all images from the wiki and upload them to github (inside an images subfolder) 3) <code>pandoc --from mediawiki --to markdown Arch_Wall.xml</code> optionally, add <code>--wrap=none</code> 4) Create a new file, paste, fix links
+    1) Перейти на сайт FreeCad http://www.freecadweb.org/wiki/Special:Export/Arch_Wall 2) Сохраненить Xml-файл на компьютере 2)Сохраните все изображения из wiki и загрузите их на github (в подпапку изображений) 3) <code>pandoc --from mediawiki --to markdown Arch_Wall.xml</code> опционально добавьте <code>--wrap=none</code> 4) Создайте новый файл, вставьте, исправьте ссылки
   </p>
   
   <h2>
