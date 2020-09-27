@@ -48,7 +48,7 @@ Wenn sich mehrere Wände überschneiden sollen, müssen sie in eine [Etage](Arch
 - Drücken Sie Esc oder den **Abbrechen**-Knopf um das aktuelle Kommando abzubrechen.
 - Ein Doppelklick auf eine Wand in der Baumansicht öffnet den Edit-Modus, welcher das Ändern von Ergänzungen oder Aussparungen der Wand erlaubt.
 - Mehrlagen-Wände können einfach von der selben Basislinie erzeugt werden. Durch Einstellen der Align-Eigenschaft auf entweder left (links) oder right (right), und angeben eines Offset-Wertes, können mehrere Lagen einer Wand erzeugt werden. Beim Platzieren eines Fensters in so einer Wandschicht wird der Ausschnitt in die anderen Schichten erstellt, die auf der selben Basislinie basieren.
-- Wände können auch aus [Mehrfach-Material](Arch_MultiMaterial "wikilink") erstellt werden. Bei Verwendung von Mehrfach-Material, die Wand bekommt mehrere Schichten, die durch die Breite Mehrfach-Materials bestimmt wird. Any layer with a thickness of zero will have its thickness defined automatically by the remaining space defined by the Wall's Width value, after subtracting the other layers.
+- Wände können auch aus [Mehrfach-Material](Arch_MultiMaterial "wikilink") erstellt werden. Bei Verwendung von Mehrfach-Material, die Wand bekommt mehrere Schichten, die durch die Breite Mehrfach-Materials bestimmt wird. Bei jeder Schicht mit einer Dicke von Null wird die Dicke automatisch durch den verbleibenden Raum definiert, der durch den Wert für die Wandbreite definiert wird, nachdem die anderen Schichten abgezogen wurden.
 
 ## Einrasten
 
