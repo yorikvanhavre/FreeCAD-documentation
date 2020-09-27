@@ -77,7 +77,7 @@ The Wall tool can by used in [macros](macros "wikilink") and from the python con
     makeWall ( [obj],[length],[width],[height],[align],[face],[name] ) 
     
 
-- Creates a wall based on the given object, which can be a sketch, a draft object, a face or a solid. align can be "Center","Left" or "Right". If you provide no base object, then you can use numeric values for length, width and height. Face can be used to give the index of a face from the underlying object, to build this wall on, instead of using the whole object.
+- Erzeugt eine Wand basierend auf ein gegebenes Objekt, welches eine Skizze, ein Entwurfsobjekt, eine Fläche oder ein Volumen sein kann. Die Ausrichtung kann "Mitte", "Links" oder "Rechts" sein. Wenn kein Basisobjekt angegeben wird, dann können numerische Werte für Länge, Breite und Höhe verwendet werden. Face can be used to give the index of a face from the underlying object, to build this wall on, instead of using the whole object.
 - Returns the created wall, or None if the operation failed.
 
 Beispiel:
