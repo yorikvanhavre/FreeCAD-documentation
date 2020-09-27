@@ -7,7 +7,7 @@
 
 ## Beschreibung
 
-This tool builds a Wall object from scratch or on top of any other [shape](Part_Module)-based or [mesh](Mesh_Module)-based object. A wall can be built without any base object, in which case it behaves as a cubic volume, using length, width and height properties. When built on top of an existing shape, a wall can be based on:
+Dieses Werkzeug erzeugt ein Wandobjekt von Grund auf oder auf Basis eines [Form](Part_Module)- oder [Netzobjektes](Mesh_Module). Eine Wand kann ohne Basisobjekte erstellt werden. In dem Fall verhält es sich als Volumenkörper und verwendet Längen-, Breiten- und Höheneigenschaften. Wenn die Wand auf Basis einer existierenden Form erstellt wird, die Wand kann basieren auf:
 
 - A **linear 2D object**, such as lines, wires, arcs or sketches, in which case you can change thickness, alignment(right, left or centered) and height. The length property has no effect.
 - A **flat face**, in which case you can only change the height. Length and width properties have no effect. If the base face is vertical, however, the wall will use the width property instead of height, allowing you to build walls from space-like objects or mass studies.
