@@ -32,16 +32,16 @@ Wenn sich mehrere Wände überschneiden sollen, müssen sie in eine [Etage](Arch
 
 ### Zeichnen einer Wand auf einem selektierten Objekt
 
-1. Select one or more base geometry objects (Draft object, sketch, etc)
-2. Press the **Arch Wall** button, or press the **W** then **A** keys
-3. Adjust needed properties such as height or width.
+1. Selektieren Sie ein oder mehrere elementare Objekte (Draft-Objekt, Skizze, usw.)
+2. Drücken Sie den **Arch Wand**-Knopf oder die Tasten **W** und **A**
+3. Passen Sie benötigte Parameter wie Höhe und Breite an.
 
 ## Optionen
 
-- Walls share the common properties and behaviours of all [Arch Components](Arch_Component "wikilink")
-- The height, width and alignment of a wall can be set during drawing, via the task panel
-- When snapping a wall to an existing wall, both walls will be joined into one. The way the two walls are joined depends on their properties: If they have the same width, height and alignment, and if the option "join base sketches" is enabled in the Arch preferences, the resulting wall will be one object based on a sketch made of several segments. Otherwise, the latter wall will be added to the first one as addition.
-- Press , or after the first point to constrain the second point on the given axis.
+- Wände haben die gleichen Eigenschaften und zeigen das gleiche Verhalten wie alle anderen [Arch-Komponenten](Arch_Component "wikilink").
+- Die Höhe, Breite und Ausrichtung einer Wand können während des Zeichnens über das Task-Panel geändert werden.
+- Wird eine Wand an einer existierenden Wand ausgerichtet, werden beide Wände zu einer verschmolzen. Die Art der Verschmelzung hängt von den Wandeigenschaften ab: Haben beide die selbe Breite, Höhe und Ausrichtung, besteht die resultierende Wand aus mehreren Segmenten einer Skizze, anderenfalls wird die zweite Wand eine Ergänzung der ersten.
+- Drücken Sie die Tasten X, Y oder Z nach dem ersten Wandpunkt, um den zweiten Punkt auf die gegebene Achse zu beschränken.
 - To enter coordinates manually, simply enter the numbers, then press between each X, Y and Z component.
 - Press or click the checkbox to check/uncheck the **Relative** button. If relative mode is on, the coordinates of the second point are relative to the first one. If not, they are absolute, taken from the (0,0,0) origin point.
 - Press while drawing to [constrain](Draft_Constrain "wikilink") your second point horizontally or vertically in relation to the first one.
