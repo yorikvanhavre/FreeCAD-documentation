@@ -42,8 +42,8 @@ Wenn sich mehrere Wände überschneiden sollen, müssen sie in eine [Etage](Arch
 - Die Höhe, Breite und Ausrichtung einer Wand können während des Zeichnens über das Task-Panel geändert werden.
 - Wird eine Wand an einer existierenden Wand ausgerichtet, werden beide Wände zu einer verschmolzen. Die Art der Verschmelzung hängt von den Wandeigenschaften ab: Haben beide die selbe Breite, Höhe und Ausrichtung, besteht die resultierende Wand aus mehreren Segmenten einer Skizze, anderenfalls wird die zweite Wand eine Ergänzung der ersten.
 - Drücken Sie die Tasten X, Y oder Z nach dem ersten Wandpunkt, um den zweiten Punkt auf die gegebene Achse zu beschränken.
-- To enter coordinates manually, simply enter the numbers, then press between each X, Y and Z component.
-- Press or click the checkbox to check/uncheck the **Relative** button. If relative mode is on, the coordinates of the second point are relative to the first one. If not, they are absolute, taken from the (0,0,0) origin point.
+- Um Koordinaten manuell einzugeben, tippen Sie einfach die Zahlen und drücken anschließend Enter für jede X-, Y- und Z-Komponente.
+- Drücken Sie R oder verwenden Sie die **Relativ**-Checkbox, um den Relativmodus zu aktivieren/verlassen. Ist der Relativmodus aktiv, sind die Koordinaten des zweiten Punktes relativ zum ersten Punkt. Anderenfalls sind alle Werte absolut und beziehen sich auf den Koordinatenursprung (0,0,0).
 - Press while drawing to [constrain](Draft_Constrain "wikilink") your second point horizontally or vertically in relation to the first one.
 - Press or the **Cancel** button to abort the current command.
 - Double-clicking on the wall in the tree view after it is created allows you to enter edit mode and access and modify its additions and subtractions
@@ -52,7 +52,7 @@ Wenn sich mehrere Wände überschneiden sollen, müssen sie in eine [Etage](Arch
 
 ## Einrasten
 
-Snapping works a bit differently with Arch walls than other Arch and Draft objects. If a wall has a baseline object, snapping will anchor to the base object, instead of the wall geometry, allowing to easily align walls by their baseline. If, however, you specifically want to snap to the wall geometry, pressing **CTRL** will switch snapping to the wall object.
+Einrasten funktioniert bei Arch-Wänden etwas anders als bei anderen Arch- und Draft-Objekten. Wenn eine Wand ein Basislinien-Objekt hat, erfolgt das Einrasten am Basisobjekt anstatt an der Wand-Geometrie, um Wände einfach an der Basislinie ausrichten zu können. Falls Sie aber speziell an der Wand-Geometrie rasten möchten, wird das Drücken von **Strg** das Einrasten auf das Wand-Objekt ändern.
 
 ![](images/Arch_wall_snap.jpg)
 
@@ -70,7 +70,7 @@ Wand-Objekte erben die Eigenschaften von [Part](Part_Module "wikilink")-Objekten
 - **Normal**: Eine Extrusionsrichtung für die Wand. Wenn auf (0,0,0) gesetzt, ist die Extrusionsrichtung automatisch
 - **Offset**: Dies legt den Abstand zwischen der Wand und ihrer Basislinie fest. Das funktioniert nur, wenn die Align-Eigenschaft auf Right (rechts) oder Left (links) gesetzt ist.
 
-## Scripting
+## Skripting
 
 Das Wand-Werkzeug kann in [Makros](macros "wikilink") und aus der Python-Konsole heraus durch folgende Funktion angesprochen werden:
 
