@@ -44,10 +44,10 @@ Wenn sich mehrere Wände überschneiden sollen, müssen sie in eine [Etage](Arch
 - Drücken Sie die Tasten X, Y oder Z nach dem ersten Wandpunkt, um den zweiten Punkt auf die gegebene Achse zu beschränken.
 - Um Koordinaten manuell einzugeben, tippen Sie einfach die Zahlen und drücken anschließend Enter für jede X-, Y- und Z-Komponente.
 - Drücken Sie R oder verwenden Sie die **Relativ**-Checkbox, um den Relativmodus zu aktivieren/verlassen. Ist der Relativmodus aktiv, sind die Koordinaten des zweiten Punktes relativ zum ersten Punkt. Anderenfalls sind alle Werte absolut und beziehen sich auf den Koordinatenursprung (0,0,0).
-- Press while drawing to [constrain](Draft_Constrain "wikilink") your second point horizontally or vertically in relation to the first one.
-- Press or the **Cancel** button to abort the current command.
-- Double-clicking on the wall in the tree view after it is created allows you to enter edit mode and access and modify its additions and subtractions
-- Multi-layer walls can be easily created by building several walls from the same baseline. By setting their Align property to either left or right, and specifying an Offset value, you can effectively construct several wall layers. Placing a window in such a wall layer will propagate the opening to the other wall layers based on the same baseline.
+- Halten Sie die Strg-Taste während des Zeichnens, um den zweiten Punkt horizontal oder vertikal zum ersten Punkt [auszurichten](Draft_Constrain "wikilink").
+- Drücken Sie Esc oder den **Abbrechen**-Knopf um das aktuelle Kommando abzubrechen.
+- Ein Doppelklick auf eine Wand in der Baumansicht öffnet den Edit-Modus, welcher das Ändern von Ergänzungen oder Aussparungen der Wand erlaubt.
+- Mehrlagen-Wände können einfach von der selben Basislinie erzeugt werden. By setting their Align property to either left or right, and specifying an Offset value, you can effectively construct several wall layers. Placing a window in such a wall layer will propagate the opening to the other wall layers based on the same baseline.
 - Walls can also make use of [Multi-Materials](Arch_MultiMaterial "wikilink"). When using a multi-material, the wall will become multi-layer, using the thicknesses specified by the multi-material. Any layer with a thickness of zero will have its thickness defined automatically by the remaining space defined by the Wall's Width value, after subtracting the other layers.
 
 ## Einrasten
