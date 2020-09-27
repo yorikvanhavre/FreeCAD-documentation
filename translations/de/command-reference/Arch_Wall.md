@@ -72,13 +72,13 @@ Wall objects inherit the properties of [Part](Part_Module "wikilink") objects, a
 
 ## Scripting
 
-The Wall tool can by used in [macros](macros "wikilink") and from the python console by using the following function:
+Das Wand-Werkzeug kann in [Makros](macros "wikilink") und aus der Python-Konsole heraus durch folgende Funktion angesprochen werden:
 
     makeWall ( [obj],[length],[width],[height],[align],[face],[name] ) 
     
 
-- Erzeugt eine Wand basierend auf ein gegebenes Objekt, welches eine Skizze, ein Entwurfsobjekt, eine Fläche oder ein Volumen sein kann. Die Ausrichtung kann "Mitte", "Links" oder "Rechts" sein. Wenn kein Basisobjekt angegeben wird, dann können numerische Werte für Länge, Breite und Höhe verwendet werden. Face can be used to give the index of a face from the underlying object, to build this wall on, instead of using the whole object.
-- Returns the created wall, or None if the operation failed.
+- Erzeugt eine Wand basierend auf ein gegebenes Objekt, welches eine Skizze, ein Entwurfsobjekt, eine Fläche oder ein Volumen sein kann. Die Ausrichtung kann "Mitte", "Links" oder "Rechts" sein. Wenn kein Basisobjekt angegeben wird, dann können numerische Werte für Länge, Breite und Höhe verwendet werden. Fläche kann dazu genutzt werden, um den Index einer Fläche des zugrundeliegenden Objekts anzugeben, auf dem diese Wand erstellt wird, anstatt das komplette Objekt zu verwenden.
+- Gibt die erzeugte Wand zurück, oder None falls die Operation fehlschlägt.
 
 Beispiel:
 
