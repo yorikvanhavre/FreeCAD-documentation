@@ -18,19 +18,19 @@ Dieses Werkzeug erzeugt ein Wandobjekt von Grund auf oder auf Basis eines [Form]
 
 *Beispiele von Wänden die auf einer Linie, einem Draht, einer Fläche, einem Volumen und einer Skizze aufgebaut werden*
 
-Wände können auch Ergänzungen oder Ausschnitte erhalten. Ergänzungen sind andere Objekte, deren Form mit der Wandform verschmolzen werden. Bei Ausschnitten werden die Formen des anderen Objektes aus der Wand entfernt. Additions and subtractions can be added with the [Arch Add](Arch_Add) and [Arch Remove](Arch_Remove) tools. Additions and subtractions have no influence over wall parameters such as height and width, which can still be changed. Walls can also have their height automatic, if they are included into a higher-level object such as [floors](Arch_Floor "wikilink"). The height must be kept at 0, then the wall will adopt the height specified in the parent object.
+Wände können auch Ergänzungen oder Ausschnitte erhalten. Ergänzungen sind andere Objekte, deren Form mit der Wandform verschmolzen werden. Bei Ausschnitten werden die Formen des anderen Objektes aus der Wand entfernt. Ergänzungen und Ausschnitte können mit dem [Arch Hinzufügen](Arch_Add) bzw. [Arch Entfernen](Arch_Remove) Werkzeug erzeugt werden. Ergänzungen und Ausschnitte haben keinen Einfluss auf Parameter wie Höhe oder Breite, die nach wie vor veränderbar sind. Wände können auch automatisch Höhen erhalten, wenn sie Bestandteil komplexerer Objekte wie [Etagen](Arch_Floor "wikilink") sind. Die Höhe der Wand muss mit 0 festgelegt werden, dann passt sich die Wandhöhe automatisch dem Eltern-Objekt an.
 
-When several walls should intersect, you need to place them into a [floor](Arch_Floor "wikilink") to have their geometry intersected.
+Wenn sich mehrere Wände überschneiden sollen, müssen sie in eine [Etage](Arch_Floor "wikilink") platziert werden, damit sich ihre Geometrien schneiden.
 
-## How to use
+## Verwendung
 
-### Drawing a wall from scratch
+### Zeichnen einer neuen Wand
 
-1. Press the **Arch Wall** button, or press **W** then **A** keys
-2. Click a first point on the 3D view, or type a [coordinate](Draft_Coordinates "wikilink")
-3. Click a second point on the 3D view, or type a [coordinate](Draft_Coordinates "wikilink")
+1. Drücken Sie den **Arch Wand**-Knopf, oder die Tasten **W** und **A**
+2. Klicken Sie einen ersten Punkt in der 3D-Ansicht oder tippen Sie eine [Koordinate](Draft_Coordinates "wikilink")
+3. Klicken Sie einen zweiten Punkt in der 3D-Ansicht oder tippen Sie eine weitere [Koordinate](Draft_Coordinates "wikilink")
 
-### Drawing a wall on top of a selected object
+### Zeichnen einer Wand auf einem selektierten Objekt
 
 1. Select one or more base geometry objects (Draft object, sketch, etc)
 2. Press the **Arch Wall** button, or press the **W** then **A** keys
@@ -66,7 +66,7 @@ Wand-Objekte erben die Eigenschaften von [Part](Part_Module "wikilink")-Objekten
 - **Force Wire**: Falls Wahr, und die Wand auf einer Fläche basiert, wird nur die Grenzlinie (border wire) der Fläche benutzt, so dass die Wand die Fläche begrenzt
 - **Length**: Die Länge der Wand (wird nicht benutzt, wenn die Wand auf einem Objekt basiert)
 - **Width**: Die Breite der Wand (wird nicht benutzt, wenn die Wand auf einer Fläche basiert)
-- **Height**: Die Höhe der Wand (wird nicht benutzt, wenn die Wand auf einem Volumen basiert) Wenn keine Höhe gegeben ist und die Wand innerhalb eines [Stockwerk](Arch_Floor "wikilink")-Objekt liegt, verwendet die Wand automatisch die Stockwerkshöhe, falls diese gegeben ist.
+- **Height**: Die Höhe der Wand (wird nicht benutzt, wenn die Wand auf einem Volumen basiert) Wenn keine Höhe gegeben ist und die Wand innerhalb eines [Etagen](Arch_Floor "wikilink")-Objekt liegt, verwendet die Wand automatisch die Etagenhöhe, falls diese gegeben ist.
 - **Normal**: Eine Extrusionsrichtung für die Wand. Wenn auf (0,0,0) gesetzt, ist die Extrusionsrichtung automatisch
 - **Offset**: Dies legt den Abstand zwischen der Wand und ihrer Basislinie fest. Das funktioniert nur, wenn die Align-Eigenschaft auf Right (rechts) oder Left (links) gesetzt ist.
 
