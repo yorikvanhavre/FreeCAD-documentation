@@ -11,14 +11,14 @@ Dieses Werkzeug erzeugt ein Wandobjekt von Grund auf oder auf Basis eines [Form]
 
 - **Linearen 2D-Objekten** wie Linien, Drahtmodellen, Bögen oder Skizzen, wobei Dicke, Ausrichtung (rechts, links oder zentriert) und Höhe angepasst werden können. Die Länge-Eigenschaft hat keinen Effekt.
 - Einer **Ebene**, wobei nur die Höhe angepasst werden kann. Die Länge- und Höhe-Eigenschaften haben keinen Effekt. Wenn die Basis-Fläche ist vertikal, die Wand verwendet die Breite-Eigenschaft statt der Höhe. Das ermöglicht das Erzeugen von Wänden von Raum-ähnlichen Objekten oder von Maß-Studien.
-- A **solid**, in which case length, width and height properties have no effect. The wall simply uses the underlying solid as its shape.
-- A **mesh**, in which case the underlying mesh must be a closed, manifold solid.
+- Einem **Volumen** in dem Fall haben die Länge-, Breite- und Höhe-Eigenschaften keinen Effekt. Die Wand verwendet einfach den darunterligenden Volumenkörper als dessen Form.
+- Ein **Netz**, wobei das darunterliegende Netz ein geschlossener Volumenkörper sein muss.
 
 ![](images/Arch_Wall_example.jpg)
 
-*Example of walls built from a line, a wire, a face, a solid and a sketch*
+*Beispiele von Wänden die auf einer Linie, einem Draht, einer Fläche, einem Volumen und einer Skizze aufgebaut werden*
 
-Walls can also have additions or subtractions. Additions are other objects whose shapes are joined in this Wall's shape, while subtractions are subtracted. Additions and subtractions can be added with the [Arch Add](Arch_Add) and [Arch Remove](Arch_Remove) tools. Additions and subtractions have no influence over wall parameters such as height and width, which can still be changed. Walls can also have their height automatic, if they are included into a higher-level object such as [floors](Arch_Floor "wikilink"). The height must be kept at 0, then the wall will adopt the height specified in the parent object.
+Wände können auch Ergänzungen oder Ausschnitte erhalten. Ergänzungen sind andere Objekte, deren Form mit der Wandform verschmolzen werden. Bei Ausschnitten werden die Formen des anderen Objektes aus der Wand entfernt. Additions and subtractions can be added with the [Arch Add](Arch_Add) and [Arch Remove](Arch_Remove) tools. Additions and subtractions have no influence over wall parameters such as height and width, which can still be changed. Walls can also have their height automatic, if they are included into a higher-level object such as [floors](Arch_Floor "wikilink"). The height must be kept at 0, then the wall will adopt the height specified in the parent object.
 
 When several walls should intersect, you need to place them into a [floor](Arch_Floor "wikilink") to have their geometry intersected.
 
