@@ -60,13 +60,13 @@ Snapping works a bit differently with Arch walls than other Arch and Draft objec
 
 Wall objects inherit the properties of [Part](Part_Module "wikilink") objects, and also have the following extra properties:
 
-- **Align** : The alignment of the wall on its baseline: Left, right or center
-- **Bas** : The base object this wall is built on
-- **Face** : The index of the face from the base object to use. If the value is not set or 0, the whole object is used
-- **Force Wire** : If True, and the wall is based on a face, only the border wire of the face is used, resulting in a wall bordering the face
-- **Length** : The length of the wall (not used when the wall is based on an object)
-- **Width** : The width of the wall (not used when the wall is based on a face)
-- **Height** : The height of the wall (not used when the wall is based on a solid). If no height is given, and the wall is inside a [floor](Arch_Floor "wikilink") object with its height defined, the wall will automatically take the value of the floor height.
+- **Align**: Die Ausrichtung der Wand an ihrer Basislinie: (links, rechts oder mittig)
+- **Base**: Das Basisobjekt, auf dem diese Wand gebaut wurde
+- **Face**: Der Index der Fläche des zu benutzenden Basisobjekts. Falls der Wert nicht gesetzt wurde oder 0 ist, wird das gesamt Objekt benutzt
+- **Force Wire**: Falls Wahr, und die Wand auf einer Fläche basiert, wird nur die Grenzlinie (border wire) der Fläche benutzt, so dass die Wand die Fläche begrenzt
+- **Length**: Die Länge der Wand (wird nicht benutzt, wenn die Wand auf einem Objekt basiert)
+- **Width**: Die Breite der Wand (wird nicht benutzt, wenn die Wand auf einer Fläche basiert)
+- **Height**: Die Höhe der Wand (wird nicht benutzt, wenn die Wand auf einem Volumen basiert) If no height is given, and the wall is inside a [floor](Arch_Floor "wikilink") object with its height defined, the wall will automatically take the value of the floor height.
 - **Normal** : An extrusion direction for the wall. If set to (0,0,0), the extrusion direction is automatic.
 - **Offset** : This specifies the distance between the wall and its baseline. Works only if the Align property is set to Right or Left.
 
