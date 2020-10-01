@@ -1,6 +1,6 @@
-# Documentación del usuario de FreeCAD
+# FreeCAD user documentation
 
-Esta área es la principal área de ayuda para el uso normal de FreeCAD. No contiene documentación relativa a la escritura pitón o al desarrollo de aplicaciones, que se encuentran en otras secciones.
+This area is the main help area for normal FreeCAD usage. It doesn't contain documentation relative to python scripting or application development, which are located in other sections.
 
 You will find here:
 
