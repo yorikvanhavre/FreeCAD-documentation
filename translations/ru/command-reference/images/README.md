@@ -1,1 +1,1 @@
-A place for all the images from the command-reference pages
+Место для всех изображений co страниц командной строки

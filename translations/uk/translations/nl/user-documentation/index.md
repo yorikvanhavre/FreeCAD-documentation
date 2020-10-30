@@ -30,7 +30,7 @@ If you would like to know how the development of FreeCAD has started years ago v
     File formats: The different file formats that FreeCAD can read and write
     
 
-## Workbenches
+## Робочі простори
 
 These are the base workbenches bundled with every installation of FreeCAD:
 

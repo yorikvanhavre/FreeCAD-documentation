@@ -10,7 +10,7 @@ And if you have some information you would like to appear here, why not contribu
 
 If you would like to know how the development of FreeCAD has started years ago visit the History page.
 
-## Introduction
+## Einführung
 
     Application Overview: A general overview of FreeCAD
     Installing: How to install FreeCAD on Windows, Unix/Linux and Mac

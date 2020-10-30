@@ -1,1 +1,1 @@
-Khu vực dành cho tất cả các hình ảnh từ các trang về tham chiếu câu lệnh
+Platz für alle Bilder von den Befehlsreferenzseiten

@@ -1,12 +1,12 @@
 # FreeCAD-documentazione
 
-Si tratta di un esperimento per ricostruire la documentazione di FreeCAD in modo più sostenibile, basato su markdown. It is, at the moment, solely made to serve as a proof-of-concept, to explore what is possible to do with markdown files and a git-based system, test different functionalities and systems in order to get to the same level of efficiency and openness we have on the FreeCAD wiki, and ultimately, if all goes well, convince the community to make the switch.
+Si tratta di un esperimento per ricostruire la documentazione di FreeCAD in modo più sostenibile, basato su markdown. Al momento, serve esclusivamente da prova di concetto, per esplorare cosa è possibile fare con i file di Markdown e un sistema basato su Git, testare diverse funzionalità e sistemi per arrivare allo stesso livello di efficienza e apertura che abbiamo sul wiki di FreeCAD, e alla fine, se tutto va bene, convincere la comunità a fare lo scambio.
 
 ## Obiettivi
 
 * Ottenere una documentazione più strutturata dall'aspetto professionale e facile da navigare e da utilizzare di quella che abbiamo attualmente hanno sul wiki
-* Be more easily manageable, "backupable" and portable than the current wiki
-* Be easier to pack in an offline documentation package to be bundled with FreeCAD
+* Sia facilmente gestibile, "backupable" e portatile rispetto all'attuale wiki
+* Essere più facile da impacchettare in un pacchetto di documentazione offline da bundle con FreeCAD
 * Offer the same level of easiness to people wanting to collaborate
 * Offer a good translation system that is easy to use for peeople wanting to translate
 * Offer documentation ‘versions’ that correspond to FreeCAD releases

@@ -1,1 +1,1 @@
-Diese Abschnitt enthält die einzelnen Befehle die Hilfe-Seiten
+Ta sekcja zawiera wszystkie indywidualne strony pomocy dla poleceń

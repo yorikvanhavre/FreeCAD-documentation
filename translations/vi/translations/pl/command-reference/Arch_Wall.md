@@ -1,9 +1,9 @@
-# ![](images/Arch_Wall.svg) Kiến trúc - Tường
+# ![](images/Arch_Wall.svg) Ściana Arch
 
-- Vị trí menu: **Kiến trúc → Tường**
-- Gói công cụ: **Kiến trúc**
-- Phím tắt mặc định: **W A**
-- Xem thêm: [Kết cấu Kiến trúc](Arch_Structure)
+- Lokalizacja w menu: **Arch → ściana**
+- Workbench: **Arch**
+- Domyślny skrót: **W A**
+- Zobacz też: [Arch struktura](Arch_Structure)
 
 ## Mô tả
 

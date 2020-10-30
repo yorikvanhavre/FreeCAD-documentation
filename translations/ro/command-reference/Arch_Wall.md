@@ -1,6 +1,6 @@
-# ![](images/Arch_Wall.svg) Arch Wall
+# ![](images/Arch_Wall.svg) Arcada în Perete
 
-- Menu location: **Arch → Wall**
+- Locaţie în Meniu: **Arcadă → Perete**
 - Workbenches: **Arch**
 - Default shortcut: **W A**
 - See also: [Arch Structure](Arch_Structure)

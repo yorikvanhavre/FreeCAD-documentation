@@ -2,7 +2,7 @@
 
 This is an experiment to reconstruct the FreeCAD documentation in a more sustainable, markdown-based way. It is, at the moment, solely made to serve as a proof-of-concept, to explore what is possible to do with markdown files and a git-based system, test different functionalities and systems in order to get to the same level of efficiency and openness we have on the FreeCAD wiki, and ultimately, if all goes well, convince the community to make the switch.
 
-## Goals
+## Doelen
 
 * Have a more structured, professional-looking and easy to navigate and use documentation than we currently have on the wiki
 * Be more easily manageable, "backupable" and portable than the current wiki
@@ -13,7 +13,7 @@ This is an experiment to reconstruct the FreeCAD documentation in a more sustain
 * Offer documentation in formats suitable for offline readers - ePub, pdf, etc.
 * Example files could be integrated here too
 
-## Advantages
+## Voordelen
 
 * Markdown is [easy, very similar](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to the wiki syntax, plus it is more widespread and easier to convert to other formats (more convertors available) and integrate into other platforms that can do some other tasks automatically. There are many scripts like pandoc that can convert to/from wiki syntax automatically, but converting by hand is also pretty easy
 * Many fancy things we have to do with plugins on the wiki are builtin in markdown, such as SVG images or code syntax highlighting

@@ -1,9 +1,9 @@
-# ![](images/Arch_Wall.svg) Arch Wall
+# ![](images/Arch_Wall.svg) Ściana Arch
 
-- Menu location: **Arch → Wall**
-- Workbenches: **Arch**
-- Default shortcut: **W A**
-- See also: [Arch Structure](Arch_Structure)
+- Lokalizacja w menu: **Arch → ściana**
+- Workbench: **Arch**
+- Domyślny skrót: **W A**
+- Zobacz też: [Arch struktura](Arch_Structure)
 
 ## Description
 
