@@ -12,13 +12,13 @@ FreeCAD hace un uso intensivo de todas las excelentes bibliotecas de código abi
 
 FreeCAD también es completamente [ multiplataforma ](http://en.wikipedia.org/wiki/Cross-platform) y se ejecuta sin problemas en sistemas Windows, GNU/Linux / Unix y Mac OSX, con exactamente el mismo aspecto y funcionalidad en todas las plataformas.
 
-Para obtener más información sobre las capacidades de FreeCAD, eche un vistazo a la [Lista de operaciones], las [notas de la última versión] o las páginas de [Introducción], o vea más [capturas de pantalla].
+Para obtener más información sobre las capacidades de FreeCAD, eche un vistazo a la [Lista de operaciones], las [notas de la última versión] o las páginas de [Introducción], o vea más [screenshots].
 
-## About the FreeCAD project
+## Acerca del proyecto FreeCAD
 
-The FreeCAD project was started as far as 2001, as described in its [history] page.
+El proyecto FreeCAD se inició en 2001, como se describe en su página [history].
 
-FreeCAD is maintained and developed by a community of enthusiastic developers and users (see the [contributors] page). They work on FreeCAD voluntarily, in their free time. They cannot guarantee that FreeCAD contains or will contain everything you might wish, but they will usually do their best! The community gathers on the [FreeCAD forum](https://forum.freecadweb.org), where most of the ideas and decisions are discussed. Feel free to join us there!
+FreeCAD es mantenido y desarrollado por una comunidad de entusiastas desarrolladores y usuarios (ver la página de [contributors]). Trabajan en FreeCAD voluntariamente, en su tiempo libre. No pueden garantizar que FreeCAD contenga o contendrá todo lo que pueda desear, ¡pero generalmente harán todo lo posible! La comunidad se reúne en el [ foro FreeCAD ](https://forum.freecadweb.org), donde se discuten la mayoría de las ideas y decisiones. Siéntase libre de unirse a nosotras/os allí!
 
 ![alt1](https://raw.github.com/yorikvanhavre/FreeCAD-documentation/master/user-documentation/images/FreeCAD.svg?sanitize=true)
 
