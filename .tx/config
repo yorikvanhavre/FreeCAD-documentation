@@ -1,0 +1,23 @@
+[main]
+host = https://www.transifex.com
+
+[freecad-documentation.readme-md]
+file_filter = translations/<lang>/README.md
+minimum_perc = 0
+source_file = README.md
+source_lang = en
+type = GITHUBMARKDOWN
+
+[freecad-documentation.command-reference-arch-wall-md]
+file_filter = translations/<lang>/command-reference/Arch_Wall.md
+minimum_perc = 0
+source_file = command-reference/Arch_Wall.md
+source_lang = en
+type = GITHUBMARKDOWN
+
+[freecad-documentation.user-documentation-about-md]
+file_filter = translations/<lang>/user-documentation/about.md
+minimum_perc = 0
+source_file = user-documentation/about.md
+source_lang = en
+type = GITHUBMARKDOWN
