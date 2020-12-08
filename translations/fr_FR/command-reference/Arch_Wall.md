@@ -1,8 +1,8 @@
 # ![](images/Arch_Wall.svg) Arch Wall
 
-* Menu location: **Arch → Wall**
-* Workbenches: **Arch**
-* Default shortcut: **W A**
+* Emplacement menu: **Arch → Mur**
+* Ateliers: **Arch**
+* Raccourci par défaut: **W A**
 * See also: [Arch Structure](Arch_Structure)
 
 ## Description
