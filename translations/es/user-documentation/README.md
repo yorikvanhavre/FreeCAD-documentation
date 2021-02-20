@@ -4,7 +4,7 @@ Esta área es la principal área de ayuda para el uso normal de FreeCAD. No cont
 
 You will find here:
 
-* General information [about FreeCAD](about.md), its [main features], and [how to get started].
+* Información general [acerca de FreeCAD](about.md), sus [principales características], y [cómo empezar].
 * Workbenches documentation, including general description and documentation for each command found in it
 * Tutorials
 * Additional information about external workbenches
