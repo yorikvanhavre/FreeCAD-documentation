@@ -1,10 +1,10 @@
-# Documentación FreeCAD
+# FreeCAD-documentation
 
-Ese es un experimento para reconstruir la documentación FreeCAD con más sustenabilidad, It is, at the moment, solely made to serve as a proof-of-concept, to explore what is possible to do with markdown files and a git-based system, test different functionalities and systems in order to get to the same level of efficiency and openness we have on the FreeCAD wiki, and ultimately, if all goes well, convince the community to make the switch.
+This is an experiment to reconstruct the FreeCAD documentation in a more sustainable, markdown-based way. It is, at the moment, solely made to serve as a proof-of-concept, to explore what is possible to do with markdown files and a git-based system, test different functionalities and systems in order to get to the same level of efficiency and openness we have on the FreeCAD wiki, and ultimately, if all goes well, convince the community to make the switch.
 
-## Metas
+## Goals
 
-* Tener una presentación mas profesional y estructurada, fácil de navegar y que utiliza documentación que tenemos actualmente en la wiki
+* Have a more structured, professional-looking and easy to navigate and use documentation than we currently have on the wiki
 * Be more easily manageable, "backupable" and portable than the current wiki
 * Be easier to pack in an offline documentation package to be bundled with FreeCAD
 * Offer the same level of easiness to people wanting to collaborate
