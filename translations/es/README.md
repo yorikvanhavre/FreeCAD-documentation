@@ -1,6 +1,6 @@
 # Documentación FreeCAD
 
-Ese es un experimento para reconstruir la documentación FreeCAD con más sustenabilidad, It is, at the moment, solely made to serve as a proof-of-concept, to explore what is possible to do with markdown files and a git-based system, test different functionalities and systems in order to get to the same level of efficiency and openness we have on the FreeCAD wiki, and ultimately, if all goes well, convince the community to make the switch.
+Ese es un experimento para reconstruir la documentación FreeCAD con más sustenabilidad, Por el momento, está hecho únicamente para servir como prueba de concepto, para explorar lo que se puede hacer con los archivos de Markdown y un sistema basado en git, probar diferentes funcionalidades y sistemas para llegar al mismo nivel de eficiencia y apertura que tenemos en la wiki de FreeCAD y, en última instancia, si todo va bien, convencer a la comunidad para que haga el cambio.
 
 ## Metas
 
@@ -15,9 +15,9 @@ Ese es un experimento para reconstruir la documentación FreeCAD con más susten
 
 ## Ventajas
 
-* Markdown es [ fácil, muy similar ](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) a la sintaxis wiki, además de que está más extendido y es más fácil para convertir a otros formatos (más convertidores disponibles) e integrar en otras plataformas que pueden hacer algunas otras tareas automáticamente. There are many scripts like pandoc that can convert to/from wiki syntax automatically, but converting by hand is also pretty easy
-* Many fancy things we have to do with plugins on the wiki are builtin in markdown, such as SVG images or code syntax highlighting
-* The github interface is as comfortable or even more comfortable than mediawiki to work with. You can work fully from inside the github interface (including image upload, etc) and don't need to careabout git stuff
+* Markdown es [ fácil, muy similar ](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) a la sintaxis wiki, además de que está más extendido y es más fácil para convertir a otros formatos (más convertidores disponibles) e integrar en otras plataformas que pueden hacer algunas otras tareas automáticamente. Hay muchos scripts como pandoc que se pueden convertir a/desde la sintaxis wiki automáticamente, pero la conversión a mano también es bastante fácil
+* Muchas cosas sofisticadas que tenemos que hacer con los complementos en la wiki están incorporadas en Markdown, como imágenes SVG o resaltado de sintaxis de código
+* La interfaz de github es tan cómoda o incluso más cómoda que trabajar con mediawiki. Puede trabajar completamente desde dentro de la interfaz de github (incluida la carga de imágenes, etc.) y no necesita preocuparse por las cosas de git
 * You can also work offline and pull/push like normal git, then you have additional, gorgeous WYSIWYG editors like [typora](https://typora.io) (no more edit/preview windows)
 * The git workflow allows a finer management system: Frequent, trusted contributors can be granted write access, while occasional contributors can make PRs without having to request permission
 * Git solves backup issues: Everybody who clones the repo has a full copy, so the code is duplicated in many locations
