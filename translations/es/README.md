@@ -64,7 +64,7 @@ Así es como aparece la interfaz de crowdin cuando se trabaja con archivos md:
   </h2>
   
   <p>
-    Using auto conversion scripts wiki <-> md es fácil, hay muchos scripts disponibles (<a href="http://pandoc.org/">pandoc</a> u otros <a href="https://github.com/Gozala/markdown-wiki">scripts</a>). Las traducciones son complicadas. También está la cuestión de las imágenes. También hay <a href="https://github.com/philipashlock/mediawiki-to-markdown"> herramientas de migración</a>completas, que aún debo probar
+    Utilizando la conversión automática de la wiki <-> md es fácil, hay muchos scripts disponibles (<a href="http://pandoc.org/">pandoc</a> u otros <a href="https://github.com/Gozala/markdown-wiki">scripts</a>). Las traducciones son complicadas. También está la cuestión de las imágenes. También hay <a href="https://github.com/philipashlock/mediawiki-to-markdown"> herramientas de migración</a>completas, que aún debo probar
   </p>
   
   <p>
@@ -134,7 +134,7 @@ Así es como aparece la interfaz de crowdin cuando se trabaja con archivos md:
     <li>
       Traducciones <ul>
         <li>
-          Copies of the whole doc tree in every language
+          Copias de todo el árbol de documentos en todos los idiomas
         </li>
       </ul>
     </li>
