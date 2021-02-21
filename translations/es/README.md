@@ -64,23 +64,23 @@ Así es como aparece la interfaz de crowdin cuando se trabaja con archivos md:
   </h2>
   
   <p>
-    Using auto conversion scripts wiki <-> md is easy, many scripts available (<a href="http://pandoc.org/">pandoc</a>, or other <a href="https://github.com/Gozala/markdown-wiki">scripts</a>). Translations is tricky. There is also the question of images. There are complete <a href="https://github.com/philipashlock/mediawiki-to-markdown">migration tools</a> too, that I must still test
+    Using auto conversion scripts wiki <-> md es fácil, hay muchos scripts disponibles (<a href="http://pandoc.org/">pandoc</a> u otros <a href="https://github.com/Gozala/markdown-wiki">scripts</a>). Las traducciones son complicadas. También está la cuestión de las imágenes. También hay <a href="https://github.com/philipashlock/mediawiki-to-markdown"> herramientas de migración</a>completas, que aún debo probar
   </p>
   
   <p>
-    <strong>Quick way to convert:</strong>
+    <strong>Manera rápida de convertir:</strong>
   </p>
   
   <p>
-    1) Go to http://www.freecadweb.org/wiki/Special:Export/Arch_Wall 2) Save the xml on your computer 2) Save all images from the wiki and upload them to github (inside an images subfolder) 3) <code>pandoc --from mediawiki --to markdown Arch_Wall.xml</code> optionally, add <code>--wrap=none</code> 4) Create a new file, paste, fix links
+    1) Vaya a http://www.freecadweb.org/wiki/Special:Export/Arch_Wall 2) Guarde el xml en su computadora 2) Guarde todas las imágenes de la wiki y cárguelas en github (dentro de una subcarpeta de imágenes) 3) <code>pandoc --de mediawiki --to markdown Arch_Wall.xml</code>opcionalmente, agregue<code>--wrap = none</code> 4) Cree un nuevo archivo, pegue, corrija enlaces
   </p>
   
   <h2>
-    Structure proposal
+    Propuesta de estructura
   </h2>
   
   <p>
-    Each of the categories below is a folder. Each of them contains an "images" subfolder where all the images of the pages that are inside that categoriy go.
+    Cada una de las categorías siguientes es una carpeta. Each of them contains an "images" subfolder where all the images of the pages that are inside that categoriy go.
   </p>
   
   <ul>
