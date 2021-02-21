@@ -5,17 +5,17 @@ Ese es un experimento para reconstruir la documentación FreeCAD con más susten
 ## Metas
 
 * Tener una presentación mas profesional y estructurada, fácil de navegar y que utiliza documentación que tenemos actualmente en la wiki
-* Be more easily manageable, "backupable" and portable than the current wiki
-* Be easier to pack in an offline documentation package to be bundled with FreeCAD
-* Offer the same level of easiness to people wanting to collaborate
-* Offer a good translation system that is easy to use for peeople wanting to translate
-* Offer documentation ‘versions’ that correspond to FreeCAD releases
-* Offer documentation in formats suitable for offline readers - ePub, pdf, etc.
-* Example files could be integrated here too
+* Ser más fácil de administrar, "respaldable" y portátil que la wiki actual
+* Sea más fácil de cargar en un paquete de documentación fuera de línea para agruparlo con FreeCAD
+* Ofrecer el mismo nivel de facilidad a las personas que quieran colaborar
+* Ofrecer un buen sistema de traducción que sea fácil de usar para las personas que quieran traducir
+* Ofrecer "versiones" de documentación que correspondan a las versiones de FreeCAD
+* Ofrecer documentación en formatos adecuados para lectores fuera de línea: ePub, pdf, etc.
+* También se pueden integrar aquí archivos de ejemplo
 
 ## Ventajas
 
-* Markdown is [easy, very similar](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to the wiki syntax, plus it is more widespread and easier to convert to other formats (more convertors available) and integrate into other platforms that can do some other tasks automatically. There are many scripts like pandoc that can convert to/from wiki syntax automatically, but converting by hand is also pretty easy
+* Markdown es [ fácil, muy similar ](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) a la sintaxis wiki, además de que está más extendido y es más fácil para convertir a otros formatos (más convertidores disponibles) e integrar en otras plataformas que pueden hacer algunas otras tareas automáticamente. There are many scripts like pandoc that can convert to/from wiki syntax automatically, but converting by hand is also pretty easy
 * Many fancy things we have to do with plugins on the wiki are builtin in markdown, such as SVG images or code syntax highlighting
 * The github interface is as comfortable or even more comfortable than mediawiki to work with. You can work fully from inside the github interface (including image upload, etc) and don't need to careabout git stuff
 * You can also work offline and pull/push like normal git, then you have additional, gorgeous WYSIWYG editors like [typora](https://typora.io) (no more edit/preview windows)
