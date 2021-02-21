@@ -44,7 +44,7 @@ Así es como aparece la interfaz de crowdin cuando se trabaja con archivos md:
 
 * Es necesario mover todo el wiki, página por página. Algo de esto se puede hacer automáticamente, pero en cualquier caso, la mayoría de los enlaces deberán ser revisados/cambiados, por lo que será necesario revisar manualmente cada página de todos modos
 * Las traducciones no se pueden exportar automáticamente. Será un trabajo largo de copiar y pegar.
-* The Crowdin interface, although elegant to work wik markdown files, has an annoying thing with links (they appear as <a> html elements). However, we might succeed in talking about that with crowdin people and do something...</li> </ul> 
+* La interfaz de Crowdin, aunque elegante para trabajar con archivos de Markdown, tiene algo molesto con los enlaces (aparecen como elementos <a> html). Sin embargo, podríamos lograr hablar de eso con la gente de crowdin y hacer algo...</li> </ul> 
   
   <h2>
     Documentación fuera de línea en FreeCAD
@@ -52,15 +52,15 @@ Así es como aparece la interfaz de crowdin cuando se trabaja con archivos md:
   
   <ul>
     <li>
-      In a first step, adapting the offline doc generation is easy, because it is anyway generated from html pages, and we will have the same pages on github.
+      En un primer paso, adaptar la generación de documentos fuera de línea es fácil, porque de todos modos se genera a partir de páginas html, y tendremos las mismas páginas en github.
     </li>
     <li>
-      In a second step, we can explore something handier thatn the current qt assistant-based offline doc, maybe something that displays the html pages directly, being o line or offline...
+      En un segundo paso, podemos explorar algo más útil que el documento actual sin conexión basado en asistente de qt, tal vez algo que muestre las páginas html directamente, ya sea en línea o fuera de línea...
     </li>
   </ul>
   
   <h2>
-    Mediawiki -> Markdown conversion
+    Conversión Mediawiki -> Markdown
   </h2>
   
   <p>
