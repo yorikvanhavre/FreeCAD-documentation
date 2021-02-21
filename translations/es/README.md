@@ -18,18 +18,18 @@ Ese es un experimento para reconstruir la documentación FreeCAD con más susten
 * Markdown es [ fácil, muy similar ](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) a la sintaxis wiki, además de que está más extendido y es más fácil para convertir a otros formatos (más convertidores disponibles) e integrar en otras plataformas que pueden hacer algunas otras tareas automáticamente. Hay muchos scripts como pandoc que se pueden convertir a/desde la sintaxis wiki automáticamente, pero la conversión a mano también es bastante fácil
 * Muchas cosas sofisticadas que tenemos que hacer con los complementos en la wiki están incorporadas en Markdown, como imágenes SVG o resaltado de sintaxis de código
 * La interfaz de github es tan cómoda o incluso más cómoda que trabajar con mediawiki. Puede trabajar completamente desde dentro de la interfaz de github (incluida la carga de imágenes, etc.) y no necesita preocuparse por las cosas de git
-* You can also work offline and pull/push like normal git, then you have additional, gorgeous WYSIWYG editors like [typora](https://typora.io) (no more edit/preview windows)
-* The git workflow allows a finer management system: Frequent, trusted contributors can be granted write access, while occasional contributors can make PRs without having to request permission
-* Git solves backup issues: Everybody who clones the repo has a full copy, so the code is duplicated in many locations
-* Since it is all file-based, it is very easy to move and reorganize things
-* Automatically syncing with [gitbook](https://legacy.gitbook.com/book/yorikvanhavre/freecad-documentation), so the whole documentation is always available in pdf, epub and mobi formats, automatically. All it requires is maintaining the <SUMMARY.md> file updated. Other systems such as [ReadTheDocs](https://readthedocs.org/projects/freecad-documentation/) or [MkDocs](http://www.mkdocs.org/) are easy to configure to build automatically too.
+* También puede trabajar sin conexión y extraer / empujar como un git normal, luego tiene editores WYSIWYG adicionales y hermosos como [ typora ](https://typora.io) (no más ventanas de edición/vista previa)
+* El flujo de trabajo de git permite un sistema de gestión más fino: los colaboradores frecuentes y de confianza pueden tener acceso de escritura, mientras que los colaboradores ocasionales pueden hacer PR´s sin tener que solicitar permiso
+* Git resuelve problemas de copia de seguridad: todos los que clonan el repositorio tienen una copia completa, por lo que el código se duplica en muchas ubicaciones
+* Dado que todo está basado en archivos, es muy fácil mover y reorganizar las cosas
+* Sincronización automática con [ gitbook ](https://legacy.gitbook.com/book/yorikvanhavre/freecad-documentation), por lo que toda la documentación está siempre disponible en formato pdf, epub y mobi, automáticamente. Todo lo que requiere es mantener actualizado el archivo [ SUMMARY.md ](SUMMARY.md). Otros sistemas como [ ReadTheDocs ](https://readthedocs.org/projects/freecad-documentation/) o [ MkDocs ](http://www.mkdocs.org/) son fáciles de configurar para compilar automáticamente también.
 
-This is how it appears on GitBook, it can be read online or downloaded as ebook:
+Así es como aparece en GitBook, se puede leer en línea o descargar como libro electrónico:
 
 ![](images/gitbook.png)
 
-* Automatically syncing with [crowdin](https://crowdin.com/project/freecad-documentation). Any change done on github reflects automatically on crowdin (no manual syncing necessary). Crowdin, in turn, pushes all its changes in a separate branch on this repo, that can be merged any time, when we see fit, with the click of a button. 
-* Each translation is a complete copy of the english source structure, inside the "translations" directory. Each translation can be built and browsed the exact same way as the english one, and they don't clutter the english source tree
+* Sincronización automática con [ crowdin ](https://crowdin.com/project/freecad-documentation). Cualquier cambio realizado en github se refleja automáticamente en crowdin (no es necesaria una sincronización manual). Crowdin, a su vez, empuja todos sus cambios en una rama separada en este repositorio, que se puede fusionar en cualquier momento, cuando lo consideremos oportuno, con el clic de un botón. 
+* Cada traducción es una copia completa de la estructura de la fuente en inglés, dentro del directorio de "translations". Each translation can be built and browsed the exact same way as the english one, and they don't clutter the english source tree
 * Crowdin's interface for editing markdown files is a bit different than the one we use to translate FreeCAD, and is pretty similar to the wiki translation plugin
 
 This is how the crowdin interface appears when working with md files:
