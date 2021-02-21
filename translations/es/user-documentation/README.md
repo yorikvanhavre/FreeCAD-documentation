@@ -9,10 +9,10 @@ Encontrarás aquí:
 * Tutoriales
 * Información extra sobre bancos de trabajo externos
 
-Please note that like FreeCAD itself, these pages are in continuous development. FreeCAD already features many interesting tools for the final user, and more are continuously added, which is why you might still find missing or outdated documentation here.
+Nótese que al igual que FreeCAD mismo, éstas páginas están en continuo desarrollo. FreeCAD ya presenta muchas herramientas interesantes para el usuario final, y se agregan más continuamente, por lo que es posible que todavía encuentre documentación faltante o desactualizada aquí.
 
-But don't feel discouraged, browse the contents of this section, and, if you cannot find the information you need, don't hesitate to ask! Among the developers or in the small but growing FreeCAD users community, there will certainly be someone who can help you. You can leave comments related to this wiki documentation site on the FreeCAD help forum and ask your questions there.
+Pero no te desanimes, navega por los contenidos de esta sección y, si no encuentras la información que necesitas, no dudes en preguntar! Entre los desarrolladores o en la pequeña pero creciente comunidad de usuarios de FreeCAD, seguramente habrá alguien que pueda ayudarlo. Puede dejar comentarios relacionados con este sitio de documentación wiki en el foro de ayuda de FreeCAD y hacer sus preguntas allí.
 
-And if you have some information you would like to appear here, why not contribute and help us make this manual grow. Head to the Help FreeCAD page, that will help you to get started.
+Y si tienes alguna información que te gustaría que apareciera aquí, por qué no contribuir y ayudarnos a hacer crecer este manual?. Dirígete a la página Ayuda de FreeCAD, que te ayudará a comenzar.
 
-If you would like to know how the development of FreeCAD has started years ago visit the History page.
+Si desea saber cómo comenzó el desarrollo de FreeCAD hace años, visite la página Historia.
