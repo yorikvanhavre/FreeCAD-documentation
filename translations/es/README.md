@@ -29,21 +29,21 @@ Así es como aparece en GitBook, se puede leer en línea o descargar como libro 
 ![](images/gitbook.png)
 
 * Sincronización automática con [ crowdin ](https://crowdin.com/project/freecad-documentation). Cualquier cambio realizado en github se refleja automáticamente en crowdin (no es necesaria una sincronización manual). Crowdin, a su vez, empuja todos sus cambios en una rama separada en este repositorio, que se puede fusionar en cualquier momento, cuando lo consideremos oportuno, con el clic de un botón. 
-* Cada traducción es una copia completa de la estructura de la fuente en inglés, dentro del directorio de "translations". Each translation can be built and browsed the exact same way as the english one, and they don't clutter the english source tree
-* Crowdin's interface for editing markdown files is a bit different than the one we use to translate FreeCAD, and is pretty similar to the wiki translation plugin
+* Cada traducción es una copia completa de la estructura de la fuente en inglés, dentro del directorio de "translations". Cada traducción se puede construir y navegar exactamente de la misma manera que la en inglés, y no abarrotan el árbol de fuentes en inglés
+* La interfaz de Crowdin para editar archivos de Markdown es un poco diferente a la que usamos para traducir FreeCAD, y es bastante similar al complemento de traducción wiki
 
-This is how the crowdin interface appears when working with md files:
+Así es como aparece la interfaz de crowdin cuando se trabaja con archivos md:
 
 ![](images/crowdin.png)
 
-* Crowdin creates a full copy of the documentation for every language. This simplifies a lot the creation of full translated versions
-* With Git we can work with directories, subdirectories, etc, which makes organization of files easier, compared to the "flat" structure of mediawiki
-* With git tags we can mark a certain version of the doc, for example when releasing. We can also create branches for not-released-yet pages
+* Crowdin crea una copia completa de la documentación para cada idioma. Esto simplifica mucho la creación de versiones traducidas completas
+* Con Git podemos trabajar con directorios, subdirectorios, etc., lo que facilita la organización de archivos, en comparación con la estructura "plana" de mediawiki
+* Con las etiquetas git podemos marcar una determinada versión del documento, por ejemplo, al lanzarlo. También podemos crear ramas para páginas aún no publicadas
 
 ## Desventajas
 
-* One needs to move all the wiki, page by page. Some of this can be done automatically, but in any case most of the links will need to be checked/changed, so it will need manual review of each page anyway
-* Translations cannot be exported automatically. It will be a long copy/paste work.
+* Es necesario mover todo el wiki, página por página. Algo de esto se puede hacer automáticamente, pero en cualquier caso, la mayoría de los enlaces deberán ser revisados/cambiados, por lo que será necesario revisar manualmente cada página de todos modos
+* Las traducciones no se pueden exportar automáticamente. Será un trabajo largo de copiar y pegar.
 * The Crowdin interface, although elegant to work wik markdown files, has an annoying thing with links (they appear as <a> html elements). However, we might succeed in talking about that with crowdin people and do something...</li> </ul> 
   
   <h2>
