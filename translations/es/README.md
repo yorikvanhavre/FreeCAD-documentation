@@ -38,13 +38,13 @@ Así es como aparece la interfaz de crowdin cuando se trabaja con archivos md:
 
 * Crowdin crea una copia completa de la documentación para cada idioma. Esto simplifica mucho la creación de versiones traducidas completas
 * Con Git podemos trabajar con directorios, subdirectorios, etc., lo que facilita la organización de archivos, en comparación con la estructura "plana" de mediawiki
-* Con las etiquetas git podemos marcar una determinada versión del documento, por ejemplo, al lanzarlo. We can also create branches for not-released-yet pages
+* Con las etiquetas git podemos marcar una determinada versión del documento, por ejemplo, al lanzarlo. También podemos crear ramas para páginas aún no publicadas
 
 ## Desventajas
 
-* One needs to move all the wiki, page by page. Some of this can be done automatically, but in any case most of the links will need to be checked/changed, so it will need manual review of each page anyway
-* Translations cannot be exported automatically. It will be a long copy/paste work.
-* The Crowdin interface, although elegant to work wik markdown files, has an annoying thing with links (they appear as <a> html elements). However, we might succeed in talking about that with crowdin people and do something...</li> </ul> 
+* Es necesario mover todo el wiki, página por página. Algo de esto se puede hacer automáticamente, pero en cualquier caso, la mayoría de los enlaces deberán ser revisados/cambiados, por lo que será necesario revisar manualmente cada página de todos modos
+* Las traducciones no se pueden exportar automáticamente. Será un trabajo largo de copiar y pegar.
+* La interfaz de Crowdin, aunque elegante para trabajar con archivos de Markdown, tiene algo molesto con los enlaces (aparecen como elementos <a> html). Sin embargo, podríamos lograr hablar de eso con la gente de crowdin y hacer algo...</li> </ul> 
   
   <h2>
     Documentación fuera de línea en FreeCAD
@@ -52,23 +52,23 @@ Así es como aparece la interfaz de crowdin cuando se trabaja con archivos md:
   
   <ul>
     <li>
-      In a first step, adapting the offline doc generation is easy, because it is anyway generated from html pages, and we will have the same pages on github.
+      En un primer paso, adaptar la generación de documentos fuera de línea es fácil, porque de todos modos se genera a partir de páginas html, y tendremos las mismas páginas en github.
     </li>
     <li>
-      In a second step, we can explore something handier thatn the current qt assistant-based offline doc, maybe something that displays the html pages directly, being o line or offline...
+      En un segundo paso, podemos explorar algo más útil que el documento actual sin conexión basado en asistente de qt, tal vez algo que muestre las páginas html directamente, ya sea en línea o fuera de línea...
     </li>
   </ul>
   
   <h2>
-    Mediawiki -> Markdown conversion
+    Conversión Mediawiki -> Markdown
   </h2>
   
   <p>
-    Using auto conversion scripts wiki <-> md is easy, many scripts available (<a href="http://pandoc.org/">pandoc</a>, or other <a href="https://github.com/Gozala/markdown-wiki">scripts</a>). Translations is tricky. There is also the question of images. There are complete <a href="https://github.com/philipashlock/mediawiki-to-markdown">migration tools</a> too, that I must still test
+    Utilizando la conversión automática de la wiki <-> md es fácil, hay muchos scripts disponibles (<a href="http://pandoc.org/">pandoc</a> u otros <a href="https://github.com/Gozala/markdown-wiki">scripts</a>). Las traducciones son complicadas. También está la cuestión de las imágenes. También hay <a href="https://github.com/philipashlock/mediawiki-to-markdown"> herramientas de migración</a>completas, que aún debo probar
   </p>
   
   <p>
-    <strong>Quick way to convert:</strong>
+    <strong>Manera rápida de convertir:</strong>
   </p>
   
   <p>
