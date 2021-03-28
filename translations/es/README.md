@@ -72,28 +72,28 @@ Así es como aparece la interfaz de crowdin cuando se trabaja con archivos md:
   </p>
   
   <p>
-    1) Go to http://www.freecadweb.org/wiki/Special:Export/Arch_Wall 2) Save the xml on your computer 2) Save all images from the wiki and upload them to github (inside an images subfolder) 3) <code>pandoc --from mediawiki --to markdown Arch_Wall.xml</code> optionally, add <code>--wrap=none</code> 4) Create a new file, paste, fix links
+    1) Vaya a http://www.freecadweb.org/wiki/Special:Export/Arch_Wall 2) Guarde el xml en su computadora 2) Guarde todas las imágenes de la wiki y cárguelas en github (dentro de una subcarpeta de imágenes) 3) <code>pandoc --from mediawiki --to markdown Arch_Wall.xml</code> opcionalmente, agregue<code>--wrap = none</code> 4) Cree un nuevo archivo, pegue, corrija enlaces
   </p>
   
   <h2>
-    Structure proposal
+    Propuesta de estructura
   </h2>
   
   <p>
-    Each of the categories below is a folder. Each of them contains an "images" subfolder where all the images of the pages that are inside that categoriy go.
+    Cada una de las categorías siguientes es una carpeta. Cada uno de ellos contiene una subcarpeta de "imágenes" donde van todas las imágenes de las páginas que están dentro de esa categoría.
   </p>
   
   <ul>
     <li>
       Introducción <ul>
         <li>
-          Welcome & about
+          Bienvenido & acerca de
         </li>
         <li>
-          General stuff from user hub, mouse model, etc..
+          Cosas generales del centro de usuario, modelo de mouse, etc..
         </li>
         <li>
-          Getting started
+          Empezando
         </li>
         <li>
           Tutoriales
@@ -101,40 +101,40 @@ Así es como aparece la interfaz de crowdin cuando se trabaja con archivos md:
       </ul>
     </li>
     <li>
-      Workbenches <ul>
+      Bancos de trabajo <ul>
         <li>
-          Each workbench page
+          Cada página de banco de trabajo
         </li>
         <li>
-          Maybe links to external workbenches too?
+          Quizás también enlaces a bancos de trabajo externos?
         </li>
       </ul>
     </li>
     <li>
       Python scripting <ul>
         <li>
-          All the poweruser hub pages
+          Todas las páginas del centro de usuarios avanzados
         </li>
       </ul>
     </li>
     <li>
-      Development and deployment (python scripting is also development, so... should be some other name) <ul>
+      Desarrollo e implementación (la secuencia de comandos de Python también es desarrollo, así que... debería ser otro nombre) <ul>
         <li>
-          All the pages from developers hub
+          Todas las páginas del centro de desarrolladores
         </li>
       </ul>
     </li>
     <li>
-      Command reference <ul>
+      Referencia de comandos <ul>
         <li>
-          All the individual command pages classified by prefix (Std, Draft, FEM, etc...)
+          Todas las páginas de comandos individuales clasificadas por prefijo (Std, Draft, FEM, etc...)
         </li>
       </ul>
     </li>
     <li>
-      Translations <ul>
+      Traducciones <ul>
         <li>
-          Copies of the whole doc tree in every language
+          Copias de todo el árbol de documentos en todos los idiomas
         </li>
       </ul>
     </li>
