@@ -7,7 +7,7 @@ Encontrarás aquí:
 * Información general [acerca de FreeCAD](about.md), sus [principales características], y [cómo empezar].
 * Documentación de bancos de trabajo, incluida la descripción general y la documentación de cada comando que se encuentra en ella
 * Tutoriales
-* Información extra sobre bancos de trabajo externos
+* Información adicional sobre bancos de trabajo externos
 
 Nótese que al igual que FreeCAD mismo, éstas páginas están en continuo desarrollo. FreeCAD ya presenta muchas herramientas interesantes para el usuario final, y se agregan más continuamente, por lo que es posible que todavía encuentre documentación faltante o desactualizada aquí.
 
