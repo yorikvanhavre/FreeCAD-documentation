@@ -1,1 +1,1 @@
-Місце для всіх зображень із командного посилання сторінок
+Um lugar para todas as imagens nas páginas de referência de comandos

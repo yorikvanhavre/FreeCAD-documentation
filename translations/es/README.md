@@ -1,140 +1,140 @@
-# FreeCAD-documentation
+# Documentación FreeCAD
 
-This is an experiment to reconstruct the FreeCAD documentation in a more sustainable, markdown-based way. It is, at the moment, solely made to serve as a proof-of-concept, to explore what is possible to do with markdown files and a git-based system, test different functionalities and systems in order to get to the same level of efficiency and openness we have on the FreeCAD wiki, and ultimately, if all goes well, convince the community to make the switch.
+Ese es un experimento para reconstruir la documentación FreeCAD en forma más sostenible, basado en Markdown. Por el momento, está hecho únicamente para servir como prueba de concepto, para explorar lo que se puede hacer con los archivos de Markdown y un sistema basado en git, probar diferentes funcionalidades y sistemas para llegar al mismo nivel de eficiencia y apertura que tenemos en la wiki de FreeCAD y, en última instancia, si todo va bien, convencer a la comunidad para que haga el cambio.
 
-## Goals
+## Metas
 
-* Have a more structured, professional-looking and easy to navigate and use documentation than we currently have on the wiki
-* Be more easily manageable, "backupable" and portable than the current wiki
-* Be easier to pack in an offline documentation package to be bundled with FreeCAD
-* Offer the same level of easiness to people wanting to collaborate
-* Offer a good translation system that is easy to use for peeople wanting to translate
-* Offer documentation ‘versions’ that correspond to FreeCAD releases
-* Offer documentation in formats suitable for offline readers - ePub, pdf, etc.
-* Example files could be integrated here too
+* Tener una presentación mas profesional y estructurada, fácil de navegar y que utiliza documentación que tenemos actualmente en la wiki
+* Ser más fácil de administrar, "respaldable" y portátil que la wiki actual
+* Sea más fácil de cargar en un paquete de documentación fuera de línea para agruparlo con FreeCAD
+* Ofrecer el mismo nivel de facilidad a las personas que quieran colaborar
+* Ofrecer un buen sistema de traducción que sea fácil de usar para las personas que quieran traducir
+* Ofrecer "versiones" de documentación que correspondan a las versiones de FreeCAD
+* Ofrecer documentación en formatos adecuados para lectores fuera de línea: ePub, pdf, etc.
+* También se pueden integrar aquí archivos de ejemplo
 
-## Advantages
+## Ventajas
 
-* Markdown is [easy, very similar](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to the wiki syntax, plus it is more widespread and easier to convert to other formats (more convertors available) and integrate into other platforms that can do some other tasks automatically. There are many scripts like pandoc that can convert to/from wiki syntax automatically, but converting by hand is also pretty easy
-* Many fancy things we have to do with plugins on the wiki are builtin in markdown, such as SVG images or code syntax highlighting
-* The github interface is as comfortable or even more comfortable than mediawiki to work with. You can work fully from inside the github interface (including image upload, etc) and don't need to careabout git stuff
-* You can also work offline and pull/push like normal git, then you have additional, gorgeous WYSIWYG editors like [typora](https://typora.io) (no more edit/preview windows)
-* The git workflow allows a finer management system: Frequent, trusted contributors can be granted write access, while occasional contributors can make PRs without having to request permission
-* Git solves backup issues: Everybody who clones the repo has a full copy, so the code is duplicated in many locations
-* Since it is all file-based, it is very easy to move and reorganize things
-* Automatically syncing with [gitbook](https://legacy.gitbook.com/book/yorikvanhavre/freecad-documentation), so the whole documentation is always available in pdf, epub and mobi formats, automatically. All it requires is maintaining the <SUMMARY.md> file updated. Other systems such as [ReadTheDocs](https://readthedocs.org/projects/freecad-documentation/) or [MkDocs](http://www.mkdocs.org/) are easy to configure to build automatically too.
+* Markdown es [ fácil, muy similar ](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) a la sintaxis wiki, además de que está más extendido y es más fácil para convertir a otros formatos (más convertidores disponibles) e integrar en otras plataformas que pueden hacer algunas otras tareas automáticamente. Hay muchos scripts como pandoc que se pueden convertir a/desde la sintaxis wiki automáticamente, pero la conversión a mano también es bastante fácil
+* Muchas cosas sofisticadas que tenemos que hacer con los complementos en la wiki están incorporadas en Markdown, como imágenes SVG o resaltado de sintaxis de código
+* La interfaz de github es tan cómoda o incluso más cómoda que trabajar con mediawiki. Puede trabajar completamente desde dentro de la interfaz de github (incluida la carga de imágenes, etc.) y no necesita preocuparse por las cosas de git
+* También puede trabajar sin conexión y extraer/empujar como un git normal, luego tiene editores WYSIWYG adicionales y hermosos como [ typora ](https://typora.io) (no más ventanas de edición/vista previa)
+* El flujo de trabajo de git permite un sistema de gestión más fino: los colaboradores frecuentes y de confianza pueden tener acceso de escritura, mientras que los colaboradores ocasionales pueden hacer PR´s sin tener que solicitar permiso
+* Git resuelve problemas de copia de seguridad: todos los que clonan el repositorio tienen una copia completa, por lo que el código se duplica en muchas ubicaciones
+* Dado que todo está basado en archivos, es muy fácil mover y reorganizar las cosas
+* Sincronización automática con [ gitbook ](https://legacy.gitbook.com/book/yorikvanhavre/freecad-documentation), por lo que toda la documentación está siempre disponible en formato pdf, epub y mobi, automáticamente. Todo lo que requiere es mantener actualizado el archivo [ SUMMARY.md ](SUMMARY.md). Otros sistemas como [ ReadTheDocs ](https://readthedocs.org/projects/freecad-documentation/) o [ MkDocs ](http://www.mkdocs.org/) son fáciles de configurar para compilar automáticamente también.
 
-This is how it appears on GitBook, it can be read online or downloaded as ebook:
+Así es como aparece en GitBook, se puede leer en línea o descargar como libro electrónico:
 
 ![](images/gitbook.png)
 
-* Automatically syncing with [crowdin](https://crowdin.com/project/freecad-documentation). Any change done on github reflects automatically on crowdin (no manual syncing necessary). Crowdin, in turn, pushes all its changes in a separate branch on this repo, that can be merged any time, when we see fit, with the click of a button. 
-* Each translation is a complete copy of the english source structure, inside the "translations" directory. Each translation can be built and browsed the exact same way as the english one, and they don't clutter the english source tree
-* Crowdin's interface for editing markdown files is a bit different than the one we use to translate FreeCAD, and is pretty similar to the wiki translation plugin
+* Sincronización automática con [ crowdin ](https://crowdin.com/project/freecad-documentation). Cualquier cambio realizado en github se refleja automáticamente en crowdin (no es necesaria una sincronización manual). Crowdin, a su vez, empuja todos sus cambios en una rama separada en este repositorio, que se puede fusionar en cualquier momento, cuando lo consideremos oportuno, con el clic de un botón. 
+* Cada traducción es una copia completa de la estructura de la fuente en inglés, dentro del directorio de "translations". Cada traducción se puede construir y navegar exactamente de la misma manera que la en inglés, y no abarrotan el árbol de fuentes en inglés
+* La interfaz de Crowdin para editar archivos de Markdown es un poco diferente a la que usamos para traducir FreeCAD, y es bastante similar al complemento de traducción wiki
 
-This is how the crowdin interface appears when working with md files:
+Así es como aparece la interfaz de crowdin cuando se trabaja con archivos md:
 
 ![](images/crowdin.png)
 
-* Crowdin creates a full copy of the documentation for every language. This simplifies a lot the creation of full translated versions
-* With Git we can work with directories, subdirectories, etc, which makes organization of files easier, compared to the "flat" structure of mediawiki
-* With git tags we can mark a certain version of the doc, for example when releasing. We can also create branches for not-released-yet pages
+* Crowdin crea una copia completa de la documentación para cada idioma. Esto simplifica mucho la creación de versiones traducidas completas
+* Con Git podemos trabajar con directorios, subdirectorios, etc., lo que facilita la organización de archivos, en comparación con la estructura "plana" de mediawiki
+* Con las etiquetas git podemos marcar una determinada versión del documento, por ejemplo, al lanzarlo. También podemos crear ramas para páginas aún no publicadas
 
-## Disadvantages
+## Desventajas
 
-* One needs to move all the wiki, page by page. Some of this can be done automatically, but in any case most of the links will need to be checked/changed, so it will need manual review of each page anyway
-* Translations cannot be exported automatically. It will be a long copy/paste work.
-* The Crowdin interface, although elegant to work wik markdown files, has an annoying thing with links (they appear as <a> html elements). However, we might succeed in talking about that with crowdin people and do something...</li> </ul> 
+* Es necesario mover todo el wiki, página por página. Algo de esto se puede hacer automáticamente, pero en cualquier caso, la mayoría de los enlaces deberán ser revisados/cambiados, por lo que será necesario revisar manualmente cada página de todos modos
+* Las traducciones no se pueden exportar automáticamente. Será un trabajo largo de copiar y pegar.
+* La interfaz de Crowdin, aunque elegante para trabajar con archivos de Markdown, tiene algo molesto con los enlaces (aparecen como elementos <a> html). Sin embargo, podríamos lograr hablar de eso con la gente de crowdin y hacer algo...</li> </ul> 
   
   <h2>
-    Offline doc in FreeCAD
+    Documentación fuera de línea en FreeCAD
   </h2>
   
   <ul>
     <li>
-      In a first step, adapting the offline doc generation is easy, because it is anyway generated from html pages, and we will have the same pages on github.
+      En un primer paso, adaptar la generación de documentos fuera de línea es fácil, porque de todos modos se genera a partir de páginas html, y tendremos las mismas páginas en github.
     </li>
     <li>
-      In a second step, we can explore something handier thatn the current qt assistant-based offline doc, maybe something that displays the html pages directly, being o line or offline...
+      En un segundo paso, podemos explorar algo más útil que el documento actual sin conexión basado en asistente de qt, tal vez algo que muestre las páginas html directamente, ya sea en línea o fuera de línea...
     </li>
   </ul>
   
   <h2>
-    Mediawiki -> Markdown conversion
+    Conversión Mediawiki -> Markdown
   </h2>
   
   <p>
-    Using auto conversion scripts wiki <-> md is easy, many scripts available (<a href="http://pandoc.org/">pandoc</a>, or other <a href="https://github.com/Gozala/markdown-wiki">scripts</a>). Translations is tricky. There is also the question of images. There are complete <a href="https://github.com/philipashlock/mediawiki-to-markdown">migration tools</a> too, that I must still test
+    Utilizando la conversión automática de la wiki <-> md es fácil, hay muchos scripts disponibles (<a href="http://pandoc.org/">pandoc</a> u otros <a href="https://github.com/Gozala/markdown-wiki">scripts</a>). Las traducciones son complicadas. También está la cuestión de las imágenes. También hay <a href="https://github.com/philipashlock/mediawiki-to-markdown"> herramientas de migración</a>completas, que aún debo probar
   </p>
   
   <p>
-    <strong>Quick way to convert:</strong>
+    <strong>Manera rápida de convertir:</strong>
   </p>
   
   <p>
-    1) Go to http://www.freecadweb.org/wiki/Special:Export/Arch_Wall 2) Save the xml on your computer 2) Save all images from the wiki and upload them to github (inside an images subfolder) 3) <code>pandoc --from mediawiki --to markdown Arch_Wall.xml</code> optionally, add <code>--wrap=none</code> 4) Create a new file, paste, fix links
+    1) Vaya a http://www.freecadweb.org/wiki/Special:Export/Arch_Wall 2) Guarde el xml en su computadora 2) Guarde todas las imágenes de la wiki y cárguelas en github (dentro de una subcarpeta de imágenes) 3) <code>pandoc --from mediawiki --to markdown Arch_Wall.xml</code> opcionalmente, agregue<code>--wrap = none</code> 4) Cree un nuevo archivo, pegue, corrija enlaces
   </p>
   
   <h2>
-    Structure proposal
+    Propuesta de estructura
   </h2>
   
   <p>
-    Each of the categories below is a folder. Each of them contains an "images" subfolder where all the images of the pages that are inside that categoriy go.
+    Cada una de las categorías siguientes es una carpeta. Cada uno de ellos contiene una subcarpeta de "imágenes" donde van todas las imágenes de las páginas que están dentro de esa categoría.
   </p>
   
   <ul>
     <li>
-      Introduction <ul>
+      Introducción <ul>
         <li>
-          Welcome & about
+          Bienvenido & acerca de
         </li>
         <li>
-          General stuff from user hub, mouse model, etc..
+          Cosas generales del centro de usuario, modelo de mouse, etc..
         </li>
         <li>
-          Getting started
+          Empezando
         </li>
         <li>
-          Tutorials
+          Tutoriales
         </li>
       </ul>
     </li>
     <li>
-      Workbenches <ul>
+      Bancos de trabajo <ul>
         <li>
-          Each workbench page
+          Cada página de banco de trabajo
         </li>
         <li>
-          Maybe links to external workbenches too?
+          Quizás también enlaces a bancos de trabajo externos?
         </li>
       </ul>
     </li>
     <li>
       Python scripting <ul>
         <li>
-          All the poweruser hub pages
+          Todas las páginas del centro de usuarios avanzados
         </li>
       </ul>
     </li>
     <li>
-      Development and deployment (python scripting is also development, so... should be some other name) <ul>
+      Desarrollo e implementación (la secuencia de comandos de Python también es desarrollo, así que... debería ser otro nombre) <ul>
         <li>
-          All the pages from developers hub
+          Todas las páginas del centro de desarrolladores
         </li>
       </ul>
     </li>
     <li>
-      Command reference <ul>
+      Referencia de comandos <ul>
         <li>
-          All the individual command pages classified by prefix (Std, Draft, FEM, etc...)
+          Todas las páginas de comandos individuales clasificadas por prefijo (Std, Draft, FEM, etc...)
         </li>
       </ul>
     </li>
     <li>
-      Translations <ul>
+      Traducciones <ul>
         <li>
-          Copies of the whole doc tree in every language
+          Copias de todo el árbol de documentos en todos los idiomas
         </li>
       </ul>
     </li>

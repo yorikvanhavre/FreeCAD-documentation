@@ -1,1 +1,1 @@
-This sectin contains all the individual command help pages
+Ta sekcja zawiera wszystkie indywidualne strony pomocy dla poleceń

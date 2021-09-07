@@ -1,11 +1,11 @@
-# ![](images/Arch_Wall.svg) Kiến trúc - Tường
+# ![](images/Arch_Wall.svg) Arch Wand
 
-- Vị trí menu: **Kiến trúc → Tường**
-- Gói công cụ: **Kiến trúc**
-- Phím tắt mặc định: **W A**
-- Xem thêm: [Kết cấu Kiến trúc](Arch_Structure)
+- Menüposition: **Arch → Wand**
+- Arbeitsbereich: **Arch**
+- Standard Tastenkombination: **W A**
+- Siehe auch: [Arch Struktur](Arch_Structure)
 
-## Mô tả
+## Beschreibung
 
 Công cụ này xây dựng một đối tượng Tường từ đầu hoặc trên một đối tượng [dựa trên] [hình dạng](Part_Module) hoặc trên một đối tượng [dựa trên] [lưới chia](Mesh_Module) đã có. Một Tường có thể được xây dựng trực tiếp mà không cần dựa vào đối tượng cơ sở nào. Khi đó, nó là một khối với các thuộc tính dài, rộng và cao. Khi được xây dựng từ một đối tượng đã có, một Tường có thể được dựa trên:
 
@@ -80,7 +80,7 @@ Công cụ Tường có thể được sử dụng trong [vĩ lệnh](macros "wi
 - Tạo ra một Tường dựa trên đối tượng obj cho trước, có thể là một Phác thảo, một đối tượng Nháp, một Mặt hoặc một Khối. align có thể là "giữa", "trái" hoặc "phải". Nếu không cho biết đối tượng cơ sở, thì có thể sử dụng các giá trị bằng số cho chiều dài, chiều rộng và chiều cao. Face có thể được sử dụng để đưa ra chỉ số của một mặt từ đối tượng cơ sở, dựa vào đó để xác định Tường, thay vì việc sử dụng toàn bộ đối tượng.
 - Câu lệnh sẽ tạo ra Tường hoặc không tạo ra gì cả nếu khi thực thi gặp lỗi.
 
-Ví dụ:
+Beispiel:
 
     import FreeCAD, Draft, Arch 
     baseline = Draft.makeLine(FreeCAD.Vector(0,0,0),FreeCAD.Vector(2,0,0)) 

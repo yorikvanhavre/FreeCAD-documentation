@@ -1,13 +1,13 @@
-# ![](images/Arch_Wall.svg) Kiến trúc - Tường
+# ![](images/Arch_Wall.svg) Arch Mur
 
-- Vị trí menu: **Kiến trúc → Tường**
-- Gói công cụ: **Kiến trúc**
-- Phím tắt mặc định: **W A**
-- Xem thêm: [Kết cấu Kiến trúc](Arch_Structure)
+- Ubicació del menú: **Arch → Mur**
+- Bancs de treball: **Arch**
+- Drecera per defecte:**W A**
+- Vegeu també: [Estructura de l'arc](Arch_Structure)
 
-## Mô tả
+## Descripció
 
-Công cụ này xây dựng một đối tượng Tường từ đầu hoặc trên một đối tượng [dựa trên] [hình dạng](Part_Module) hoặc trên một đối tượng [dựa trên] [lưới chia](Mesh_Module) đã có. Một Tường có thể được xây dựng trực tiếp mà không cần dựa vào đối tượng cơ sở nào. Khi đó, nó là một khối với các thuộc tính dài, rộng và cao. Khi được xây dựng từ một đối tượng đã có, một Tường có thể được dựa trên:
+Aquesta eina crea un objecte Mur des de cero o a sobre de qualsevol altre objecte basat en formes o en malla. Una paret es pot construir sense cap objecte base, en qualsevol cas es compon com un volum cúbic, utilitzant les propietats de longitud, amplada i alçada. Quan es construeix a sobre d'una forma existent, una paret es pot basar en:
 
 - Một **đối tượng 2D tuyến tính**, ví dụ như các đường, các đường lưới, các đường cong, hoặc các phác thảo, mà trong các trường hợp này, bạn có thể thay đổi chiều dày, canh lề (phải, trái hoặc giữa) và chiều cao. Không cần khai báo đặc trưng chiều dài.
 - Một **mặt phẳng**, trong trường hợp này bạn chỉ có thể thay đổi chiều cao. Không thay đổi được [không cần khai báo] các đặc trưng chiều dài và chiều rộng. Tuy nhiên, nếu mặt này theo phương đứng, Tường sẽ sử dụng đặc trưng chiều rộng thay vì chiều cao, cho phép bạn xây dựng các bức tường từ các đối tượng kiểu như 3D hoặc từ các đối tượng dạng khối.

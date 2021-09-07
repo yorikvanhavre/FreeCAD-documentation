@@ -1,1 +1,1 @@
-Diese Abschnitt enthält die einzelnen Befehle die Hilfe-Seiten
+Esta seção contém todas as páginas de ajuda do comando individual

@@ -4,21 +4,21 @@
 
 ## Цілі
 
-* Мати більш структуровану, професійну і зручну навігацію для використання документацію, ніж є на вікі
+* Мати більш структуровану, професійну і зручну навігацію для використання документації, ніж є на вікі
 * Бути більш керованими, "резервними" і портативними, ніж поточна вікі
-* Бути легшим для пакування в локальну документацію та звязаним з FreeCad
-* Offer the same level of easiness to people wanting to collaborate
-* Запропонувати найкращий переклад системи, яка проста у використанні, для людей, що бажають перекласти
-* Offer documentation ‘versions’ that correspond to FreeCAD releases
-* Запропонувати документацію у форматах що підходить для офлайнового читача - ePub, pdf, тощо.
-* Файли прикладів теж можуть бути інтегровані тут
+* Бути легшим для пакування в офлайн документацію, що буде у комплекті з FreeCad
+* Запропонувати такий же рівень легкості для людей, які хочуть співпрацювати
+* Запропонувати гарну систему перекладу, яка була б простою у використанні людьми, які бажають перекладати
+* Запропонувати "версії" документацій, які відносяться до релізів FreeCAD
+* Запропонувати документацію у форматах які підходять для офлайн читача - ePub, pdf, тощо.
+* Також сюди можуть бути інтегровані файли прикладів
 
 ## Переваги
 
-* Markdown is [easy, very similar](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to the wiki syntax, plus it is more widespread and easier to convert to other formats (more convertors available) and integrate into other platforms that can do some other tasks automatically. Є багато сценаріїв, як pandoc, які можуть конвертувати з вікі синтаксису автоматично, але перетворення вручну, також досить легке
-* Many fancy things we have to do with plugins on the wiki are builtin in markdown, such as SVG images or code syntax highlighting
-* The github interface is as comfortable or even more comfortable than mediawiki to work with. You can work fully from inside the github interface (including image upload, etc) and don't need to careabout git stuff
-* You can also work offline and pull/push like normal git, then you have additional, gorgeous WYSIWYG editors like [typora](https://typora.io) (no more edit/preview windows)
+* Markdown is [easy, very similar](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to the wiki syntax, plus it is more widespread and easier to convert to other formats (more convertors available) and integrate into other platforms that can do some other tasks automatically. Є багато скриптів, таких як pandoc, які можуть автоматично двонаправлено конвертувати вікі синтаксис, але ручне перетворення є також досить легким
+* Багато фантастичних речей, які ми робимо за допомоою плагінів у вікі є вбудовані в markdown, такі як SVG-зображення або підсвічування синтаксису коду
+* Інтерфейс Github є таким же або навіть більш зручним для роботи, ніж mediawiki. Ви можете працювати повністю зсередини github інтерфейсу (включаючи завантаження зображення і т. д.) і не потрібно піклуватися про git stuff
+* Ви можете також працювати офлайні та pull/push як нормальний git, то у вас є додаткові, чудові WYSIWYG редактори на кшталт [typora](https://typora.io) (більше не потрібно вікон редагування/попереднього перегляду)
 * The git workflow allows a finer management system: Frequent, trusted contributors can be granted write access, while occasional contributors can make PRs without having to request permission
 * Git solves backup issues: Everybody who clones the repo has a full copy, so the code is duplicated in many locations
 * Since it is all file-based, it is very easy to move and reorganize things
@@ -68,15 +68,15 @@ This is how the crowdin interface appears when working with md files:
     </p>
     
     <p>
-      <strong>Quick way to convert:</strong>
+      <strong>Швидкий спосіб конвертації:</strong>
     </p>
     
     <p>
-      1) Go to http://www.freecadweb.org/wiki/Special:Export/Arch_Wall 2) Save the xml on your computer 2) Save all images from the wiki and upload them to github (inside an images subfolder) 3) <code>pandoc --from mediawiki --to markdown Arch_Wall.xml</code> optionally, add <code>--wrap=none</code> 4) Create a new file, paste, fix links
+      1) Перейти за посиланням http://www.freecadweb.org/wiki/Special:Export/Arch_Wall 2) Зберегти файл xml на комп'ютер 2) Зберегти усі зображення з wiki та завантажити їх на github (в підпапці images) 3) <code>pandoc --from mediawiki --to markdown Arch_Wall.xml</code> опціонально, додати <code>--wrap=none</code> 4) Створити новий файл, вставити та виправити посилання
     </p>
     
     <h2>
-      Structure proposal
+      Структурна пропозіція
     </h2>
     
     <p>
@@ -93,7 +93,7 @@ This is how the crowdin interface appears when working with md files:
             General stuff from user hub, mouse model, etc..
           </li>
           <li>
-            Getting started
+            З чого почати
           </li>
           <li>
             Tutorials
@@ -101,40 +101,40 @@ This is how the crowdin interface appears when working with md files:
         </ul>
       </li>
       <li>
-        Workbenches <ul>
+        Робочі простори <ul>
           <li>
-            Each workbench page
+            Сторінка кожного робочого простору
           </li>
           <li>
-            Maybe links to external workbenches too?
-          </li>
-        </ul>
-      </li>
-      <li>
-        Python scripting <ul>
-          <li>
-            All the poweruser hub pages
+            Можливо, також посилання на сторонні робочі простори?
           </li>
         </ul>
       </li>
       <li>
-        Development and deployment (python scripting is also development, so... should be some other name) <ul>
+        Cтворення скриптів на Python <ul>
           <li>
-            All the pages from developers hub
+            Усі сторінки хабу poweruser
           </li>
         </ul>
       </li>
       <li>
-        Command reference <ul>
+        Розробка та розгортання (написання скриптів на Python також розробка, то ж... має бути якась інша назва) <ul>
           <li>
-            All the individual command pages classified by prefix (Std, Draft, FEM, etc...)
+            Усі сторінки з хабу розробників
           </li>
         </ul>
       </li>
       <li>
-        Translations <ul>
+        Командний довідник <ul>
           <li>
-            Copies of the whole doc tree in every language
+            Усі індивідуальні сторінки команд, розсортовані за префіксами (Std, Draft, FEM, та ін.)
+          </li>
+        </ul>
+      </li>
+      <li>
+        Переклади <ul>
+          <li>
+            Копії всього дерева документів кожною мовою
           </li>
         </ul>
       </li>
