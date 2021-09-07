@@ -1,1 +1,1 @@
-A place for all the images from the command-reference pages
+命令引用页中所有图像的位置

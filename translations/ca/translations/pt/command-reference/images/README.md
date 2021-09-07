@@ -1,1 +1,1 @@
-Un lloc per a totes les imatges de les pàgines de referència de comandaments
+Um lugar para todas as imagens nas páginas de referência de comandos

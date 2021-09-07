@@ -1,32 +1,32 @@
-# ![](images/Arch_Wall.svg) Kiến trúc - Tường
+# ![](images/Arch_Wall.svg) Mur (atelier Architecture)
 
-- Vị trí menu: **Kiến trúc → Tường**
-- Gói công cụ: **Kiến trúc**
-- Phím tắt mặc định: **W A**
-- Xem thêm: [Kết cấu Kiến trúc](Arch_Structure)
+- Accès via le menu : **Arch → Mur**
+- Atelier : **Arch**
+- Raccourci par défaut: **w a**
+- Voir aussi : [Élément structurel (atelier Architecture)](Arch_Structure)
 
 ## Mô tả
 
-Công cụ này xây dựng một đối tượng Tường từ đầu hoặc trên một đối tượng [dựa trên] [hình dạng](Part_Module) hoặc trên một đối tượng [dựa trên] [lưới chia](Mesh_Module) đã có. Một Tường có thể được xây dựng trực tiếp mà không cần dựa vào đối tượng cơ sở nào. Khi đó, nó là một khối với các thuộc tính dài, rộng và cao. Khi được xây dựng từ một đối tượng đã có, một Tường có thể được dựa trên:
+Cet outil génère un objet mur à partir de zéro ou de tout autre objet ayant pour base une [forme](Part_Module) ou [maillage](Mesh_Module). Un mur peut-être généré sans objet de base; dans ce cas il se comporte comme un volume cubique, ayant pour propriétés : longueur, largeur et hauteur. Quand il est généré au-dessus d'un objet existant, un mur peut-être basé sur :
 
-- Một **đối tượng 2D tuyến tính**, ví dụ như các đường, các đường lưới, các đường cong, hoặc các phác thảo, mà trong các trường hợp này, bạn có thể thay đổi chiều dày, canh lề (phải, trái hoặc giữa) và chiều cao. Không cần khai báo đặc trưng chiều dài.
-- Một **mặt phẳng**, trong trường hợp này bạn chỉ có thể thay đổi chiều cao. Không thay đổi được [không cần khai báo] các đặc trưng chiều dài và chiều rộng. Tuy nhiên, nếu mặt này theo phương đứng, Tường sẽ sử dụng đặc trưng chiều rộng thay vì chiều cao, cho phép bạn xây dựng các bức tường từ các đối tượng kiểu như 3D hoặc từ các đối tượng dạng khối.
-- Một [đối tượng] **khối **, trong trường hợp này thì các đặc trưng chiều dài, chiều rộng và chiều cao đều không cần khai báo. Tường sẽ lấy luôn các đặc tính này của đối tượng khối.
-- Một **lưới**, trong trường hợp này lưới phải là một khối kín nhiều mảnh.
+- Un **objet linéaire 2D** (à 2 dimensions) tel qu'une ligne, un fil, un arc ou une esquisse; auquel cas vous pouvez fixer l'épaisseur, l'alignement (droite, gauche ou centré) et la hauteur. La propriété "longueur" est sans effet.
+- Une ** face plane**, au quel cas seule la hauteur est modifiable. Les propriétés "longueur" et "largeur" sont sans effet. Cependant, si la face de base est verticale, la propriété valide est la largeur au lieu de la hauteur. Cela permet la génération de mur à partir d'objet "espace" ou d'étude de masse.
+- Un **solide**, au quel cas aucune dimension n'est réglable. Le mur se base sur le solide sous-jacent comme il se baserait sur une forme.
+- Un **maillage**, au quel cas le maillage en question doit être fermé, ou un quelconque solide.
 
 ![](images/Arch_Wall_example.jpg)
 
-*Ví dụ về các Tường được xây dựng từ một đường, một đường lưới, một mặt, một khối hoặc một phác thảo*
+*Exemple de murs générés à partir d'une ligne, d'un fil, d'une face, d'un solide et d'un croquis*
 
-Có thể thực hiện các phép toán cộng và trừ đối với các đối tượng Tường. Trong phép cộng, hình dạng của các đối tượng khác được ghép thêm với hình dạng của Tường, trong khi đó, phép trừ thì trừ đi. Phép cộng và phép trừ có thể được bổ sung bằng các công cụ [Kiến trúc - Cộng](Arch_Add) và [Kiến trúc - Trừ](Arch_Remove). Phép cộng và phép trừ không ảnh hưởng đến các tham số tổng thể của Tường như là chiều cao và chiều rộng, các tham số này vẫn có thể thay đổi. Các Tường cũng có thể có chiều cao được thay đổi tự động, nếu chúng được đặt vào trong một đối tượng cấp cao hơn, chẳng hạn như các [tầng](Arch_Floor "wikilink"). Khi chiều cao được đặt bằng 0, thì Tường sẽ lấy giá trị chiều cao theo chiều cao được xác định trong đối tượng [bố mẹ] cấp cao hơn.
+Un mur peut subir des additions ou des soustractions. Les additions sont des objets dont les formes sont jointes à la forme du mur; les soustractions suivent le même principe. Les additions et les soustractions peuvent être effectuées avec les outils [Arch Addition](Arch_Add) et [Arch Soustraction](Arch_Remove). Les additions et les soustractions n'ont pas d'influence sur les paramètres du mur tels que la hauteur et l'épaisseur, lesquels peuvent toujours être changés. Un mur peut également avoir une hauteur automatique, si il est inclus dans un objet de niveau supérieur tel qu'un [étage](Arch_Floor "wikilink"). Si la hauteur du mur est fixée à 0, alors le mur héritera de la hauteur spécifiée pour l'objet parent.
 
-Khi một số Tường giao nhau, bạn cần phải đặt chúng vào một mức [sàn](Arch_Floor "wikilink") để có dạng hình học của chúng được giao cắt nhau.
+Quand plusieurs murs doivent se joindre, il faut les inclure dans un [étage](Arch_Floor "wikilink") pour que leurs géométries fusionnent.
 
-## Cách dùng
+## Comment faire
 
-### Vẽ một Tường từ đầu
+### Généré un mur à partir de zéro
 
-1. Bấm phím **Kiến trúc - Tường**, hoặc bấm phím **W** sau đó là phím **A**
+1. Cliquez sur l'icône **Mur**, ou tapez successivement les touches **w** puis **a**
 2. Nhấp vào một điểm đầu tiên trên khung hình 3D, hoặc gõ vào một [toạ độ](Draft_Coordinates "wikilink")
 3. Nhấp vào một điểm thứ hai vào khung hình 3D, hoặc gõ vào một [toạ độ](Draft_Coordinates "wikilink")
 

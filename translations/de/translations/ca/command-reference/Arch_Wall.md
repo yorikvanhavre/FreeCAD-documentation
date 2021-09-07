@@ -1,13 +1,13 @@
-# ![](images/Arch_Wall.svg) Arch Wall
+# ![](images/Arch_Wall.svg) Arch Mur
 
-- Menu location: **Arch → Wall**
-- Workbenches: **Arch**
-- Default shortcut: **W A**
-- See also: [Arch Structure](Arch_Structure)
+- Ubicació del menú: **Arch → Mur**
+- Bancs de treball: **Arch**
+- Drecera per defecte:**W A**
+- Vegeu també: [Estructura de l'arc](Arch_Structure)
 
-## Description
+## Descripció
 
-This tool builds a Wall object from scratch or on top of any other [shape](Part_Module)-based or [mesh](Mesh_Module)-based object. A wall can be built without any base object, in which case it behaves as a cubic volume, using length, width and height properties. When built on top of an existing shape, a wall can be based on:
+Aquesta eina crea un objecte Mur des de cero o a sobre de qualsevol altre objecte basat en formes o en malla. Una paret es pot construir sense cap objecte base, en qualsevol cas es compon com un volum cúbic, utilitzant les propietats de longitud, amplada i alçada. Quan es construeix a sobre d'una forma existent, una paret es pot basar en:
 
 - A **linear 2D object**, such as lines, wires, arcs or sketches, in which case you can change thickness, alignment(right, left or centered) and height. The length property has no effect.
 - A **flat face**, in which case you can only change the height. Length and width properties have no effect. If the base face is vertical, however, the wall will use the width property instead of height, allowing you to build walls from space-like objects or mass studies.
@@ -80,7 +80,7 @@ The Wall tool can by used in [macros](macros "wikilink") and from the python con
 - Creates a wall based on the given object, which can be a sketch, a draft object, a face or a solid. align can be "Center","Left" or "Right". If you provide no base object, then you can use numeric values for length, width and height. Face can be used to give the index of a face from the underlying object, to build this wall on, instead of using the whole object.
 - Returns the created wall, or None if the operation failed.
 
-Example:
+Beispiel:
 
     import FreeCAD, Draft, Arch
     baseline = Draft.makeLine(FreeCAD.Vector(0,0,0),FreeCAD.Vector(2,0,0))

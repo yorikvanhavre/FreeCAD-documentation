@@ -27,58 +27,58 @@ Quand plusieurs murs doivent se joindre, il faut les inclure dans un [étage](Ar
 ### Généré un mur à partir de zéro
 
 1. Cliquez sur l'icône **Mur**, ou tapez successivement les touches **w** puis **a**
-2. Click a first point on the 3D view, or type a [coordinate](Draft_Coordinates "wikilink")
-3. Click a second point on the 3D view, or type a [coordinate](Draft_Coordinates "wikilink")
+2. Cliquez sur un premier point de la vue 3D ou saisissez une [coordonnée](Draft_Coordinates "wikilink")
+3. Cliquez sur un deuxième point de la vue 3D ou saisissez une [coordonnée](Draft_Coordinates "wikilink")
 
-### Drawing a wall on top of a selected object
+### Dessiner un mur au-dessus d'un objet sélectionné
 
-1. Select one or more base geometry objects (Draft object, sketch, etc)
-2. Press the **Arch Wall** button, or press the **W** then **A** keys
-3. Adjust needed properties such as height or width.
+1. Sélectionnez un ou plusieurs objets de géométrie de base (objet brouillon, esquisse, etc.)
+2. Appuyez sur la touche ** Arch Wall **, ou appuyez sur les touches ** W ** puis ** A **
+3. Ajustez les propriétés nécessaires telles que la hauteur ou la largeur.
 
 ## Options
 
-- Walls share the common properties and behaviours of all [Arch Components](Arch_Component "wikilink")
-- The height, width and alignment of a wall can be set during drawing, via the task panel
-- When snapping a wall to an existing wall, both walls will be joined into one. The way the two walls are joined depends on their properties: If they have the same width, height and alignment, and if the option "join base sketches" is enabled in the Arch preferences, the resulting wall will be one object based on a sketch made of several segments. Otherwise, the latter wall will be added to the first one as addition.
-- Press , or after the first point to constrain the second point on the given axis.
-- To enter coordinates manually, simply enter the numbers, then press between each X, Y and Z component.
-- Press or click the checkbox to check/uncheck the **Relative** button. If relative mode is on, the coordinates of the second point are relative to the first one. If not, they are absolute, taken from the (0,0,0) origin point.
-- Press while drawing to [constrain](Draft_Constrain "wikilink") your second point horizontally or vertically in relation to the first one.
-- Press or the **Cancel** button to abort the current command.
-- Double-clicking on the wall in the tree view after it is created allows you to enter edit mode and access and modify its additions and subtractions
-- Multi-layer walls can be easily created by building several walls from the same baseline. By setting their Align property to either left or right, and specifying an Offset value, you can effectively construct several wall layers. Placing a window in such a wall layer will propagate the opening to the other wall layers based on the same baseline.
-- Walls can also make use of [Multi-Materials](Arch_MultiMaterial "wikilink"). When using a multi-material, the wall will become multi-layer, using the thicknesses specified by the multi-material. Any layer with a thickness of zero will have its thickness defined automatically by the remaining space defined by the Wall's Width value, after subtracting the other layers.
+- Les murs partagent les propriétés et comportements communs aux [ composants d'Arch ](Arch_Component "wikilink")
+- La hauteur, la largeur et l'alignement d'un mur peuvent être définis lors du dessin, via le panneau des tâches
+- Lorsque vous accrochez un mur à un mur existant, les deux murs seront joints en un seul. La façon dont les deux murs sont joints dépend de leurs propriétés: s'ils ont la même largeur, la même hauteur et le même alignement, et si l'option "joindre les esquisses de base" est activée dans les préférences d'Arch, le mur résultant sera un objet basé sur une esquisse composé de plusieurs segments. Sinon, ce dernier mur sera ajouté au premier comme ajout.
+- Appuyez sur ou après le premier point pour contraindre le deuxième point sur l'axe donné.
+- Pour entrer les coordonnées manuellement, entrez simplement les chiffres, puis appuyez sur entre chaque composante X, Y et Z.
+- Appuyez ou cliquez sur la case à cocher pour cocher / décocher le bouton ** Relatif **. Si le mode relatif est activé, les coordonnées du deuxième point sont relatives au premier. Sinon, ils sont absolus, tirés du point d'origine (0,0,0).
+- Appuyez tout en dessinant sur [ contrainte ](Draft_Constrain "wikilink") votre deuxième point horizontalement ou verticalement par rapport au premier.
+- Appuyez sur ou sur le bouton ** Annuler ** pour annuler la commande en cours.
+- Un double-clic sur le mur dans l'arborescence après sa création vous permet de passer en mode édition et d'accéder et de modifier ses ajouts et soustractions
+- Les murs multicouches peuvent être facilement créés en construisant plusieurs murs à partir de la même ligne de base. En définissant leur propriété Alignée à gauche ou à droite et en spécifiant une valeur de décalage, vous pouvez efficacement construire plusieurs couches de murs. Placer une fenêtre dans une telle couche de mur propage l'ouverture aux autres couches de mur en fonction de la même ligne de base.
+- Les murs peuvent également utiliser [ Multi-matériaux ](Arch_MultiMaterial "wikilink"). Lors de l'utilisation d'un multi-matériau, le mur deviendra multi-couche, en utilisant les épaisseurs spécifiées par le multi-matériau. Tout calque d'épaisseur nulle aura son épaisseur définie automatiquement par l'espace restant défini par la valeur de largeur du mur, après soustraction des autres calques.
 
-## Snapping
+## Accrochage
 
-Snapping works a bit differently with Arch walls than other Arch and Draft objects. If a wall has a baseline object, snapping will anchor to the base object, instead of the wall geometry, allowing to easily align walls by their baseline. If, however, you specifically want to snap to the wall geometry, pressing **CTRL** will switch snapping to the wall object.
+L'accrochage fonctionne un peu différemment avec les murs d'Arch que les autres objets d'Arch et Draft. Si un mur a un objet de ligne de base, l'accrochage sera ancré à l'objet de base, au lieu de la géométrie du mur, permettant d'aligner facilement les murs par leur ligne de base. Si, toutefois, vous souhaitez spécifiquement vous accrocher à la géométrie du mur, appuyez sur ** CTRL ** pour basculer l'accrochage sur l'objet mur.
 
 ![](images/Arch_wall_snap.jpg)
 
-## Properties
+## Propriétés
 
-Wall objects inherit the properties of [Part](Part_Module "wikilink") objects, and also have the following extra properties:
+Les objets de mur héritent des propriétés des objets [ Part ](Part_Module "wikilink") et ont également les propriétés suivantes et supplémentaires:
 
-- **Align** : The alignment of the wall on its baseline: Left, right or center
-- **Bas** : The base object this wall is built on
-- **Face** : The index of the face from the base object to use. If the value is not set or 0, the whole object is used
-- **Force Wire** : If True, and the wall is based on a face, only the border wire of the face is used, resulting in a wall bordering the face
-- **Length** : The length of the wall (not used when the wall is based on an object)
-- **Width** : The width of the wall (not used when the wall is based on a face)
-- **Height** : The height of the wall (not used when the wall is based on a solid). If no height is given, and the wall is inside a [floor](Arch_Floor "wikilink") object with its height defined, the wall will automatically take the value of the floor height.
-- **Normal** : An extrusion direction for the wall. If set to (0,0,0), the extrusion direction is automatic.
-- **Offset** : This specifies the distance between the wall and its baseline. Works only if the Align property is set to Right or Left.
+- ** Aligner **: l'alignement du mur sur sa ligne de base: gauche, droite ou centre
+- ** Bas **: l'objet de base sur lequel ce mur est construit
+- ** Face **: L'index de la face de l'objet de base à utiliser. Si la valeur n'est pas définie ou 0, l'objet entier est utilisé
+- ** Forcer le fil **: si la valeur est Vraie et que le mur est basé sur une face, seul le fil de bordure de la face est utilisé, ce qui donne un mur bordant la face
+- ** Longueur **: La longueur du mur (non utilisé lorsque le mur est basé sur un objet)
+- ** Largeur **: La largeur du mur (non utilisée lorsque le mur est basé sur une face)
+- ** Hauteur **: La hauteur du mur (non utilisée lorsque le mur est basé sur un solide). Si aucune hauteur n'est indiquée et que le mur se trouve à l'intérieur d'un objet [ étage ](Arch_Floor "wikilink") avec sa hauteur définie, le mur prendra automatiquement la valeur de la hauteur du sol.
+- ** Normal **: Une direction d'extrusion pour le mur. Si elle est définie sur (0,0,0), la direction d'extrusion est automatique.
+- ** Décalage **: Ceci spécifie la distance entre le mur et sa ligne de base. Fonctionne uniquement si la propriété Align est définie sur Droite ou Gauche.
 
 ## Scripting
 
-The Wall tool can by used in [macros](macros "wikilink") and from the python console by using the following function:
+L'outil Mur peut être utilisé dans les [macros](macros "wikilink") et à partir de la console python en utilisant la fonction suivante:
 
     makeWall ( [obj],[length],[width],[height],[align],[face],[name] ) 
     
 
-- Creates a wall based on the given object, which can be a sketch, a draft object, a face or a solid. align can be "Center","Left" or "Right". If you provide no base object, then you can use numeric values for length, width and height. Face can be used to give the index of a face from the underlying object, to build this wall on, instead of using the whole object.
-- Returns the created wall, or None if the operation failed.
+- Crée un mur basé sur l'objet donné, qui peut être une esquisse, un objet dépouillé, une face ou un solide. align peut être "Center", "Left" ou "Right". Si vous ne fournissez aucun objet de base, vous pouvez utiliser des valeurs numériques pour la longueur, la largeur et la hauteur. La face peut être utilisée pour donner l'index d'une face à partir de l'objet sous-jacent, pour construire ce mur, au lieu d'utiliser l'objet entier.
+- Renvoie le mur créé ou Aucun si l'opération a échoué.
 
 Example:
 

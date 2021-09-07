@@ -80,7 +80,7 @@ Công cụ Tường có thể được sử dụng trong [vĩ lệnh](macros "wi
 - Tạo ra một Tường dựa trên đối tượng obj cho trước, có thể là một Phác thảo, một đối tượng Nháp, một Mặt hoặc một Khối. align có thể là "giữa", "trái" hoặc "phải". Nếu không cho biết đối tượng cơ sở, thì có thể sử dụng các giá trị bằng số cho chiều dài, chiều rộng và chiều cao. Face có thể được sử dụng để đưa ra chỉ số của một mặt từ đối tượng cơ sở, dựa vào đó để xác định Tường, thay vì việc sử dụng toàn bộ đối tượng.
 - Câu lệnh sẽ tạo ra Tường hoặc không tạo ra gì cả nếu khi thực thi gặp lỗi.
 
-Ví dụ:
+Приклад:
 
     import FreeCAD, Draft, Arch 
     baseline = Draft.makeLine(FreeCAD.Vector(0,0,0),FreeCAD.Vector(2,0,0)) 

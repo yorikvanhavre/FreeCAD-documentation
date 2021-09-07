@@ -1,1 +1,1 @@
-Diese Abschnitt enthält die einzelnen Befehle die Hilfe-Seiten
+Dieser Abschnitt enthält die Hilfe-Seiten zu den einzelnen Befehlen

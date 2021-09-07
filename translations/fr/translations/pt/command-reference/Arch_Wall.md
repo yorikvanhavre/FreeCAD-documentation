@@ -1,32 +1,32 @@
-# ![](images/Arch_Wall.svg) Arch Wall
+# ![](images/Arch_Wall.svg) Arco na Parede
 
-- Menu location: **Arch → Wall**
-- Workbenches: **Arch**
-- Default shortcut: **W A**
-- See also: [Arch Structure](Arch_Structure)
+- Localização de menu: **Arco→ Parede**
+- Bancadas: **Arch**
+- Atalho padrão: **W A**
+- Veja também: [Estrutura de arco](Arch_Structure)
 
-## Description
+## Descrição
 
-This tool builds a Wall object from scratch or on top of any other [shape](Part_Module)-based or [mesh](Mesh_Module)-based object. A wall can be built without any base object, in which case it behaves as a cubic volume, using length, width and height properties. When built on top of an existing shape, a wall can be based on:
+Cet outil génère un objet mur à partir de zéro ou de tout autre objet ayant pour base une [forme](Part_Module) ou [maillage](Mesh_Module). Un mur peut-être généré sans objet de base; dans ce cas il se comporte comme un volume cubique, ayant pour propriétés : longueur, largeur et hauteur. Quand il est généré au-dessus d'un objet existant, un mur peut-être basé sur :
 
-- A **linear 2D object**, such as lines, wires, arcs or sketches, in which case you can change thickness, alignment(right, left or centered) and height. The length property has no effect.
-- A **flat face**, in which case you can only change the height. Length and width properties have no effect. If the base face is vertical, however, the wall will use the width property instead of height, allowing you to build walls from space-like objects or mass studies.
-- A **solid**, in which case length, width and height properties have no effect. The wall simply uses the underlying solid as its shape.
-- A **mesh**, in which case the underlying mesh must be a closed, manifold solid.
+- Un **objet linéaire 2D** (à 2 dimensions) tel qu'une ligne, un fil, un arc ou une esquisse; auquel cas vous pouvez fixer l'épaisseur, l'alignement (droite, gauche ou centré) et la hauteur. La propriété "longueur" est sans effet.
+- Une ** face plane**, au quel cas seule la hauteur est modifiable. Les propriétés "longueur" et "largeur" sont sans effet. Cependant, si la face de base est verticale, la propriété valide est la largeur au lieu de la hauteur. Cela permet la génération de mur à partir d'objet "espace" ou d'étude de masse.
+- Un **solide**, au quel cas aucune dimension n'est réglable. Le mur se base sur le solide sous-jacent comme il se baserait sur une forme.
+- Un **maillage**, au quel cas le maillage en question doit être fermé, ou un quelconque solide.
 
 ![](images/Arch_Wall_example.jpg)
 
-*Example of walls built from a line, a wire, a face, a solid and a sketch*
+*Exemple de murs générés à partir d'une ligne, d'un fil, d'une face, d'un solide et d'un croquis*
 
-Walls can also have additions or subtractions. Additions are other objects whose shapes are joined in this Wall's shape, while subtractions are subtracted. Additions and subtractions can be added with the [Arch Add](Arch_Add) and [Arch Remove](Arch_Remove) tools. Additions and subtractions have no influence over wall parameters such as height and width, which can still be changed. Walls can also have their height automatic, if they are included into a higher-level object such as [floors](Arch_Floor "wikilink"). The height must be kept at 0, then the wall will adopt the height specified in the parent object.
+Un mur peut subir des additions ou des soustractions. Les additions sont des objets dont les formes sont jointes à la forme du mur; les soustractions suivent le même principe. Les additions et les soustractions peuvent être effectuées avec les outils [Arch Addition](Arch_Add) et [Arch Soustraction](Arch_Remove). Les additions et les soustractions n'ont pas d'influence sur les paramètres du mur tels que la hauteur et l'épaisseur, lesquels peuvent toujours être changés. Un mur peut également avoir une hauteur automatique, si il est inclus dans un objet de niveau supérieur tel qu'un [étage](Arch_Floor "wikilink"). Si la hauteur du mur est fixée à 0, alors le mur héritera de la hauteur spécifiée pour l'objet parent.
 
-When several walls should intersect, you need to place them into a [floor](Arch_Floor "wikilink") to have their geometry intersected.
+Quand plusieurs murs doivent se joindre, il faut les inclure dans un [étage](Arch_Floor "wikilink") pour que leurs géométries fusionnent.
 
-## How to use
+## Comment faire
 
-### Drawing a wall from scratch
+### Généré un mur à partir de zéro
 
-1. Press the **Arch Wall** button, or press **W** then **A** keys
+1. Cliquez sur l'icône **Mur**, ou tapez successivement les touches **w** puis **a**
 2. Click a first point on the 3D view, or type a [coordinate](Draft_Coordinates "wikilink")
 3. Click a second point on the 3D view, or type a [coordinate](Draft_Coordinates "wikilink")
 
