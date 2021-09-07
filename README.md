@@ -1,3 +1,5 @@
+WARNING - This repo has been obsoleted
+
 # FreeCAD documentation
 
 This repository is an experiment to reconstruct the FreeCAD documentation currently hosted on a [Mediawiki](https://www.freecadweb.org/wiki) instance on freecadweb.org to a git-based system, that is decentralized and doesn't depend on a particular hosting platform anymore. The argumentation and explanations behind this experiment are on the [HELP.md](HELP.md) page.
